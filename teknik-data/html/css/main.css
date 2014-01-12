@@ -91,13 +91,6 @@ table {
 */
 
 /* Custom Checkbox */
-.custom-checkbox { display: block; padding-left: 28px; position: relative; margin-bottom: 10px; cursor: pointer; font: 14px/19px Arial; color: #717871; }
-.custom-checkbox .ck { display: block; width: 18px; height: 18px; background: url(../img/checkbox-spr.png); position: absolute; top: 1px; left: 0; }
-.custom-checkbox .ck.active { background-position: left bottom !important; }
-.custom-checkbox input  { position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; filter:alpha(opacity=0); }
-.custom-checkbox a { font: bold 14px/19px Arial; color: #717871; text-decoration: underline; margin-right: 3px; }
-.custom-checkbox a:hover { color: #000; text-decoration: none; }
-
 /* Dummy HTML for CK
  <label  class="custom-checkbox" for="eCheck">
     <span class="ck"></span>
@@ -132,7 +125,7 @@ table {
     background: url(../img/headergribg.png) repeat top left;
     display: block;
     position: relative;
-    z-index: 555;
+  /*  z-index: 555; */
 }
 .header-inner {
     width:1000px;
@@ -777,7 +770,7 @@ ul#akampanya2 li p		{
     margin: 0 auto;
     height: 113px;
 }
-.pageheader .pagetitle {font-size: 37px;color: #1477ba;float: left;padding-top: 25px;}
+.pageheader .pagetitle {font-size: 37px;color: #1477ba;float: left;}
 .pageheader .pagetitle .bold {}
 .pageheader .pagetitle .normal{}
 .pageheader .pageicon{
@@ -802,7 +795,7 @@ ul#akampanya2 li p		{
     -moz-box-shadow: inset 0 0 2px #000;
     -webkit-box-shadow: inset 0 0 2px #000;
     box-shadow: inset 0 0 2px #000;
-    width: 1000px;
+    width: 976px;
     margin: 0 auto;
 }
 

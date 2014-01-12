@@ -25,6 +25,7 @@
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufonelements.js"></script>
     <script type="text/javascript" src="js/cufonreplace.js"></script>
+    <script type="text/javascript" src="js/_style-cufonreplace.js"></script>
     <script type="text/javascript" src="js/jquery.placeholder.js"></script>
     <script type="text/javascript" src="js/jquery.numberMask.js"></script>
     <script type="text/javascript" src="js/jquery.bxslider.js"></script>
@@ -33,7 +34,7 @@
     <script type="text/javascript" src="js/jquery.cbpFWSlider.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body class="musteripanel">
 <div id="wrapper">
     <div id="header" class="header">
         <span class="line"></span>
@@ -141,7 +142,51 @@
                 <span class="normal">İLETİŞİM KURUN</span>
             </div>
         </div>
-        <div class="pagedetailelement">
+        <div class="pagedetailelement -mt53 rounded cf">
+
+            <div class="trs-tab-wrapper type-2" data-mode="fade">
+                <div class="trs-tab-nav">
+                    <a class="t left" data-index="1" href="#"></a>
+                    <a class="t right" data-index="2" href="#"></a>
+                </div>
+                <div class="trs-tab-container">
+                    <div class="trs-tab-content first" data-index="1">
+                        <div class="form-wrap">
+                            <form action="" id="customerSigninForm">
+                                <div class="_row">
+                                    <div id="emailCtr" class="short">
+                                        <span class="email-icon icon"></span>
+                                        <input type="text" rel="emailCtr" class="req-email resetbutton " placeholder="E-POSTA ADRESİNİZ"/>
+                                    </div>
+                                </div>
+                                <div class="_row">
+                                    <div id="passwordCtr" class="short">
+                                        <span class="email-icon icon"></span>
+                                        <input type="password" rel="passwordCtr" class="req-string resetbutton " placeholder="PAROLANIZ"/>
+                                    </div>
+                                </div>
+                                <div class="_row">
+                                    <label  class="custom-checkbox fl" for="passCheck">
+                                        <span class="ck"></span>
+                                        <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                        <span class="text">Şifremi Kaydet</span>
+                                    </label>
+                                    <input type="submit" id="customerSigninFormSubmit" class="resetbutton fr" value="GİRİŞ YAP"/>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right-column">
+                            <p>Müşteri panelinize giriş yaptıktan sonra satın aldığınız alan adlarını
+                                ve ürünleri yönetebilir, faturalarınızı takip edebilir ve ödemelerinizi yapabilirsiniz.</p>
+                            <p>Bu sayfaya erişmek için sisteme giriş yapmalısınız.
+                                Giriş için kullanılan kullanıcı adı ve şifre, web sitenizin kontrol paneli giriş bilgilerinden farklıdır.</p>
+                        </div>
+                    </div>
+                    <div class="trs-tab-content second" data-index="2">
+
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
