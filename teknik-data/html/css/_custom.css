@@ -147,9 +147,11 @@ table {
 /**iletişim page*/
 .iletisim .pagedetailelement .googleMaps{height: 285px;background-color: red}
 .iletisim ._row {padding: 26px 0px 36px 0px;}
-.iletisim ._row h2{margin:0px auto;width: 311px;background-color: #ffffff;margin-top: -30px;text-align: center}
+.iletisim ._row h2{margin:0px auto;width: 311px;background-color: #ffffff;margin-top: -30px;text-align: center;font-size: 25px; color: #50555d}
 .iletisim ._row2{ }
 .iletisim ._row2 .column-left{width: 50%; float: left}
+.column-left h3{font-size:22px; color: #50555d; padding-left: 15px}
+.column-left p{padding: 20px 0px 0px 18px; font-size: 16px}
 .iletisim ._row2 .column-right{width: 50%; float: right}
 /*
 =================================================================
