@@ -84,7 +84,10 @@ table {
     vertical-align: baseline;
 }
 
+.bodybg {
+     background: url(../img/bodybg.png) repeat;
 
+}
 /*
 =================================================================
 (#m02gel) Generic Element
