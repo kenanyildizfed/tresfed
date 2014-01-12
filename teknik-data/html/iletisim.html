@@ -146,7 +146,7 @@
                     </span>
                 </div>
                 <div class="pagedetailelement">
-                    <div class="googleMaps"></div>
+                    <div class="googleMaps"><iframe width="976" height="285" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=tr&amp;geocode=&amp;q=C%C3%B6mert+Sokak+(Bay%C4%B1r+Sk.),+%C4%B0stanbul,+T%C3%BCrkiye&amp;aq=0&amp;oq=c%C3%B6mer&amp;sll=41.022604,29.073955&amp;sspn=0.001532,0.003103&amp;ie=UTF8&amp;hq=&amp;hnear=K%C4%B1s%C4%B1kl%C4%B1+Mh.,+C%C3%B6mert+Sokak+(Bay%C4%B1r+Sk.),+%C3%9Csk%C3%BCdar,+T%C3%BCrkiye&amp;t=m&amp;ll=41.024722,29.070704&amp;spn=0.004614,0.020921&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=tr&amp;geocode=&amp;q=C%C3%B6mert+Sokak+(Bay%C4%B1r+Sk.),+%C4%B0stanbul,+T%C3%BCrkiye&amp;aq=0&amp;oq=c%C3%B6mer&amp;sll=41.022604,29.073955&amp;sspn=0.001532,0.003103&amp;ie=UTF8&amp;hq=&amp;hnear=K%C4%B1s%C4%B1kl%C4%B1+Mh.,+C%C3%B6mert+Sokak+(Bay%C4%B1r+Sk.),+%C3%9Csk%C3%BCdar,+T%C3%BCrkiye&amp;t=m&amp;ll=41.024722,29.070704&amp;spn=0.004614,0.020921&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">Daha Büyük Görüntüle</a></small></div>
                     <div class="_row detaipagetitle">
                         <hr><h2>İLETİŞİM BİLGİLERİMİZ</h2>
                     </div>
@@ -155,34 +155,45 @@
                             <h3>Teknik Data İnternet Teknolojileri San. Tic. Ltd. Şti.</h3>
                             <p>Alemdag Caddesi Cömert Sokak No:3/1 Aydın Güzel İş Merkezi<br/>
                                 Büyük Çamlıca/Altunizade Üsküdar/İSTANBUL/TÜRKİYE</p>
-                            <span>0850 500 24 34<br />
+                            <span class="_number">
+                                0850 500 24 34<br />
                                 0(216) 521 78 00<br />
                                 0(216) 521 78 16<br />
-                                Fax: 0(216) 521 78 11</span>
-                            <a href="">teknikdata@teknikdata.com</a><br />
-                            <a href="">destek@teknikdata.com</a><br />
-                            <a href="">pazarlama@teknikdata.com</a><br />
+                                Fax: 0(216) 521 78 11
+                            </span><br>
+                            <a href="">teknikdata@teknikdata.com</a>
+                            <a href="">destek@teknikdata.com</a>
+                            <a href="">pazarlama@teknikdata.com</a>
                             <a href="">muhasebe@teknikdata.com</a>
                         </div>
-                        <div class="column-right">
-                            <div class="containerForm cf">
+                        <div class="column-right cf">
                                 <form action="" id="registerForm">
-                                    <div class="_row">
-                                        <div id="namesurnameCtr"></div>
-                                        <div id="emailCtr"></div>
+                                    <div class="__row">
+                                        <div id="namesurnameCtr">
+                                            <input type="text" name="namesurname" placeholder="Ad Soyad..." rel="namesurnameCtr" class="req-letters" />
+                                        </div>
+                                        <div id="emailCtr">
+                                            <input type="text" name="email" placeholder="E-posta Adresiniz..." rel="emailCtr" class="req-email" />
+                                        </div>
                                     </div>
-                                    <div class="_row">
-                                        <div id="phoneCtr"></div>
-                                        <div id="websiteCtr"></div>
+                                    <div class="__row">
+                                        <div id="phoneCtr">
+                                            <input type="text" name="phone" placeholder="Telefon.." rel="phoneCtr" class="req-letters" />
+                                        </div>
+                                        <div id="websiteCtr">
+                                            <input type="text" name="website" placeholder="Web Siteniz..." rel="websiteCtr" class="req-letters" />
+                                        </div>
                                     </div>
-                                    <div class="_row">
-                                        <div id="messageCtrs"></div>
+                                    <div class="__row">
+                                        <div id="messageCtr">
+                                            <textarea name="message" rel="messageCtr" id="massageCtr" class="req-string" placeholder="Mesajınız..." ></textarea>
+                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div id="submitBtnWrap"></div>
+                                    <div class="__row">
+                                        <input type="submit" value="GÖNDER" id="submitBtn" >
                                     </div>
+
                                 </form>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -145,14 +145,20 @@ table {
 =================================================================
 */
 /**iletişim page*/
-.iletisim .pagedetailelement .googleMaps{height: 285px;background-color: red}
+.iletisim .pagedetailelement .googleMaps{height: 285px}
 .iletisim ._row {padding: 26px 0px 36px 0px;}
 .iletisim ._row h2{margin:0px auto;width: 311px;background-color: #ffffff;margin-top: -30px;text-align: center;font-size: 25px; color: #50555d}
-.iletisim ._row2{ }
-.iletisim ._row2 .column-left{width: 50%; float: left}
-.column-left h3{font-size:22px; color: #50555d; padding-left: 15px}
-.column-left p{padding: 20px 0px 0px 18px; font-size: 16px}
+.iletisim ._row2 .column-left{width: 464px; float: left;position: relative;padding-left: 20px;}
+.column-left h3{font-size:18px; font-weight: bold; color: #50555d; }
+.column-left p {padding: 20px 0px 0px 0; font-size: 13px;display: block;margin-bottom: 5px}
+.column-left ._number{font-size: 13px; display: block; padding-top:15px}
+.column-left a {padding: 0px 0px 0px 0; font-size: 13px;display: block;line-height: 17px;}
+
 .iletisim ._row2 .column-right{width: 50%; float: right}
+.__row input{ width: 209px; height: 8px;padding: 15px 0px 15px 19px; float: left;border: 1px solid #e0e0e0; border-radius: 4px;background-color: #f5f5f5;margin:8px 8px 0px 0px }
+.__row textarea{ width: 448px; height: 100px;padding: 15px 0px 15px 19px; float: left;border: 1px solid #e0e0e0; border-radius: 4px;background-color: #f5f5f5;margin:8px 8px 0px 0px }
+.__row input#submitBtn{ width:112px;height:36px;background: url("../img/iletisim-send-button.png"); border: 0; outline: none; float: right;margin-right: 19px;font-size: 13px;color: white;font-weight: bold}
+.__row { clear:both; float:left; width: 100%; margin-bottom: 10px }
 /*
 =================================================================
 (#m12hlp) Helper
