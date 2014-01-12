@@ -258,4 +258,3 @@
         extraBool   : function() { return true; }
     };
 })(jQuery);
->>>>>>> Stashed changes

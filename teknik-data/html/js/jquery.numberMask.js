@@ -134,4 +134,3 @@
 		return this;
 	}
 })(jQuery)
->>>>>>> Stashed changes

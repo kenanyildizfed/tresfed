@@ -88,4 +88,3 @@
     };
 
 }) (jQuery);
->>>>>>> Stashed changes
