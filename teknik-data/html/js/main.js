@@ -14,6 +14,18 @@ TD = {
             init: function(){
                 ///Full Width Slider
                 $( '#cbp-fwslider' ).cbpFWSlider();
+                $('.mutlumusterilerslider').bxSlider({
+                    minSlides: 5,
+                    maxSlides: 5,
+                    slideWidth: 300,
+                    slideMargin: 10
+                });
+                $('.sliderde').bxSlider({
+                    minSlides: 1,
+                    maxSlides: 1,
+                    slideWidth: 340,
+                    slideMargin: 10
+                });
                 $(".trs-tab-wrapper").trsTab({ activeClass: 'active' });
             }
         },
@@ -23,11 +35,9 @@ TD = {
             }
         },
         FormValidator: {
-
             init: function(){
                 $('#customerSigninFormSubmit').formValidator({scope:'#customerSigninForm'})
             }
-
         }
     }
 }

@@ -35,7 +35,13 @@ Cufon.replace('' +
     '.mainortasag .ortasagmid p,' +
     '.mainortasag .ortasagbottom span,' +
     '.titleseperator h2,' +
-    '.pageheader .pagetitle .normal', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.pageheader .pagetitle .normal,' +
+    '.nedenbox  p ,' +
+    '.nedenbox .going,' +
+    '.alanadlari .table-striped thead tr th,' +
+    '.alanadlari .table-striped tbody tr td,' +
+    '.alanadlari .alanadslider .domainsliderelement p,' +
+    '.alanadlari .alanadslider .domainsliderelement h1', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
@@ -50,7 +56,11 @@ TEKNIKDATA "font-family":"Roboto","font-weight":400,"font-stretch":"normal"
 Cufon.replace('' +
     '.rbt, ' +
     '.motto p, ' +
-    '#footer .contact-area p', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
+    '#footer .contact-area p,' +
+    '.alanadlari .type-2.trs-tab-wrapper .trs-tab-nav a span,' +
+    '.alanadlari .type-2.trs-tab-wrapper .trs-tab-container p,' +
+    '.alanadlari .minik,' +
+    '.alanadlari .custom-checkbox span.text', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
 /*
 =======================================================================================
 TEKNIKDATA "face":{"font-family":"Roboto","font-weight":400,"fontStyle":"italic"
@@ -69,7 +79,7 @@ Cufon.replace('' +
     '#footer .footer-bar p b,' +
     '.mainortasol .yazi h1 strong,' +
     '.mainortaorta .yazi h1 strong,' +
-    '.titleseperator h2,' +
+    '.titleseperator h2 span,' +
     '.domainnamebig span', { fontFamily: 'Roboto Medium', hover: true, fontWeight: 500  });
 /*
 =======================================================================================
@@ -92,7 +102,8 @@ Cufon.replace('.rbtbl, ' +
     '.ortasagtop  h1,' +
     '.mainortasag .ortasagtop  span strong,' +
     '.mainortasag .ortasagbottom span strong ' +
-    ',.pageheader .pagetitle .bold ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+    ',.pageheader .pagetitle .bold,' +
+    '.nedenbox .going .bold ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"
