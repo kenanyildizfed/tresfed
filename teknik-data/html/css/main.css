@@ -85,7 +85,7 @@ table {
 }
 
 .bodybg {
-     background: url(../img/bodybg.png) repeat;
+    background: url(../img/bodybg.png) repeat;
 
 }
 /*
@@ -133,7 +133,7 @@ table {
     background: url(../img/headergribg.png) repeat top left;
     display: block;
     position: relative;
-  /*  z-index: 555; */
+    /*  z-index: 555; */
 }
 .header-inner {
     width:1000px;
@@ -566,7 +566,7 @@ ul#akampanya2 li p		{
 */
 
 #contanier {
-  /**  background: url(../img/bodybg.png) repeat;**/
+    /**  background: url(../img/bodybg.png) repeat;**/
 
 }
 
@@ -715,21 +715,66 @@ ul#akampanya2 li p		{
     margin: 0 auto;
     padding-top: 4px;
 }
-.mainortasag .ortasagmid  p {
-    font-size: 18px;  color: #fff;  text-align: center;  display: block;
+.mainortasag .ortasagmid  p {    font-size: 18px;  color: #fff;  text-align: center;  display: block;}
+.mainortasag .ortasagbottom {    background: url("../img/right-box-bottom-bg.png");    font-size: 16px;  color: #fff;  text-align: center;  display: block;    padding: 23px 0px;}
+.mainortasag .ortasagbottom  span {}
+.mainortasag .ortasagbottom  span  strong {}
+.titleseperator{    padding: 40px 0px 0px 0px;    text-align: center;}
+.titleseperator h2 {padding: 12px; color: #2f3c46;font-size: 21px;margin: -36px auto;text-align: center;background: url(../img/bodybg.png) repeat;padding: 20px;display: inline-table;}
+.titleseperator div { border-top: 1px solid #bec2c6;}
+
+
+
+.nedenbox {
+    width: 170px;
+    float: left;
+    background: url(../img/anasayfaBoxSpt.png) no-repeat;
+    padding: 13px;
+    margin-right: 5px;
+}.nedenbox:hover {
+     background: url(../img/anasayfaBoxSpt.png) no-repeat -196px 0px;
+     cursor: pointer;
+ }
+.yediyirmidort-icon {    background: url(../img/neden-teknik-data-sprite.png) no-repeat 0px 0px;
+    width: 57px;
+    height: 41px;
+    display: block;
+    margin-left: 56px;
+    margin-top: 27px;}
+.communication-icon {
+    background: url(../img/neden-teknik-data-sprite.png) no-repeat -76px -11px;
+    width: 57px;
+    height: 41px;
+    display: block;
+    margin-left: 56px;
+    margin-top: 27px;
 }
-.mainortasag .ortasagbottom {
-    background: url("../img/right-box-bottom-bg.png");
-    font-size: 16px;  color: #fff;  text-align: center;  display: block;
-    padding: 23px 0px;
+.mind-icon {    background: url(../img/neden-teknik-data-sprite.png) no-repeat -150px 0px;
+    width: 57px;
+    height: 54px;
+    display: block;
+    margin-left: 56px;
+    margin-top: 15px;}
+.shield-icon {    background: url(../img/neden-teknik-data-sprite.png) no-repeat -210px -7px;
+    width: 57px;
+    height: 48px;
+    display: block;
+    margin-left: 56px;
+    margin-top: 27px;    margin-bottom: -6px;}
+.handshake-icon {    background: url(../img/neden-teknik-data-sprite.png) no-repeat -280px -9px;
+    width: 57px;
+    height: 41px;
+    display: block;
+    margin-left: 56px;
+    margin-top: 27px;}
+.nedenbox  p {color: #fff;    font-size: 15px;padding: 10px 0px;text-align: center;height: 111px;}
+.nedenbox .going {color: #fff; font-size: 15px;margin-top: 23px;display: block;text-align: center;margin-bottom: 3px;}
+.mutlumusteriler  {
+
 }
-.mainortasag .ortasagbottom  span {
-}
-.mainortasag .ortasagbottom  span  strong {
-}
-.titleseperator{}
-.titleseperator h2 {padding: 12px; color: #2f3c46;font-size: 21px;margin: 0 auto;text-align: center;float: none;background: url(../img/bodybg.png) repeat;}
-.titleseperator hr { border-top: 1px solid #bec2c6;  border-bottom: 1px solid #bec2c6; /* float: left; */ /* display: block; */ /* position: relative; */ width: 100%;}
+.mutlumusterilerslider li:nth-of-type(5n+0){ background: transparent; height: 105px;}
+.mutlumusterilerslider li{ background: url(../img/slidersep.png) no-repeat center right; height: 105px;}
+.mutlumusterilerslider li img{ bottom: 0px;  position: absolute;}
 /*
 =================================================================
 (#m06dmn) Domain Page
