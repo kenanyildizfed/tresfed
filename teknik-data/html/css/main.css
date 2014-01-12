@@ -648,7 +648,7 @@ ul#akampanya2 li p		{
     padding-left: 14px; background: url(../img/site-link-arrows.png) left 5px no-repeat; }
 #footer .footer-site-link .site-link-inner ul li a { margin-bottom: 12px; display: block; padding-left: 10px;
     background: url(../img/site-link-arrows.png) left -25px no-repeat; font-size: 16px; color: #f7f7f7;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; /*dfgfd*/
     -o-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
