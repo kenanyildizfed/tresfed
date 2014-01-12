@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-s
-=======
 (function($) {
 
     $.fn.formValidator = function(options) {

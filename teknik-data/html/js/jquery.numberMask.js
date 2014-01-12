@@ -1,15 +1,3 @@
-<<<<<<< Updated upstream
-s
-=======
-/*!
- * jQuery numberMask Plugin v0.1.2
- *
- * Licensed under the MIT License
- * Authors: Krivlenia Konstantin
- *          krivlenia@gmail.com
- * Site:  https://github.com/Mavrin/maskInput
- * Date: Wed Nov 11 14:15:24 2011 -0700
- */
 (function($) {
 	$.fn.numberMask = function(options) {
 		var settings = {type:'int',beforePoint:10,afterPoint:2,defaultValueInput:0,decimalMark:['.'],pattern:''},

@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-s
-=======
 /*
  * 	Tab Plugin v1 - jQuery plugin
  *	written by Kenan YILDIZ
