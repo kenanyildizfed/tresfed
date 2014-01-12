@@ -23,19 +23,34 @@ Cufon.replace('.rbtti', { fontFamily: 'Roboto Thin', fontStyle:'italic', hover: 
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"font-stretch":"normal"
 =======================================================================================
 */
-Cufon.replace('.rbtl, #footer .contact-area span.text,#footer .footer-bar p', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+Cufon.replace('' +
+    '.rbtl,' +
+    ' #footer .contact-area span.text,' +
+    '#footer .footer-bar p,' +
+    '.mainortasol .yazi p,' +
+    '.mainortasol .yazi h1,' +
+    '.mainortaorta .yazi p,' +
+    '.mainortaorta .yazi h1,' +
+    '.mainortasag .ortasagtop  span ,' +
+    '.mainortasag .ortasagmid p,' +
+    '.mainortasag .ortasagbottom span,' +
+    '.titleseperator h2,' +
+    '.pageheader .pagetitle .normal', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
 =======================================================================================
 */
-Cufon.replace('.rbtli, #customerSigninForm .short input', { fontFamily: 'Roboto Light', fontStyle:'italic', hover: true, fontWeight: 300 });
+Cufon.replace('.rbtli', { fontFamily: 'Roboto Light', fontStyle:'italic', hover: true, fontWeight: 300 });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":400,"font-stretch":"normal"
 =======================================================================================
 */
-Cufon.replace('.rbt, .motto p, #footer .contact-area p', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
+Cufon.replace('' +
+    '.rbt, ' +
+    '.motto p, ' +
+    '#footer .contact-area p', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
 /*
 =======================================================================================
 TEKNIKDATA "face":{"font-family":"Roboto","font-weight":400,"fontStyle":"italic"
@@ -47,7 +62,15 @@ Cufon.replace('.rbti', { fontFamily: 'Roboto', fontStyle:'italic', hover: true, 
 TEKNIKDATA "font-family":"Roboto Medium","font-weight":500,"font-stretch":"normal"
 =======================================================================================
 */
-Cufon.replace('.rbtm, .megamenu_drop,.pricingbox p,#footer .footer-bar p b', { fontFamily: 'Roboto Medium', hover: true, fontWeight: 500  });
+Cufon.replace('' +
+    '.rbtm, ' +
+    '.megamenu_drop,' +
+    '.pricingbox p,' +
+    '#footer .footer-bar p b,' +
+    '.mainortasol .yazi h1 strong,' +
+    '.mainortaorta .yazi h1 strong,' +
+    '.titleseperator h2,' +
+    '.domainnamebig span', { fontFamily: 'Roboto Medium', hover: true, fontWeight: 500  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Medium","font-weight":500,"fontStyle":"italic"
@@ -59,7 +82,17 @@ Cufon.replace('.rbtmi', { fontFamily: 'Roboto Medium', fontStyle:'italic', hover
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"font-stretch":"normal"
 =======================================================================================
 */
-Cufon.replace('.rbtbl, .motto span,.allpricingbox span,.pricingbox span,.domainname span, #footer .contact-area b', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+Cufon.replace('.rbtbl, ' +
+    '.motto span,' +
+    '.allpricingbox span,' +
+    '.pricingbox span,' +
+    '.domainname span, ' +
+    '#footer .contact-area b,' +
+    '.paketbuton a,.mainortasag ' +
+    '.ortasagtop  h1,' +
+    '.mainortasag .ortasagtop  span strong,' +
+    '.mainortasag .ortasagbottom span strong ' +
+    ',.pageheader .pagetitle .bold ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"

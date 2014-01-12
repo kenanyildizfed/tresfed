@@ -25,6 +25,7 @@
 */
 
 @import '_style.css';
+@import '_custom.css';
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -89,7 +90,11 @@ table {
 (#m02gel) Generic Element
 =================================================================
 */
-
+/*Generic Body*/
+.genericbox {
+    width: 1000px;
+    margin: 0 auto;
+}
 /* Custom Checkbox */
 /* Dummy HTML for CK
  <label  class="custom-checkbox" for="eCheck">
@@ -558,11 +563,12 @@ ul#akampanya2 li p		{
 */
 
 #contanier {
+  /**  background: url(../img/bodybg.png) repeat;**/
 
 }
 
 .domainsorgulama {
-    width: 1000px;
+    width: 986px;
     margin: 0 auto;
     display: block;
     background: url(../img/dombg.png);
@@ -661,7 +667,66 @@ ul#akampanya2 li p		{
     font-size: 13px;
     color: #fff;
 }
+.mainortasol			{ background:url(../img/hosting-bg.png) no-repeat; width: 325px; height:159px; float:left; margin: 20px 4px 0 0; padding:10px 10px 10px 0}
+.mainortasolbg2			{ background:url(../img/hosting-bg2.png) no-repeat !important; width: 325px; height:159px; float:left; margin: 20px 0px 0 0; padding: 10px 0px 10px 0;}
+.mainortasol img		{ float: right; width:auto; height:auto; margin:0 0 0 0; position: relative;}
+.mainortasol .yazi		{ float: left; height: 150px; overflow:hidden; width: 183px; padding-left: 7px;}
+.mainortasol .yazi h1	{ color:#fff; font-weight:normal; font-size:27px; margin:10px 0; text-align: left;width:175px}
+.mainortasol .yazi p	{ color:#fff; font-weight:normal; font-size:15px; line-height: 20px; margin:0 0; text-align: left; width: 195px;}
+.paketbuton				{ background: url(../img/arrow.png) no-repeat 63px 9px; width: 77px; height:24px; float: right; margin:10px 0 0 0;color:#ffffff;}
+.paketbuton a			{ color:#2e2e37; font-size: 15px; font-weight:bold; padding: 7px 19px 5px 0; text-align:right; float:right;}
 
+.mainortaorta			{ background:url(../img/hosting-bg3.png) no-repeat; width: 666px; height: 126px; float:left; margin: 7px 0px 0 0; /* padding:10px 10px 10px 0 */}
+.mainortaorta img		{ float: left; width:auto; height:auto; margin: -9px 0 0 0; position: relative;}
+.mainortaorta .yazi		{ float: left; height: 150px; overflow:hidden; width: 345px; padding-right: 7px;}
+.mainortaorta .yazi h1	{ color:#fff; font-weight:normal; font-size:27px; margin:10px 0; text-align: right;}
+.mainortaorta .yazi p	{ color:#fff; font-weight:normal; font-size:15px; line-height: 20px; margin:0 0; text-align: right;}
+.paketbuton				{ background: url(../img/arrow.png) no-repeat 63px 9px; width: 77px; height:24px; float: right; margin:10px 0 0 0;color:#ffffff;}
+.paketbuton a			{ color:#2e2e37; font-size: 15px; font-weight:bold; padding: 7px 19px 5px 0; text-align:right; float:right;}
+
+.mainsag{float: right}
+.mainsol{float: left;width: 669px;}
+
+.mainortasag {width: 309px;
+
+    float: right;margin: 20px 4px 0 0;}
+.mainortasag .ortasagtop {   height: 67px;
+    background: url("../img/right-box-tab-bg.png");
+    display: block;   width: 309px;   padding-top: 23px;}
+.mainortasag .ortasagtop  h1 {
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+}
+.mainortasag .ortasagtop  span {
+    font-size: 20px;  color: #fff;
+    text-align: center;
+    display: block;
+}
+.mainortasag .ortasagmid {
+    background: url("../img/right-box-mid-bg.png");
+    height: 159px;
+}
+.mainortasag .ortasagmid  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+.mainortasag .ortasagmid  p {
+    font-size: 18px;  color: #fff;  text-align: center;  display: block;
+}
+.mainortasag .ortasagbottom {
+    background: url("../img/right-box-bottom-bg.png");
+    font-size: 16px;  color: #fff;  text-align: center;  display: block;
+    padding: 23px 0px;
+}
+.mainortasag .ortasagbottom  span {
+}
+.mainortasag .ortasagbottom  span  strong {
+}
+.titleseperator{}
+.titleseperator h2 {padding: 12px; color: #2f3c46;font-size: 21px;margin: 0 auto;text-align: center;float: none;background: url(../img/bodybg.png) repeat;}
+.titleseperator hr { border-top: 1px solid #bec2c6;  border-bottom: 1px solid #bec2c6; /* float: left; */ /* display: block; */ /* position: relative; */ width: 100%;}
 /*
 =================================================================
 (#m06dmn) Domain Page
