@@ -49,7 +49,14 @@ Cufon.replace('' +
     '.uhlongleft  p,' +
     '.uglongright  h2,' +
     '.uhshortareaelement  h1,' +
-    '.uhshortareaelement  p', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.uhshortareaelement  p,' +
+    '.hostingpageelemnt h1,' +
+    '.hostingpageelemnt p,' +
+    '.tablofiyat  h1,' +
+    '.tablotop h1,' +
+    '.tablotop span,' +
+    '.tablomid  ul  li,' +
+    '.tablobottom  a span', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
@@ -69,7 +76,8 @@ Cufon.replace('' +
     '.alanadlari .type-2.trs-tab-wrapper .trs-tab-container p,' +
     '.alanadlari .minik,' +
     '.alanadlari .custom-checkbox span.text,' +
-    '.uglongright  h2', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
+    '.uglongright  h2,' +
+    '.tablofiyat  p ', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
 /*
 =======================================================================================
 TEKNIKDATA "face":{"font-family":"Roboto","font-weight":400,"fontStyle":"italic"

@@ -15,7 +15,8 @@
  *       (#m09aph) App Hosting
  *       (#m10byp) Buying Page
  *       (#m11dtp) Detail Page
- *       (#m12hlp) Helper
+ *       (#m12hst) Hosting Page
+ *       (#m13hlp) Helper
  *//*
 =================================================================
 (#m01ipt) İmport
@@ -317,9 +318,38 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .aboutpageicon {width: 124px;height: 114px;background: url("../img/aboutpageicon.png");display: block;margin-top: 1px;}
 .uhpageicon {width: 214px;height: 104px;background: url("../img/uhpageicon.png");display: block;margin-top: 5px;}
 .pagedetailelement {-webkit-border-bottom-right-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomright: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;padding: 12px;background-color: #fff;-moz-box-shadow: inset 0 0 2px #000;-webkit-box-shadow: inset 0 0 2px #000;box-shadow: inset 0 0 2px #000;width: 976px;margin: 0 auto;}
+
+
 /*
 =================================================================
-(#m12hlp) Helper
+(#m12hst) Hosting Page
+=================================================================
+*/
+.hostingpageelemnt { width: 1000px; color: #2a3741; margin: 60px auto;}
+.hostingpageelemnt h1{font-size: 26px;}
+.hostingpageelemnt p{ font-size: 16px;}
+.hostingpageelemnt img{ margin-top: -60px; margin-bottom: -60px;}
+.hostingpageelemnt h1.left,.hostingpageelemnt p.left,.hostingpageelemnt h1.right,.hostingpageelemnt p.right{ width: 660px;}
+.hostinfiyattablo {float: left;width: 238px; margin: 26px 16px 170px 0px;}
+.tabloelement {}
+.tablotop {  width: 238px;}
+.tablotop  h1 {background: url(../img/hosting-name.png) 0px 0px no-repeat;font-size: 26px;color: #fff;padding: 29px 10px 28px 10px;  display: block;text-align: center;}
+.tablotop  span {background: url(../img/hosting-motto.png) 0px 0px no-repeat;font-size: 17px;color: #fff;padding: 12px 10px 11px 10px;display: block;text-align: center;}
+.tablomid {background: url(../img/hosting-options.png) 0px 0px no-repeat;width: 194px;height: 176px;padding: 22px;}
+.tablomid  ul {}
+.tablomid  ul  li {margin-bottom: 12px;  display: block;  padding-left: 10px;background: url(../img/site-link-arrows.png) left -25px no-repeat;font-size: 17px;  color: #f7f7f7;}
+.tablobottom {}
+.tablobottom  a {color: #000;font-size: 21px;width: 238px;background: url(../img/hosting-buy-button.png) 0px 0px no-repeat;height: 72px;display: block;}
+.tablobottom  a  span {float: left;width: 238px;text-align: center;padding-top: 12px;}
+.tablofiyat {width: 238px;background: url(../img/hosting-price.png) 0px 0px no-repeat;height: 66px;}
+.tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 26px;padding: 19px 10px 28px 30px;  display: block;  text-align: center;float: left;}
+.tablofiyat  p {color: #fff;font-size: 12px;float: left;padding-top: 21px;}
+
+
+
+/*
+=================================================================
+(#m13hlp) Helper
 =================================================================
 */
 .bnone{border-right: 0px !important;}
@@ -328,3 +358,5 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .visuallyhidden {border: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {clip: auto;height: auto;margin: 0;overflow: visible;position: static;width: auto;}
 .cf:before, .cf:after {content: " "; /* 1 */display: table; /* 2 */}.cf:after {clear: both;}.cf {*zoom: 1;}
+.right {float: right !important;}
+.left {float: left !important;}
