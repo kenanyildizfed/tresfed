@@ -190,6 +190,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .mutlumusterilerslider li:nth-of-type(5n+0) {background: transparent;height: 105px;}
 .mutlumusterilerslider li {background: url(../img/slidersep.png) no-repeat center right;height: 105px;}
 .mutlumusterilerslider li img {bottom: 0px;position: absolute;}
+.nedenbg { width: 100%; height: 12px;background: url(../img/nedenbg.png) repeat center right;margin-top: -67px;margin-bottom: 67px;}
 /*
 =================================================================
 (#m06dmn) Domain Page
@@ -240,10 +241,30 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .alanadlari .bx-wrapper .bx-prev {left: -35px;background: url(../img/domainsliderspt.png)  no-repeat 0 0px;}
 .alanadlari .bx-wrapper .bx-next {right: -20px;background: url(../img/domainsliderspt.png)  no-repeat -39px 0px;}
 .alanadlari .bx-wrapper .bx-prev:hover {background-position: 0px 0px;}
-.bx-wrapper .bx-next:hover {background-position: -39px 0px;}
+.alanadlari .bx-wrapper .bx-next:hover {background-position: -39px 0px;}
 .alanadlari .bx-wrapper .bx-controls-direction a {position: absolute;top: 50%;margin-top: -16px;outline: 0;width: 26px;height: 56px;text-indent: -9999px;z-index: 9999;}
 .alanadlari .bx-wrapper .bx-controls-direction a.disabled {display: none;}
-
+.pagedetailtext h1{font-size: 25px; color: #232323; padding: 10px 0px 15px;font-weight: bold;}
+.pagedetailtext p{font-size: 17px; color: #232323; padding: 10px 0px;}
+.aboutpage {}
+.aboutpage ul {float: left;padding-left: 20px;}
+.aboutpage ul li {margin-bottom: 12px;  display: block;  padding-left: 10px;  background: url(../img/arrow.png) left 3px no-repeat;  font-size: 16px;  color: #232323;  transition: all 0.1s ease-in-out;  -o-transition: all 0.1s ease-in-out;  -ms-transition: all 0.1s ease-in-out;  -moz-transition: all 0.1s ease-in-out;  -webkit-transition: all 0.1s ease-in-out;}
+.aboutpage .detailpageright {float: right;width: 309px;display: block;  float: right;  position: relative;right: -18px;}
+.aboutpage .detailmenu {float: left;width: 289px;}
+.aboutpage .detailmenu .menutop {background: url(../img/hakkimizda-box-ust-bg.png) left 3px no-repeat;}
+.aboutpage .detailmenu .menutop  h1 {  display: block;  padding-left: 10px;  font-size: 20px;  color: #fff;padding: 28px 3px 25px 28px;  float: left;}
+.aboutpage .whomenuicon {  display: block;  background: url(../img/hakkimizda-neden-biz-icon.png) left 3px no-repeat;  font-size: 20px;  color: #fff;float: right;  width: 56px;  height: 36px;  margin-top: 11px;  margin-right: 20px;}
+.aboutpage .fastmenuicon {  display: block;  background: url(../img/hakkimizda-hizli-menu-icon.png) left 3px no-repeat;  font-size: 20px;  color: #fff;float: right;  width: 56px;  height: 53px;  margin-top: 11px;  margin-right: 20px;}
+.aboutpage .transmenuicon {  display: block;  background: url(../img/hakkimizda-hosting-transfer-icon.png) left 3px no-repeat;  font-size: 20px;  color: #fff;width: 56px;height: 53px;margin-top: 16px;margin-right: 0px;float: right;}
+.aboutpage .fastmenu .fastmenusprite {background: url("../img/hakkimizda-box-line.png") no-repeat 0px 0px; width: 100%; height: 3px; display: block;}
+.aboutpage .who .fastmenusprite {background: url("../img/hakkimizda-box-line.png") no-repeat 0px -88px; width: 100%; height: 3px; display: block;}
+.aboutpage .transmenu .fastmenusprite {background: url("../img/hakkimizda-box-line.png") no-repeat 0px -45px; width: 100%; height: 3px; display: block;}
+.aboutpage .menumiddle {background: url(../img/hakkimizda-box-alt-bg.png) left 0px no-repeat;display: block;height: 260px;}
+.aboutpage .menumiddle > ul {padding-top: 27px;}
+.aboutpage .menumiddle > ul > li {background: url(../img/site-link-arrows.png) left -25px no-repeat;}
+.aboutpage .menumiddle > ul > li a{color:#fff;}
+.aboutpage .who .menumiddle > ul > li,.transmenu .menumiddle > ul > li {background: url(../img/hakkimizda-check-icon.png) left 5px no-repeat;padding-left: 25px;color: #fff;}
+.aboutpage .pagedetailul {width: 60%; display: inline-table;}
 /*
 =================================================================
 (#m07csl) Costumer Login
@@ -262,6 +283,19 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 =================================================================
 */
 
+.uhlongelement {display: block;  float: left;width: 1000px;  margin-left: 13px;margin: 6px 0px;height: 129px;background: url(../img/u-h-long-bg.png);}
+.uhlongleft {float: left;color: #0d0d0f;width: 710px;}
+.uhlongleft  img {float: left;margin: 21px;}
+.uhlongleft  h1 {font-size: 27px;padding-top: 10px;}
+.uhlongleft  p {font-size: 15px;padding-top: 16px;}
+.uglongright {float: right;width: 283px;}
+.uglongright  h2 {font-size: 17px;padding: 24px 14px 12px;color: #fff;}
+.uhbuying {width: 256px;  margin-left: 13px;  margin: 6px 0px;height: 59px;background: url(../img/u-h-buy-button.png);display: block;color: #fff;margin-left: 14px;}
+.uhbuying  span {padding: 23px 0px 10px 80px;display: block;}
+.uhshortareaelement {width: 491px; height: 133px;background: url(../img/u-h-short-bg.png); float: left; margin: 8px 18px 8px 0px;}
+.uhshortareaelement  h1 { color: #fff;font-size: 23px;float: left; padding-top: 13px;  padding-left: 25px;}
+.uhshortareaelement  p {color: #fff;font-size:16px;float: left;width: 340px;padding-top: 13px;padding-left: 25px;}
+.uhshortareaelement  img {float: right;margin-top: -15px;margin-right: 15px;}
 /*
 =================================================================
 (#m10byp) Buying Page
@@ -279,6 +313,9 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .pageheader .pagetitle .normal {}
 .pageheader .pageicon {float: right;}
 .contactpageicon {width: 114px;height: 93px;background: url("../img/contactpageicon.png");display: block;}
+.cdnpageicon {width: 114px;height: 114px;background: url("../img/cdnpageicon.png");display: block;margin-top: -19px;}
+.aboutpageicon {width: 124px;height: 114px;background: url("../img/aboutpageicon.png");display: block;margin-top: 1px;}
+.uhpageicon {width: 214px;height: 104px;background: url("../img/uhpageicon.png");display: block;margin-top: 5px;}
 .pagedetailelement {-webkit-border-bottom-right-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomright: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;padding: 12px;background-color: #fff;-moz-box-shadow: inset 0 0 2px #000;-webkit-box-shadow: inset 0 0 2px #000;box-shadow: inset 0 0 2px #000;width: 976px;margin: 0 auto;}
 /*
 =================================================================
