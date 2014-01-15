@@ -51,7 +51,7 @@ TD = {
                 });
             }
         },
-        //Deneme
+        //Deneme deneme
         CustomCheckBox: {
             init: function(){
                 $(document).on("click", ".custom-checkbox > input[type='checkbox']", function () { $(this).siblings('span.ck').toggleClass('active'); });
