@@ -452,7 +452,7 @@ margin-top: 64px;
 .vpshosting.trs-tab-wrapper { margin-top: -2px; }
 .vpshosting.trs-tab-wrapper .trs-tab-nav  { float: left; /* clear: both; */ background: url(../img/vps-sunucu-large-bg.png) 0px 0px;  width: 1000px; height: 206px;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a { width: 220px; height: 35px; float: left; display: block; background: url(../img/ters-tab-nav.png) left 36px; color: #fff; }
-.vpshosting.trs-tab-wrapper .trs-tab-nav a span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 75px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 75px;width: 140px;text-align: center;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.active {}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.left { margin-right: -36px; }
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.right { border-top-right-radius: 3px; }
@@ -463,11 +463,11 @@ margin-top: 64px;
 .vpshosting.trs-tab-wrapper .trs-tab-nav .uc { float: left; background: url(../img/vps-sunucu-img.png) no-repeat  -411px -41px;  width: 203px; height: 107px; margin-top: -57px;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav .do { float: left; background: url(../img/vps-sunucu-img.png) no-repeat  -615px -20px;  width: 203px; height: 127px; margin-top: -78px;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav .be { float: left; background: url(../img/vps-sunucu-img.png) no-repeat -820px 2px;  width: 142px; height: 147px; margin-top: -100px;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 75px;width: 140px;text-align: center;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 95px;width: 140px;text-align: center;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 114px;width: 140px;text-align: center;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.do span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 135px;width: 140px;text-align: center;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.be span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 160px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 75px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 95px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 114px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.do h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 135px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.be h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 160px;width: 140px;text-align: center;}
 .vpshosting .vpshostingsep {height: 5px;width: 100%;background: url(../img/vpsline.png) repeat top left;display: block;position: relative;margin-top: -95px;;float: left;z-index: 666;}
 .vpshosting .vpshostingbg {height: 5px;width: 100%;background-color: #093552;display: block;position: relative;margin-top: -95px;float: left;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.bi .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 125px;  margin-left: -75px;}
@@ -475,7 +475,7 @@ margin-top: 64px;
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.uc .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 163px; margin-left: -75px; z-index: 6666;  position: relative;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.do .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 185px; margin-left: -75px; z-index: 6666;  position: relative;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.be .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 27px; margin-left: 65px; z-index: 6666;  position: relative;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificonu { float: left; background: url(../img/vps-sunucu-seek-icon.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 20px; margin-left: 65px; position: relative; z-index: 5555;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificonumv { float: left; background: url(../img/vps-sunucu-seek-icon.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 20px; margin-left: 65px; position: relative; z-index: 5555;}
 
 
 /*

@@ -27,6 +27,28 @@ TD = {
                     slideMargin: 10
                 });
                 $(".trs-tab-wrapper").trsTab({ activeClass: 'active' });
+                $(".trs-tab-wrappers").trsTab({ activeClass: 'active' });
+                $('.trs-tab-nav .t').click(function(){
+                    var item=$('.trs-tab-nav .t span');
+                    $('.trs-tab-nav .t span').removeClass('aktificonu');
+                    item.addClass("aktificonumv")
+                });
+
+                $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi').click(function(){
+                    $('.vpshostingsep').css( "width", "125" )
+                });
+                $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii').click(function(){
+                    $('.vpshostingsep').css( "width", "295" )
+                });
+                $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc').click(function(){
+                    $('.vpshostingsep').css( "width", "495" )
+                });
+                $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.do').click(function(){
+                    $('.vpshostingsep').css( "width", "695" )
+                });
+                $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.be').click(function(){
+                    $('.vpshostingsep').css( "width", "1000" )
+                });
             }
         },
         CustomCheckBox: {

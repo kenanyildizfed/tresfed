@@ -57,7 +57,7 @@ Cufon.replace('' +
     '.column-left a,' +
     '.column-left ._number,' +
     '.column-left p,' +
-    '.vpshosting.trs-tab-wrapper .trs-tab-nav a span,' +
+    '.vpshosting.trs-tab-wrapper .trs-tab-nav a h1,' +
     '.siparisadimlari .siparisbox .siparisadi', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
