@@ -58,7 +58,15 @@ Cufon.replace('' +
     '.column-left ._number,' +
     '.column-left p,' +
     '.vpshosting.trs-tab-wrapper .trs-tab-nav a h1,' +
-    '.siparisadimlari .siparisbox .siparisadi', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.siparisadimlari .siparisbox .siparisadi,' +
+    '.vpsdetay div h1,' +
+    '.vpsdetay div span,' +
+    'ul.ustmenuparca li a,' +
+    '.dmr-tab-nav .m span.normal,' +
+    '.zatenmusteri ,' +
+    '.pkuyelikform ._rows span,' +
+    '.musteripanel .first .right-column p,' +
+    '.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
@@ -84,7 +92,9 @@ Cufon.replace('' +
     '.tablomid  ul  li,' +
     '.hostingozellikleri ul li,' +
     '.column-left h3,' +
-    '.siparisadimlari .siparisbox .siparisadim', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
+    '.siparisadimlari .siparisbox .siparisadim,' +
+    '.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a span ,' +
+    '.dmr-tab-nav .m span.bold', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
 /*
 =======================================================================================
 TEKNIKDATA "face":{"font-family":"Roboto","font-weight":400,"fontStyle":"italic"
@@ -104,7 +114,8 @@ Cufon.replace('' +
     '.mainortasol .yazi h1 strong,' +
     '.mainortaorta .yazi h1 strong,' +
     '.titleseperator h2 span,' +
-    '.domainnamebig span', { fontFamily: 'Roboto Medium', hover: true, fontWeight: 500  });
+    '.domainnamebig span,' +
+    '.zatenmusteri span', { fontFamily: 'Roboto Medium', hover: true, fontWeight: 500  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Medium","font-weight":500,"fontStyle":"italic"
@@ -132,7 +143,8 @@ Cufon.replace('.rbtbl, ' +
     '.uglongright h2 span,' +
     '.hostingpageelemnt h1 span ,' +
     '.tablobottom  a span,' +
-    '.tablofiyat  h1,', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+    '.tablofiyat  h1,' +
+    '.vpsdetay .boxsix span ,', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"

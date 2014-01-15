@@ -27,27 +27,49 @@ TD = {
                     slideMargin: 10
                 });
                 $(".trs-tab-wrapper").trsTab({ activeClass: 'active' });
-                $(".trs-tab-wrappers").trsTab({ activeClass: 'active' });
-                $('.trs-tab-nav .t').click(function(){
-                    var item=$('.trs-tab-nav .t span');
-                    $('.trs-tab-nav .t span').removeClass('aktificonu');
-                    item.addClass("aktificonumv")
+
+                $('.dmr-tab-container .dmr-tab-content').hide().eq(0).show();
+                $('.dmr-tab-nav .m').click(function(){
+                    num = $('.dmr-tab-nav .m').index(this);
+                    $(".dmr-tab-nav .m").removeClass("active");//tüm sekmelerdeki button-renk classını temizledik,
+                    $('.dmr-tab-container .dmr-tab-content').hide().eq(num).show();
+                    $('.da-slider').stop( false, true ) ;
+                    $(".dmr-tab-nav .m").eq(num).addClass("active" );
+                });
+
+                $('.vpshosting .trs-tab-nav .t').click(function(){
+                    $('.vpshosting .trs-tab-nav .t span').removeClass('normalicon');
+                    $('.vpshosting .trs-tab-nav .t').removeClass('thisokey');
+                    var item=$('.vpshosting .trs-tab-nav .t span');
+                    $('.trs-tab-nav .t ').next().children('span').addClass('normalicon');
+                    $(this).prevAll().addClass('thisokey');
+                    item.addClass("aktificon")
                 });
 
                 $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi').click(function(){
-                    $('.vpshostingsep').css( "width", "125" )
+                    $('.vpshostingsep').animate({
+                        width: "125"
+                    })
                 });
                 $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii').click(function(){
-                    $('.vpshostingsep').css( "width", "295" )
+                    $('.vpshostingsep').animate({
+                        width: "295"
+                    })
                 });
                 $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc').click(function(){
-                    $('.vpshostingsep').css( "width", "495" )
+                    $('.vpshostingsep').animate({
+                        width: "495"
+                    })
                 });
                 $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.do').click(function(){
-                    $('.vpshostingsep').css( "width", "695" )
+                    $('.vpshostingsep').animate({
+                        width: "695"
+                    })
                 });
                 $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.be').click(function(){
-                    $('.vpshostingsep').css( "width", "1000" )
+                    $('.vpshostingsep').animate({
+                        width: "1000"
+                    })
                 });
             }
         },
@@ -59,7 +81,10 @@ TD = {
         },
         FormValidator: {
             init: function(){
-                $('#customerSigninFormSubmit').formValidator({scope:'#customerSigninForm'})
+                $('#customerSigninFormSubmit').formValidator({scope:'#customerSigninForm'});
+                $('#myformBtnbireysel').formValidator({ scope: '#bireyselregisterForms' });
+                $('#myformBtnkurumsal').formValidator({ scope: '#kurumsalregisterForms' });
+                $('#mesagesubmitBtn').formValidator({ scope: '#mesageformForm' });
             }
         }
     }

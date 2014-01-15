@@ -22,8 +22,6 @@
 (#m01ipt) İmport
 =================================================================
 */
-@import '_style.css';
-@import '_custom.css';
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 body {line-height: 1;}
@@ -39,7 +37,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 =================================================================
 */
 /*Generic Body*/
-.genericbox {width: 1000px;margin: 0 auto;}
+.genericbox {width: 1000px;margin: 0 auto;position: relative;z-index: 6;}
 /* Custom Checkbox */
 /* Dummy HTML for CK
  <label  class="custom-checkbox" for="eCheck">
@@ -67,7 +65,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 .megamenu_container {width: 1000px;height: 57px;margin: 0;position: relative;float: left;z-index: 30;border: 0;background: url(../img/headermenu.png);}
 .megamenu {list-style: none;padding: 0;position: relative;margin: 0;}
 .megamenu >li {float: left;margin: 1px 0 0 0;padding: 1px 1px 0 1px;position: relative;z-index: 9999;}
-.megamenu >li:hover {background: #106097;border: 1px solid #0D5383;border-bottom: 0;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;padding: 0;}
+.megamenu >li:hover {background: #363a3f;border: 1px solid #282b2f;border-bottom: 0;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;padding: 0;}
 .megamenu >li.active {background: #ffffff;}
 .megamenu >li >a {font-size: 15px;height: 19px;outline: 0;text-decoration: none;display: block;padding: 19px 15px 18px 15px;color: #fff;margin: 0 13px 0 0;background: url("../img/dropdown.png") no-repeat right 24px;}
 .megamenu >li .megamenu_drop {padding-right: 24px;}
@@ -81,8 +79,8 @@ table {border-collapse: collapse;border-spacing: 0;}
 .megamenu > li > a.last:hover {background: none;}
 .megamenu > li img {border: 0;}
 .megamenu >li:hover >a {color: #fff;}
-.megamenu li .dropdown_fullwidth {position: absolute;margin: 0 0 0 0;padding: 15px 0;left: -9999em;top: -9999em;display: block;zoom: 1;z-index: 9998;width: 553px;border: 0;border-top: 0;background: url(../img/menuacilir.png) no-repeat;color: #45515e;height: 128px}
-.megamenu li:hover .dropdown_fullwidth {top: 55px;left: -1px;background: url(../img/menuacilir.png) no-repeat;color: #45515e;}
+.megamenu li .dropdown_fullwidth {position: absolute;margin: 0 0 0 0;padding: 15px 0;left: -9999em;top: -9999em;display: block;zoom: 1;z-index: 9999999;width: 263px;border: 0;border-top: 0;color: #45515e;height: auto;}
+.megamenu li:hover .dropdown_fullwidth {top: 55px;left: -1px;background: #363a3f;color: #45515e;}
 .ustmenuparcag {width: 184px;height: auto;float: left;margin: 0 0 0 0;padding: 0 0 0 0;}
 .ustmenuparcag.mar {margin: 0 0 0 15px;}
 .ustmenuparcag5 {width: auto;float: left;margin: 0 0 0 25px;}
@@ -94,8 +92,8 @@ ul.ustmenuparca.uzun {list-style-type: none;padding: 6px 0;margin: 0 0 0 10px;wi
 ul.ustmenuparca.mar {margin: 0 0 0 0;}
 ul.ustmenuparca.nob {border-bottom: 1px solid #dedede;}
 ul.ustmenuparca li {padding-left: 0;margin: 5px 0;display: block;}
-ul.ustmenuparca li a {background: url(../img/ok22.png) no-repeat left center;padding-left: 16px;color: #45515e;font-size: 13px;line-height: 16px;}
-ul.ustmenuparca li a:hover {background: url(../img/ok22.png) no-repeat left center;color: #1e242a}
+ul.ustmenuparca li a {background: url(../img/site-link-arrows.png) left -25px no-repeat;padding-left: 16px;color: #fff;font-size: 16px;line-height: 16px;}
+ul.ustmenuparca li a:hover {background: url(../img/site-link-arrows.png) left -25px no-repeat;color: #fff;}
 .ustmenuparcag4 {width: 232px;height: 125px;float: left;margin: 0 0 0 45px;background: url(../img/akampanya.png) no-repeat;}
 .ustmenuparcag4 h1 {width: 232px;height: 14px;float: left;background: #343434;text-align: center;color: #ffffff;font-size: 14px;font-weight: normal;padding: 11px 0;margin: 0;}
 ul#akampanya {list-style-type: none;margin: 0 0 0 2px;padding: 3px 0 0 0;background: url(../img/kam.png) repeat;float: left;width: 75px;height: 84px;}
@@ -131,13 +129,36 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 =================================================================
 */
 
+#footer { width: 100%; }
+#footer span.line { width: 100%; background: url(../img/headerAltCizgiMavi.png); height: 3px; display: block;    float: left; margin-top: -1px; }
+#footer .footer-site-link { width: 100%; background: url(../img/footer-bg.jpg); padding-top: 30px; padding-bottom: 8px; }
+#footer .footer-inner{ width: 1000px; margin: 0 auto; }
+#footer .site-link-inner { width: 800px; float: left }
+#footer .footer-site-link .site-link-inner ul { float: left; margin-right: 55px; text-align: left; }
+#footer .footer-site-link .site-link-inner ul li h2 { margin-bottom: 15px; font-size: 16px; color: #ffffff;    padding-left: 14px; background: url(../img/site-link-arrows.png) left 5px no-repeat; }
+#footer .footer-site-link .site-link-inner ul li a { margin-bottom: 12px; display: block; padding-left: 10px;    background: url(../img/site-link-arrows.png) left -25px no-repeat; font-size: 16px; color: #f7f7f7;    transition: all 0.1s ease-in-out; /*dfgfdertert*/    -o-transition: all 0.1s ease-in-out;    -ms-transition: all 0.1s ease-in-out;    -moz-transition: all 0.1s ease-in-out;    -webkit-transition: all 0.1s ease-in-out;}
+#footer .footer-site-link .site-link-inner ul li a:hover { color: #eee; }
+#footer .contact-area { float: left; margin-left: 9px; width: 191px; }
+#footer .contact-area span.line { display: block; width: 100%; height: 7px; background: url(../img/social-top.png); margin-bottom: 12px; }
+#footer .contact-area p {color: white; text-align: center; font-size: 16px; position: relative; }
+#footer .contact-area p span {font-size: 16px; color: white; }
+#footer .contact-area p span.tel-icon { position: absolute; right: 30px; top:4px; background: url(../img/tel-icon.png); width: 15px; height: 22px;    }
+#footer .contact-area span.text {color: white; font-size: 15px; display: block; text-align: center;margin-bottom: 14px;}
+#footer .contact-area .bottom { margin-top: 35px; }
+#footer .contact-area .socials-btn a { display: block; float: left; width: 76px; margin-left: 13px; height: 57px; background: url(../img/social-buttons.png) }
+#footer .contact-area .socials-btn a.fb { background-position: left top; }
+#footer .contact-area .socials-btn a.tw { background-position: right top; }
+#footer .footer-bar { width: 100%; background: url(../img/footer-bar-bg.jpg); padding: 10px 0 9px 0;}
+#footer .footer-bar .inner { width: 1000px; margin: 0 auto; }
+#footer .footer-bar p { width: 50%; color: white; font-size: 15px; line-height: 35px; }
+#footer .footer-bar p b { color: white; font-size: 15px; }
+#footer .footer-bar span.icon { display: block; width: 44px; height: 35px; background: url(../img/bottom-icon.png); }
 /*
 =================================================================
 (#m05inx) İndex Element
 =================================================================
 */
-#contanier {
-}
+#contanier {}
 .domainsorgulama {width: 986px;margin: 0 auto;display: block;background: url(../img/dombg.png);height: 55px;-webkit-border-bottom-right-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomright: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;padding: 7px;}
 .domainname {float: left;width: 447px;}
 .domainname span {-moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);color: #5a758b;font-size: 21px;display: block;float: left;padding: 0 11px;height: 54px;line-height: 54px;background-color: #e2e2e2;-webkit-border-top-left-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-bottomleft: 3px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
@@ -273,12 +294,71 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 (#m07csl) Costumer Login
 =================================================================
 */
+.musteripanel .type-2.trs-tab-wrapper { margin-top: -46px; }
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav  { float: right; clear: both;  }
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a { width: 220px; height: 35px; float: left; display: block; background: url(../img/ters-tab-nav.png) left 36px; }
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a.active {  background-position: left top !important}
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a.left { margin-right: -36px; }
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a.right { border-top-right-radius: 3px; }
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-container { float: left; clear: both; padding: 22px 10px; width: 967px }
+.musteripanel .type-2.trs-tab-wrapper .first .form-wrap { float: left; width: 422px;  }
+.musteripanel .type-2.trs-tab-wrapper .first .form-wrap ._row { float: left;width: 100%; clear: both; margin-bottom: 13px;  }
+.musteripanel .type-2.trs-tab-wrapper .first .form-wrap ._row .short { display: block; width: 421px; height: 57px; border: 1px solid #bfbfbf; border-radius: 3px; }
+.musteripanel .type-2.trs-tab-wrapper .first .form-wrap ._row .short input { display: block; width: 320px; padding: 10px 20px; font-size: 15px; line-height: 30px; height: 36px;}
+.musteripanel .type-2.trs-tab-wrapper .first .form-wrap ._row span.icon { display: block; width: 60px; height: 57px; background: url(../img/panel-form-icon.png); float: left }
+.musteripanel .type-2.trs-tab-wrapper .first .form-wrap ._row span.password-icon { background-position: right top; }
+.musteripanel .type-2.trs-tab-wrapper .custom-checkbox { display: block; padding-left: 29px; position: relative; margin-top: 9px; cursor: pointer; font: 14px/19px Arial; color: #41454b; }
+.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text {  font: 16px/20px Arial; color: #41454b; }
+.musteripanel .type-2.trs-tab-wrapper .custom-checkbox .ck { display: block; width: 21px; height: 20px; background: url(../img/p-k-checkbox.png); position: absolute; top: 1px; left: 0; }
+.musteripanel .type-2.trs-tab-wrapper .custom-checkbox .ck.active { background-position: right top !important; }
+.musteripanel .type-2.trs-tab-wrapper .custom-checkbox input  { position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; filter:alpha(opacity=0); }
+.musteripanel #customerSigninFormSubmit { width: 124px; height: 36px; background: url(../img/signin-btn.png); color: white; font-size: 16px }
+.musteripanel .error-input { border: 1px solid red !important; }
+.musteripanel .first .right-column { float: right; width: 493px }
+.musteripanel .first .right-column p { float: right; width: 493px; margin-bottom: 25px; font-size: 16px; color: #374e59 }
 
 /*
 =================================================================
 (#m08csr) Costumer Register
 =================================================================
 */
+
+.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a span {color: #fff; margin: 11px 0px 0px 29px; font-size: 16px;display: block;}
+.musteripanel .dmr-tab-wrapper 						 {margin-top: -35px;z-index: 9999999;position: relative;}
+.musteripanel .dmr-tab-wrapper .dmr-tab-nav a.m   	 { display: inline-block; padding: 10px 20px; text-decoration: none; border-right: 1px solid #c3c1c1; padding: 20px; background-color: #181818; color: #fff; font-size: 17px; margin-right: -4px; width: 201px; font-family: 'Museo700';}
+.musteripanel .dmr-tab-container { z-index: 9; position: relative; /* stroke */  background-color: #fff; /* layer fill content */  /* drop shadow */  /* drop shadow */  /* drop shadow */; /* min-height: 360px; */ width: 969px; min-height: 160px;}
+.musteripanel .dmr-tab-wrapper .dmr-tab-content { position: relative;margin-top: 20px; color: #373737; /* text color */ font-family: 'Museo300'; font-size: 17px; padding: 20px; text-align: center;}
+.musteripanel .dmr-tab-nav .active {background: url(../img/p-k-selected.png) !important;width: 281px;height: 52px !important;display: block;}
+.musteripanel .dmr-tab-nav {background: url(../img/p-k-panel-bg.png);width: 942px;height: 101px;}
+.musteripanel .dmr-tab-nav .m:hover {text-decoration: none;}
+.musteripanel .dmr-tab-nav .m {background: url(../img/p-k-unselected.png);width: 281px;height: 42px;display: block;float: left;margin-left: 15px;margin-top: 15px;color: #3f4347;font-size: 22px;padding-top: 29px;padding-left: 35px;padding-right: 20px;}
+.musteripanel .bireyselicon{background: url(../img/p-k-icon.png) no-repeat;width: 32px;height: 31px;display: block;float: left;}
+.musteripanel .kurumsalicon {background: url(../img/p-k-icon.png) no-repeat -55px 0px;width: 49px;  height: 31px;  display: block;  float: left;}
+.musteripanel .zatenmusteri{color: #fff;text-align: center;font-size: 16px;padding-top: 25px;padding-left: 45px;float: left;}
+.musteripanel .zatenmusteriicon{background: url(../img/p-k-arrow.png) no-repeat 0px 0px;width: 24px;height: 76px;  display: block;float: right;position: relative;margin-top: -95px;margin-right: -15px;}
+.pkuyelikform{margin: 10px;}
+.pkuyelikform ._rows{margin: 10px 0px;}
+.pkuyelikform ._rows .left{width: 50%;}
+.pkuyelikform ._rows .right{text-align: left;}
+.pkuyelikform ._rows .pkformtext{color: #343434;font-size: 15px;width: 150px;float: left;padding-top: 21px;}
+.pkuyelikform ._rows  a{border-bottom: solid 1px #000000; color: #000}
+.pkuyelikform ._rows  .pkforminput{float: left;width: 275px; height: 46px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; background-color: #f5f5f5; -moz-box-shadow: inset 0 0 2px rgba(0,0,0,.75); -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.75); box-shadow: inset 0 0 2px rgba(0,0,0,.75);}
+#myformBtnbireysel, #myformBtnkurumsal {background: url(../img/p-k-record-button.png) no-repeat;width: 305px;height: 49px;  display: block;float: right !important;color: #fff;  font-size: 18px; text-shadow: 0 1px 0 rgba(0,0,0,.24);}
+.pkuyelikform .checkboxbg {width: 336px;height: 25px;float: right;margin-right: 35px;padding: 10px;-moz-border-radius: 2px / 4px; -webkit-border-radius: 2px / 4px; border-radius: 2px / 4px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; background-color: #f5f5f5; -moz-box-shadow: inset 0 0 7px rgba(0,0,0,.21); -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,.21); box-shadow: inset 0 0 7px rgba(0,0,0,.21);}
+.musteripanel .checkboxbg  .ck {display: block;width: 21px;height: 20px;background: url(../img/p-k-checkbox.png);position: absolute;top: 12px !important;left: 15px !important;}
+.musteripanel .checkboxbg .ck.active { background-position: right top !important; }.musteripanel .checkboxbg  span.text {display: block;padding-left: 15px;}
+.pkuyelikform .error-input { border: 0px solid red !important; }
+.pkuyelikform .error-input input { border: 1px solid red !important; }
+.tres-customDropDown { background: #FFFFFF; float: left; height: 19px; padding: 3px 5px; position: static; width: 180px; border: 3px solid #4c4640; font: 16px Arial; }
+.tres-customDropDown.active { position: relative; }
+.tres-customDropDown.active .arrow { background-position: 2px -26px; }
+.tres-customDropDown > label { color: #515151; cursor: pointer; display: block; font: 16px Arial; height: 100%; width: 100%; float: left; }
+.tres-customDropDown .arrow { background: url(../i/dd-arrow.png) 2px 5px no-repeat; display: block; float: right; height: 100%; width: 18px; }
+.tres-customDropDown .mnf-dropDownSpan { color: #515151; display: inline-block; float: left; font: 16px/20px Arial; height: 100%; width: 155px;  white-space: nowrap; overflow: hidden; text-overflow: ellipsis  }
+.tres-customDropDown .hiddenDiv { background-color: #fff;  height: 0; top: 26px; overflow: hidden; position: absolute; width: 100%; z-index: 25; }
+.tres-customDropDown .hiddenDiv.active { height: auto; max-height: 130px; position: absolute; top: 100%; width: 100%; border: 3px solid #4c4640; /* border 3px olduğu için left: -3px */ left: -3px; }
+.tres-customDropDown .hiddenDiv ul > li { color: #717871; cursor: pointer; border-top: 1px solid #e7e2df; font: 14px/25px Arial; padding-left: 10px; width: 172px;  white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.tres-customDropDown .hiddenDiv ul > li:hover {  background: #8cc832; color: white; }
 
 /*
 =================================================================
@@ -304,95 +384,18 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 (#m10byp) Buying Page
 =================================================================
 */
-.sipariselemet{
-width: 1000px;
-margin: 0 auto;
-}
-.siparisadimlari{
-margin-top: -85px;
-float: left;
-}
-.siparisadimlari .siparisbox{
-float: left;
-width: 195px;
-}
-.siparisadimlari .siparisbox .siparisadi{
-background: url("../img/siparis-box.png") no-repeat 0px 0px;
-display: block;
-width: 181px;
-height: 40px; display: none;
-padding: 19px 30px 5px;
-font-size: 18px;  color: #fff;
-margin-left: -25px;  margin-top: -25px;
-}
-
-.siparisadimlari .aktif .siparisadi{
-background: url("../img/siparis-box.png") no-repeat 0px 0px;
-display: block;
-width: 181px;
-height: 40px;
-display: block;
-padding: 19px 30px 5px;
-font-size: 18px;  color: #fff;
-margin: 0 auto;
-margin-left: -25px;
-margin-top: -25px;
-}
-.siparisadimlari .siparisbox .siparisadim{
-font-size: 18px;
-color: #fff;
-background: url("../img/siparisback.png") no-repeat 0px 0px;
-padding: 8px;
-height: 23px;
-display: block;  margin: 0 auto;  text-align: center;  width: 21px;
-
-z-index: 77777;
-position: relative;
-margin-top: 64px;
-}
-.siparisadimlari .aktif .siparisadim{
-font-size: 18px;
-color: #fff;
-background: url("../img/siparisaktifback.png") no-repeat 0px 0px;
-padding: 8px;
-height: 23px;
-display: block;
-margin: 0 auto;
-text-align: center;
-width: 21px;
-margin-top: 25px;
-}
-.siparisadimlari .siparisbox .siparisicon{
-background: url("../img/sepet-icon.png") no-repeat 0px 0px;
-width: 18px;
-height: 18px;
-display: none;
-float: left;
-margin: -5px 27px 21px -2px;
-}
-.siparisadimlari .aktif .siparisicon{
-background: url("../img/sepet-icon.png") no-repeat 0px 0px;
-width: 18px;
-height: 18px;
-display: block;
-float: left;
-margin: -5px 27px 21px -2px;
-}
-
+.sipariselemet{width: 1000px;margin: 0 auto;}
+.siparisadimlari{margin-top: -85px;float: left;}
+.siparisadimlari .siparisbox{float: left;width: 195px;}
+.siparisadimlari .siparisbox .siparisadi{background: url("../img/siparis-box.png") no-repeat 0px 0px;display: block;width: 181px;height: 40px; display: none;padding: 19px 30px 5px;font-size: 18px;  color: #fff;margin-left: -25px;  margin-top: -25px;}
+.siparisadimlari .aktif .siparisadi{background: url("../img/siparis-box.png") no-repeat 0px 0px;display: block;width: 181px;height: 40px;display: block;padding: 19px 30px 5px;font-size: 18px;  color: #fff;margin: 0 auto;margin-left: -25px;margin-top: -25px;}
+.siparisadimlari .siparisbox .siparisadim{font-size: 18px;color: #fff;background: url("../img/siparisback.png") no-repeat 0px 0px;padding: 8px;height: 23px;display: block;  margin: 0 auto;  text-align: center;  width: 21px;z-index: 77777;position: relative;margin-top: 64px;}
+.siparisadimlari .aktif .siparisadim{font-size: 18px;color: #fff;background: url("../img/siparisaktifback.png") no-repeat 0px 0px;padding: 8px;height: 23px;display: block;margin: 0 auto;text-align: center;width: 21px;margin-top: 25px;}
+.siparisadimlari .siparisbox .siparisicon{background: url("../img/sepet-icon.png") no-repeat 0px 0px;width: 18px;height: 18px;display: none;float: left;margin: -5px 27px 21px -2px;}
+.siparisadimlari .aktif .siparisicon{background: url("../img/sepet-icon.png") no-repeat 0px 0px;width: 18px;height: 18px;display: block;float: left;margin: -5px 27px 21px -2px;}
 .sipariselemet .vpshostingsep {height: 3px;width: 100%;background: url(../img/vpsline.png) repeat top left;display: block;position: relative;margin-top: -21px;;float: left;z-index: 666;}
 .tamamlandi  .siparisicon, .tamamlandi  .siparisadi {display: none !important;}
-.siparisadimlari .tamamlandi .siparisadim{
-font-size: 18px;
-color: #fff;
-background: url("../img/siparisaktifback.png") no-repeat 0px 0px;
-padding: 8px;
-height: 23px;
-display: block;  margin: 0 auto;  text-align: center;  width: 21px;
-
-z-index: 77777;
-position: relative;
-margin-top: 64px;
-}
+.siparisadimlari .tamamlandi .siparisadim{font-size: 18px;color: #fff;background: url("../img/siparisaktifback.png") no-repeat 0px 0px;padding: 8px;height: 23px;display: block;  margin: 0 auto;  text-align: center;  width: 21px;z-index: 77777;position: relative;margin-top: 64px;}
 /*
 =================================================================
 (#m11dtp) Detail Page
@@ -409,6 +412,22 @@ margin-top: 64px;
 .uhpageicon {width: 214px;height: 104px;background: url("../img/uhpageicon.png");display: block;margin-top: 5px;}
 .pagedetailelement {-webkit-border-bottom-right-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomright: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;padding: 12px;background-color: #fff;-moz-box-shadow: inset 0 0 2px #000;-webkit-box-shadow: inset 0 0 2px #000;box-shadow: inset 0 0 2px #000;width: 976px;margin: 0 auto;}
 
+
+/**iletişim page*/
+.iletisim .pagedetailelement .googleMaps{height: 285px}
+.iletisim ._row {padding: 26px 0px 36px 0px;}
+.iletisim ._row h2{margin:0px auto;width: 311px;background-color: #ffffff;margin-top: -30px;text-align: center;font-size: 25px; color: #50555d}
+.iletisim ._row2 .column-left{width: 464px; float: left;position: relative;padding-left: 20px;}
+.column-left h3{font-size:18px; font-weight: bold; color: #50555d; }
+.column-left p {padding: 20px 0px 0px 0; font-size: 13px;display: block;margin-bottom: 5px}
+.column-left ._number{font-size: 13px; display: block; padding-top:15px}
+.column-left a {padding: 0px 0px 0px 0; font-size: 13px;display: block;line-height: 17px;}
+.iletisim .error-input input ,.iletisim .error-input textarea { border: 1px solid red !important; }
+.iletisim ._row2 .column-right{width: 50%; float: right}
+.__row input{ width: 209px; height: 8px;padding: 15px 0px 15px 19px; float: left;border: 1px solid #e0e0e0; border-radius: 4px;background-color: #f5f5f5;margin:8px 8px 0px 0px }
+.__row textarea{ width: 448px; height: 100px;padding: 15px 0px 15px 19px; float: left;border: 1px solid #e0e0e0; border-radius: 4px;background-color: #f5f5f5;margin:8px 8px 0px 0px }
+.__row input#mesagesubmitBtn{ width:112px;height:36px;background: url("../img/iletisim-send-button.png"); border: 0; outline: none; float: right; margin-right: 19px;font-size: 13px;color: white;font-weight: bold; padding: 5px;}
+.__row { clear:both; float:left; width: 100%; margin-bottom: 10px }
 
 /*
 =================================================================
@@ -470,12 +489,22 @@ margin-top: 64px;
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.be h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 160px;width: 140px;text-align: center;}
 .vpshosting .vpshostingsep {height: 5px;width: 100%;background: url(../img/vpsline.png) repeat top left;display: block;position: relative;margin-top: -95px;;float: left;z-index: 666;}
 .vpshosting .vpshostingbg {height: 5px;width: 100%;background-color: #093552;display: block;position: relative;margin-top: -95px;float: left;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 125px;  margin-left: -75px;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 146px;  margin-left: -75px; z-index: 6666; position: relative;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 163px; margin-left: -75px; z-index: 6666;  position: relative;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.do .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 185px; margin-left: -75px; z-index: 6666;  position: relative;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.be .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 27px; margin-left: 65px; z-index: 6666;  position: relative;}
-.vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificonumv { float: left; background: url(../img/vps-sunucu-seek-icon.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 20px; margin-left: 65px; position: relative; z-index: 5555;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi .normalicon { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 125px;  margin-left: -75px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii .normalicon { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 146px;  margin-left: -75px; z-index: 6666; position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc .normalicon { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 163px; margin-left: -75px; z-index: 6666;  position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.do .normalicon { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 185px; margin-left: -75px; z-index: 6666;  position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.be .normalicon { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 27px; margin-left: 65px; z-index: 6666;  position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificon { float: left; background: url(../img/vps-sunucu-seek-icon.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 20px; margin-left: 65px; position: relative; z-index: 5555;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.thisokey  .normalicon { display: none;}
+.vpshosting .vpsdetay div {    float: left;    padding: 24px;}
+.vpshosting .vpsdetay div h1{ font-size: 16px; color: #fff;}
+.vpshosting .vpsdetay div span{ font-size: 24px; color: #fff;}
+.vpshosting .vpsdetay .boxfive > h1 {    font-size: 30px;}
+.vpshosting .vpsdetay .boxfive > span {    font-size: 14px;}
+.vpshosting .vpsdetay .boxsix {    padding: 16px 4px  24px 75px;}
+.vpshosting .vpsdetay .boxsix a {font-size: 18px; color: #fff;background: url(../img/vps-buy-button.png) no-repeat 0px 0px;  width: 176px;height: 59px;display: block;}
+.vpshosting .vpsdetay .boxsix span {padding: 19px 4px 0px 60px;display: block;}
+
 
 
 /*
@@ -483,6 +512,10 @@ margin-top: 64px;
 (#m13hlp) Helper
 =================================================================
 */
+.rounded { border-radius: 3px !important; }
+.-mt53 { margin-top: -53px !important; }
+.fl { float: left }
+.fr { float: right }
 .bnone{border-right: 0px !important;}
 .resetbutton {border-color: none !important;outline: none !important;border: 0 !important;-webkit-box-shadow: none !important;-moz-box-shadow: none !important;box-shadow: none !important;}
 .noMR {margin-right: 0 !important}
