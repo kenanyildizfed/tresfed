@@ -124,7 +124,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 /****/
 .headerbg {position: relative;margin: 0 0 10px;overflow: hidden;top: -188px;}
 .headerbg ul {height: 450px;}
-.h292 {height: 322px !important;}
+.h292 {/* height: 322px !important; */}
 /*
 =================================================================
 (#m04fte) Footer Element
@@ -304,7 +304,95 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 (#m10byp) Buying Page
 =================================================================
 */
+.sipariselemet{
+width: 1000px;
+margin: 0 auto;
+}
+.siparisadimlari{
+margin-top: -85px;
+float: left;
+}
+.siparisadimlari .siparisbox{
+float: left;
+width: 195px;
+}
+.siparisadimlari .siparisbox .siparisadi{
+background: url("../img/siparis-box.png") no-repeat 0px 0px;
+display: block;
+width: 181px;
+height: 40px; display: none;
+padding: 19px 30px 5px;
+font-size: 18px;  color: #fff;
+margin-left: -25px;  margin-top: -25px;
+}
 
+.siparisadimlari .aktif .siparisadi{
+background: url("../img/siparis-box.png") no-repeat 0px 0px;
+display: block;
+width: 181px;
+height: 40px;
+display: block;
+padding: 19px 30px 5px;
+font-size: 18px;  color: #fff;
+margin: 0 auto;
+margin-left: -25px;
+margin-top: -25px;
+}
+.siparisadimlari .siparisbox .siparisadim{
+font-size: 18px;
+color: #fff;
+background: url("../img/siparisback.png") no-repeat 0px 0px;
+padding: 8px;
+height: 23px;
+display: block;  margin: 0 auto;  text-align: center;  width: 21px;
+
+z-index: 77777;
+position: relative;
+margin-top: 64px;
+}
+.siparisadimlari .aktif .siparisadim{
+font-size: 18px;
+color: #fff;
+background: url("../img/siparisaktifback.png") no-repeat 0px 0px;
+padding: 8px;
+height: 23px;
+display: block;
+margin: 0 auto;
+text-align: center;
+width: 21px;
+margin-top: 25px;
+}
+.siparisadimlari .siparisbox .siparisicon{
+background: url("../img/sepet-icon.png") no-repeat 0px 0px;
+width: 18px;
+height: 18px;
+display: none;
+float: left;
+margin: -5px 27px 21px -2px;
+}
+.siparisadimlari .aktif .siparisicon{
+background: url("../img/sepet-icon.png") no-repeat 0px 0px;
+width: 18px;
+height: 18px;
+display: block;
+float: left;
+margin: -5px 27px 21px -2px;
+}
+
+.sipariselemet .vpshostingsep {height: 3px;width: 100%;background: url(../img/vpsline.png) repeat top left;display: block;position: relative;margin-top: -21px;;float: left;z-index: 666;}
+.tamamlandi  .siparisicon, .tamamlandi  .siparisadi {display: none !important;}
+.siparisadimlari .tamamlandi .siparisadim{
+font-size: 18px;
+color: #fff;
+background: url("../img/siparisaktifback.png") no-repeat 0px 0px;
+padding: 8px;
+height: 23px;
+display: block;  margin: 0 auto;  text-align: center;  width: 21px;
+
+z-index: 77777;
+position: relative;
+margin-top: 64px;
+}
 /*
 =================================================================
 (#m11dtp) Detail Page
@@ -332,21 +420,62 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .hostingpageelemnt p{ font-size: 16px;}
 .hostingpageelemnt img{ margin-top: -60px; margin-bottom: -60px;}
 .hostingpageelemnt h1.left,.hostingpageelemnt p.left,.hostingpageelemnt h1.right,.hostingpageelemnt p.right{ width: 660px;}
-.hostinfiyattablo {float: left;width: 238px; margin: 26px 16px 170px 0px;}
+.hostinfiyattablo {float: left;width: 187px; margin: -144px 5px 170px 0px;position: relative;}
 .tabloelement {}
-.tablotop {  width: 238px;}
-.tablotop  h1 {background: url(../img/hosting-name.png) 0px 0px no-repeat;font-size: 26px;color: #fff;padding: 29px 10px 28px 10px;  display: block;text-align: center;}
+.tablotop {  width: 186px;}
 .tablotop  span {background: url(../img/hosting-motto.png) 0px 0px no-repeat;font-size: 17px;color: #fff;padding: 12px 10px 11px 10px;display: block;text-align: center;}
-.tablomid {background: url(../img/hosting-options.png) 0px 0px no-repeat;width: 194px;height: 176px;padding: 22px;}
+.tablomid {background: url(../img/hosting-options2.png) 0px 0px no-repeat;width: 162px;height: 275px;padding: 6px 12px;}
 .tablomid  ul {}
-.tablomid  ul  li {margin-bottom: 12px;  display: block;  padding-left: 10px;background: url(../img/site-link-arrows.png) left -25px no-repeat;font-size: 17px;  color: #f7f7f7;}
+.tablomid  ul  li {margin: 18px 0px 19px;  display: block;  padding-left: 0px;font-size: 13px;  color: #f7f7f7;}
 .tablobottom {}
-.tablobottom  a {color: #000;font-size: 21px;width: 238px;background: url(../img/hosting-buy-button.png) 0px 0px no-repeat;height: 72px;display: block;}
-.tablobottom  a  span {float: left;width: 238px;text-align: center;padding-top: 12px;}
-.tablofiyat {width: 238px;background: url(../img/hosting-price.png) 0px 0px no-repeat;height: 66px;}
-.tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 26px;padding: 19px 10px 28px 30px;  display: block;  text-align: center;float: left;}
-.tablofiyat  p {color: #fff;font-size: 12px;float: left;padding-top: 21px;}
+.tablobottom  a {color: #fff;font-size: 21px;width: 186px;background: url(../img/hosting-buy-button2.png) -24px 0px no-repeat;height: 122px;display: block;}
+.tablobottom  a  span {float: left;width: 186px;text-align: center;padding-top: 22px;font-size: 20px;}
+.mavi .tablotop > h1 {background: url(../img/hosting-name-m.png) 0px 0px no-repeat;font-size: 16px;color: #fff;padding: 29px 4px 9px 4px;  display: block;text-align: center;}
+.mavi .tablofiyat {width: 187px;background: url(../img/hosting-price-m.png) 0px 0px no-repeat;height: 86px;}
+.mavi .tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 36px;padding: 12px 30px 6px 30px;  display: block;  text-align: center;float: left;width: 126px;}
+.mavi .tablofiyat  p {color: #fff;font-size: 12px;padding-top: 21px;text-align: center;}
+.lacivert .tablotop > h1 {background: url(../img/hosting-name-l.png) 0px 0px no-repeat;font-size: 16px;color: #fff;padding: 29px 4px 9px 4px;  display: block;text-align: center;}
+.lacivert .tablofiyat {width: 187px;background: url(../img/hosting-price-l.png) 0px 0px no-repeat;height: 86px;}
+.lacivert .tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 36px;padding: 12px 30px 6px 30px;  display: block;  text-align: center;float: left;width: 126px;}
+.lacivert .tablofiyat  p {color: #fff;font-size: 12px;padding-top: 21px;text-align: center;}
+.turuncu .tablotop > h1 {background: url(../img/hosting-name-t.png) 0px 0px no-repeat;font-size: 16px;color: #fff;padding: 29px 4px 9px 4px;  display: block;text-align: center;}
+.turuncu .tablofiyat {width: 187px;background: url(../img/hosting-price-t.png) 0px 0px no-repeat;height: 86px;}
+.turuncu .tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 36px;padding: 12px 30px 6px 30px;  display: block;  text-align: center;float: left;width: 126px;}
+.turuncu .tablofiyat  p {color: #fff;font-size: 12px;padding-top: 21px;text-align: center;}
+.yesil .tablotop > h1 {background: url(../img/hosting-name-y.png) 0px 0px no-repeat;font-size: 16px;color: #fff;padding: 29px 4px 9px 4px;  display: block;text-align: center;}
+.yesil .tablofiyat {width: 187px;background: url(../img/hosting-price-y.png) 0px 0px no-repeat;height: 86px;}
+.yesil .tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 36px;padding: 12px 30px 6px 30px;  display: block;  text-align: center;float: left;width: 126px;}
+.yesil .tablofiyat  p {color: #fff;font-size: 12px;padding-top: 21px;text-align: center;}
+.hostingozellikleri{background: url(../img/hosting-menu-bg.png) 0px 0px no-repeat;width: 213px;height: 275px;padding: 6px 12px;float: left;}
+.hostingozellikleri  ul  li {margin: 18px 0px 19px;  display: block;  padding-left: 0px;font-size: 13px;  color: #000;}
 .sayfa-bg {background: url(../img/vpsbg.png)  top center;  min-height: 1700px;position: absolute;}
+.vpshosting.trs-tab-wrapper { margin-top: -2px; }
+.vpshosting.trs-tab-wrapper .trs-tab-nav  { float: left; /* clear: both; */ background: url(../img/vps-sunucu-large-bg.png) 0px 0px;  width: 1000px; height: 206px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a { width: 220px; height: 35px; float: left; display: block; background: url(../img/ters-tab-nav.png) left 36px; color: #fff; }
+.vpshosting.trs-tab-wrapper .trs-tab-nav a span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 75px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.active {}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.left { margin-right: -36px; }
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.right { border-top-right-radius: 3px; }
+.vpshosting.trs-tab-wrapper .trs-tab-container  { float: left; clear: both; background: url(../img/vps-sunucu-small-bg.png) 0px 0px;  width: 1000px; height: 89px; margin-top: -91px;}
+.vpshosting {position: relative; z-index: 66666;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav .bi { float: left; background: url(../img/vps-sunucu-img.png) no-repeat  -9px -81px;  width: 180px; height: 68px; margin-top: -19px; margin-left: 37px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav .ii { float: left;  background: url(../img/vps-sunucu-img.png) no-repeat  -203px -60px;  width: 203px; height: 85px; margin-top: -39px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav .uc { float: left; background: url(../img/vps-sunucu-img.png) no-repeat  -411px -41px;  width: 203px; height: 107px; margin-top: -57px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav .do { float: left; background: url(../img/vps-sunucu-img.png) no-repeat  -615px -20px;  width: 203px; height: 127px; margin-top: -78px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav .be { float: left; background: url(../img/vps-sunucu-img.png) no-repeat -820px 2px;  width: 142px; height: 147px; margin-top: -100px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 75px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 95px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 114px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.do span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 135px;width: 140px;text-align: center;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.be span {font-size: 17px;float: left;vertical-align: bottom;margin-top: 160px;width: 140px;text-align: center;}
+.vpshosting .vpshostingsep {height: 5px;width: 100%;background: url(../img/vpsline.png) repeat top left;display: block;position: relative;margin-top: -95px;;float: left;z-index: 666;}
+.vpshosting .vpshostingbg {height: 5px;width: 100%;background-color: #093552;display: block;position: relative;margin-top: -95px;float: left;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 125px;  margin-left: -75px;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.ii .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 146px;  margin-left: -75px; z-index: 6666; position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.uc .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 163px; margin-left: -75px; z-index: 6666;  position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.do .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 185px; margin-left: -75px; z-index: 6666;  position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.be .aktificonu { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 27px; margin-left: 65px; z-index: 6666;  position: relative;}
+.vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificonu { float: left; background: url(../img/vps-sunucu-seek-icon.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 20px; margin-left: 65px; position: relative; z-index: 5555;}
 
 
 /*

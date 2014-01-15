@@ -52,15 +52,13 @@ Cufon.replace('' +
     '.uhshortareaelement  p,' +
     '.hostingpageelemnt h1,' +
     '.hostingpageelemnt p,' +
-    '.tablofiyat  h1,' +
-    '.tablotop h1,' +
     '.tablotop span,' +
-    '.tablomid  ul  li,' +
-    '.tablobottom  a span,' +
     '.iletisim ._row h2,' +
     '.column-left a,' +
     '.column-left ._number,' +
-    '.column-left p', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.column-left p,' +
+    '.vpshosting.trs-tab-wrapper .trs-tab-nav a span,' +
+    '.siparisadimlari .siparisbox .siparisadi', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
@@ -82,7 +80,11 @@ Cufon.replace('' +
     '.alanadlari .custom-checkbox span.text,' +
     '.uglongright  h2,' +
     '.tablofiyat  p ,' +
-    '.column-left h3', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
+    '.tablotop h1,' +
+    '.tablomid  ul  li,' +
+    '.hostingozellikleri ul li,' +
+    '.column-left h3,' +
+    '.siparisadimlari .siparisbox .siparisadim', { fontFamily: 'Roboto', hover: true, fontWeight: 400  });
 /*
 =======================================================================================
 TEKNIKDATA "face":{"font-family":"Roboto","font-weight":400,"fontStyle":"italic"
@@ -128,7 +130,9 @@ Cufon.replace('.rbtbl, ' +
     '.nedenbox .going .bold,' +
     '.uhbuying  span,' +
     '.uglongright h2 span,' +
-    '.hostingpageelemnt h1 span ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+    '.hostingpageelemnt h1 span ,' +
+    '.tablobottom  a span,' +
+    '.tablofiyat  h1,', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"
