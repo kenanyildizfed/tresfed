@@ -26,6 +26,8 @@ TD = {
                     slideWidth: 340,
                     slideMargin: 10
                 });
+
+                $('select#customSelect').selectmenu();
                 $(".trs-tab-wrapper").trsTab({ activeClass: 'active' });
 
                 $('.dmr-tab-container .dmr-tab-content').hide().eq(0).show();

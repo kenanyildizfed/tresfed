@@ -64,9 +64,10 @@ Cufon.replace('' +
     'ul.ustmenuparca li a,' +
     '.dmr-tab-nav .m span.normal,' +
     '.zatenmusteri ,' +
-    '.pkuyelikform ._rows span,' +
+    '.pkuyelikform ._rows .pkformtext,' +
     '.musteripanel .first .right-column p,' +
-    '.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text,' +
+    '.musteripanel .first .right-column p', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"

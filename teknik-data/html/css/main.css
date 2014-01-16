@@ -251,7 +251,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .alanadlari .custom-checkbox input  { position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; filter:alpha(opacity=0); }
 .alanadlari .type-2.trs-tab-wrapper .trs-tab-container p {font-size: 14px; color: #3a3f47;margin-bottom: 25px;}
 .alanadlari .table-striped tbody tr:nth-child(odd) td,.alanadlari .table-striped tbody tr:nth-child(odd) th {background-color: transparent;}
-.alanadlari .table-striped thead  tr:nth-child(odd) td,.alanadlari .table-striped thead  tr:nth-child(odd) th {background: url("../img/tablebg.png") repeat-x;border-right: 1px solid #a6a3a3;}
+.alanadlari .table-striped thead  tr  td,.alanadlari .table-striped thead  tr th {background: url("../img/tablebg.png") repeat-x;border-right: 1px solid #a6a3a3;}
 .alanadlari .table-striped thead tr th {color: #fff;font-size: 14px;}
 .alanadlari .table-striped tbody tr td {color: #50555d; font-size: 14px;border-right: 1px solid #a6a3a3;border-top: 0px !important;}
 .alanadlari .minik{font-size: 11px !important;color: #606773;}
@@ -359,6 +359,38 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .tres-customDropDown .hiddenDiv.active { height: auto; max-height: 130px; position: absolute; top: 100%; width: 100%; border: 3px solid #4c4640; /* border 3px olduğu için left: -3px */ left: -3px; }
 .tres-customDropDown .hiddenDiv ul > li { color: #717871; cursor: pointer; border-top: 1px solid #e7e2df; font: 14px/25px Arial; padding-left: 10px; width: 172px;  white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
 .tres-customDropDown .hiddenDiv ul > li:hover {  background: #8cc832; color: white; }
+.musteripanel .ui-selectmenu { float: left;width: 285px !important;height: 56px;-moz-border-radius: 4px;border: 1px solid #cccccc !important; -webkit-border-radius: 4px;border-radius: 4px;-moz-background-clip: padding;-webkit-background-clip: padding-box;background-clip: padding-box;background-color: #f5f5f5;-moz-box-shadow: inset 0 0 2px rgba(0,0,0,.75);-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.75);box-shadow: inset 0 0 2px rgba(0,0,0,.75);display:block;}
+.musteripanel .ui-selectmenu:hover{text-decoration:none;}
+.musteripanel .ui-selectmenu-icon { position: absolute; right: 16px; margin-top: -2px; top: 44%; display: block;}
+.musteripanel .ui-selectmenu-menu { padding: 0; margin: 0; position: absolute; top: 0; display: none; z-index: 1005 ; width: 275px !important;}
+.musteripanel .ui-selectmenu-menu ul { padding: 0; margin: 0; list-style: none; position: relative; overflow: auto; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch ; width: 285px !important;}
+.musteripanel .ui-selectmenu-open { display: block }
+.musteripanel ul.ui-selectmenu-menu-popup { margin-top: -1px }
+.musteripanel .ui-selectmenu-menu li { padding: 0; margin: 0; display: block; border-top: 1px dotted transparent; border-bottom: 1px dotted transparent; border-right-width: 0 !important; border-left-width: 0 !important }
+.musteripanel .ui-selectmenu-menu li a, .ui-selectmenu-status { line-height: 1.4em; display: block; padding: 6px 6px; outline: none; text-decoration: none; font-size: 10px;}
+.musteripanel .ui-selectmenu-menu li.ui-state-disabled a, .ui-state-disabled { cursor: default }
+.musteripanel .ui-selectmenu-menu li.ui-selectmenu-hasIcon a, .ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px }
+.musteripanel .ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0 }
+.musteripanel .ui-selectmenu-status { line-height: 1.4em; color: #000; font-family: 'Open Sans', sans-serif; font-size: 16px; padding-top: 15px;}
+.musteripanel .ui-selectmenu-status:hover {text-decoration:none !important}
+.musteripanel .ui-selectmenu-menu li span, .ui-selectmenu-status span { display: block; margin-bottom: .2em }
+.musteripanel .ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: bold }
+.musteripanel .ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .8 }
+.musteripanel .ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em }
+.musteripanel .ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display: block; padding: .6em .5em 0; font-weight: bold }
+.musteripanel .ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0 }
+.musteripanel * html .ui-selectmenu-menu li { border-color: pink; filter: chroma(color=pink); width: 100% }
+.musteripanel * html .ui-selectmenu-menu li a { position: relative }
+.musteripanel * + html .ui-state-disabled, * + html .ui-state-disabled a { color: silver }
+.musteripanel .ui-widget { font-family: Verdana, Arial, sans-serif; font-size: 1.1em }
+.musteripanel .ui-widget .ui-widget { font-size: 1em }
+.musteripanel .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana, Arial, sans-serif; font-size: 1em }
+.musteripanel .ui-widget-content { border: 1px solid #aaa; background: #fff 50% 50% repeat-x; color: #222 }
+.musteripanel .ui-widget-content a { color: #222 }
+.musteripanel .ui-widget-header { border: 1px solid #aaa; background: #ccc 50% 50% repeat-x; color: #222; font-weight: bold }
+.musteripanel .ui-widget-header a { color: #222 }
+.musteripanel .ui-icon { width: 16px; height: 16px; background-image: url("../img/kayitarrows.png"); background-position: 16px 16px ; background-repeat: no-repeat;}
+.musteripanel .ui-icon-triangle-1-s { background-position: 0px 0px;}
 
 /*
 =================================================================
@@ -402,7 +434,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 =================================================================
 */
 .pageheader {width: 1000px;margin: 0 auto;height: 113px;}
-.pageheader .pagetitle {font-size: 37px;color: #1477ba;float: left;}
+.pageheader .pagetitle {font-size: 37px;color: #1477ba;float: left}
 .pageheader .pagetitle .bold {}
 .pageheader .pagetitle .normal {}
 .pageheader .pageicon {float: right;}
@@ -465,7 +497,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .yesil .tablofiyat {width: 187px;background: url(../img/hosting-price-y.png) 0px 0px no-repeat;height: 86px;}
 .yesil .tablofiyat  h1 {font-size: 35px;color: #fff;  font-size: 36px;padding: 12px 30px 6px 30px;  display: block;  text-align: center;float: left;width: 126px;}
 .yesil .tablofiyat  p {color: #fff;font-size: 12px;padding-top: 21px;text-align: center;}
-.hostingozellikleri{background: url(../img/hosting-menu-bg.png) 0px 0px no-repeat;width: 213px;height: 275px;padding: 6px 12px;float: left;}
+.hostingozellikleri{background: url(../img/hosting-menu-bg.png) 0px 0px no-repeat;width: 213px;height: 275px;padding: 6px 12px;float: left;position: relative;}
 .hostingozellikleri  ul  li {margin: 18px 0px 19px;  display: block;  padding-left: 0px;font-size: 13px;  color: #000;}
 .sayfa-bg {background: url(../img/vpsbg.png)  top center;  min-height: 1700px;position: absolute;}
 .vpshosting.trs-tab-wrapper { margin-top: -2px; }
