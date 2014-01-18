@@ -8,7 +8,7 @@ PF = {
 
         init: function(){
             PF.General.FormValidator.init();
-console.log('a');
+
             // Placeholder this is IE 7 and higher
             $('input, textarea').placeholder();
         },
