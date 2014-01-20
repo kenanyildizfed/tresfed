@@ -51,13 +51,14 @@ table {border-collapse: collapse;border-spacing: 0;}
 =================================================================
 */
 .header {width: 100%;height: 191px;}
-.header .line, .cbp-fwslider .line {height: 3px;width: 100%;background: url(../img/headerAltCizgiMavi.png) repeat top left;display: block;position: relative;z-index: 555;}
+.header .line, .sl-slider-wrapper .line {height: 3px;width: 100%;background: url(../img/headerAltCizgiMavi.png) repeat top left;display: block;position: relative;z-index: 555;}
 .headerbg .line {height: 3px;width: 100%;background: url(../img/headergribg.png) repeat top left;display: block;position: relative;/*  z-index: 555; */}
 .header-inner {width: 1000px;margin: 0 auto;z-index: 35;position: relative;}
 .header-top {width: 1000px;float: left;}
 .header-top .logo {float: left;margin: 22px 0 26px 0px;}
 .header-top .headerbutton {width: auto;height: auto;float: right;margin: 21px 0px 0 0;}
 .header-top .headerbuttonimg {width: 191px;height: 51px;float: left;margin: 0 8px 0 0;background: url(../img/headerbutton.png) no-repeat top left;text-decoration: none;color: #fff;}
+.header-top .headerbuttonimg:hover {width: 191px;height: 51px;float: left;margin: 0 8px 0 0;background: url(../img/headerbuttonhover.png) no-repeat top left;text-decoration: none;color: #fff;}
 .header-top .headerbuttontext {margin-top: 15px;display: block;}
 .header-top .sepet-icon {width: 18px;height: 16px;background: url(../img/sepet-icon.png);display: block;float: left;margin: 17px 22px;}
 .header-top .motto {float: left;margin: 28px 0 26px 14px;color: #42667c;}
@@ -105,20 +106,23 @@ ul#akampanya1 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 ul#akampanya2 {list-style-type: none;margin: 0 0 0 2px;padding: 3px 0 0 0;background: url(../img/kam.png) repeat;float: left;width: 75px;height: 84px;}
 ul#akampanya2 li {display: block;margin: 3px 10px;padding: 0;}
 ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;padding: 0;text-align: center;}
-.cbp-fwslider {position: relative;margin: 0 0 10px;overflow: hidden;padding: 0px 0 60px;top: -188px;}
-.cbp-fwslider ul {margin: 0;padding: 0;white-space: nowrap;list-style-type: none;}
-.cbp-fwslider ul li {transform: translateZ(0);float: left;display: block;margin: 0;padding: 0;}
-.cbp-fwslider ul li > a,
-.cbp-fwslider ul li > div {display: block;text-align: center;outline: none;}
-.cbp-fwslider ul li > a img {border: none;display: block;margin: 0 auto;max-width: 100%;}
-.cbp-fwslider nav span {position: absolute;top: 50%;width: 50px;height: 100px;background: #47a3da;color: #fff;font-size: 50px;text-align: center;margin-top: -50px;line-height: 100px;display: none;cursor: pointer;font-weight: normal;}
-.cbp-fwslider nav span:hover {background: #378fc3;}
-.cbp-fwslider nav span.cbp-fwnext {right: 0px;}
-.cbp-fwslider nav span.cbp-fwprev {left: 0px;}
-.cbp-fwdots {position: absolute;bottom: 0px;white-space: nowrap;text-align: center;width: 100%;display: none;}
-.cbp-fwdots span {display: inline-block;width: 18px;height: 18px;background: #ddd;margin: 4px;border-radius: 50%;cursor: pointer;}
-.cbp-fwdots span:hover {background: #999;}
-.cbp-fwdots span.cbp-fwcurrent {background: #47a3da;box-shadow: 0 0 0 2px #47a3da;transition: box-shadow 0.2s ease-in-out;}
+.sl-slider-wrapper {width: 100%;height: 582px;overflow: hidden;position: relative;top: -188px;}
+.sl-slider {height: 579px !important;}
+.sl-slider h2,.sl-slider blockquote {padding: 100px 30px 10px 30px;width: 80%;max-width: 960px;color: #fff;margin: 0 auto;position: relative;z-index: 100;}
+.sl-slider h2 {font-size: 100px;text-shadow: 0 -1px 0 rgba(0,0,0,0.2);}
+.sl-slider blockquote {font-size: 28px;padding-top: 10px;font-weight: 300;text-shadow: 0 -1px 0 rgba(0,0,0,0.2);}
+.sl-slider blockquote cite {font-size: 16px;font-weight: 700;font-style: normal;text-transform: uppercase;letter-spacing: 5px;padding-top: 30px;display: inline-block;}
+.bg-img {padding: 200px;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;position: absolute;top: -200px;left: -200px;width: 100%;height: 100%;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;background-position: center center;}
+.nav-arrows span {position: absolute;z-index: 2000;top: 50%;width: 40px;height: 40px;border: 8px solid #ddd;border: 8px solid rgba(150,150,150,0.4);text-indent: -90000px;margin-top: -40px;cursor: pointer;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+.nav-arrows span:hover {border-color: rgba(150,150,150,0.9);}
+.nav-arrows span.nav-arrow-prev {left: 5%;border-right: none;border-top: none;}
+.nav-arrows span.nav-arrow-next {right: 5%;border-left: none;border-bottom: none;}
+.nav-dots {text-align: center;position: absolute;bottom: 2%;height: 30px;width: 100%;left: 0;z-index: 1000;}
+.nav-dots span {display: inline-block;position: relative;width: 16px;height: 16px;border-radius: 50%;margin: 3px;background: #ddd;background: rgba(150,150,150,0.4);cursor: pointer;box-shadow:0 1px 1px rgba(255,255,255,0.4),inset 0 1px 1px rgba(0,0,0,0.1);}
+.nav-dots span {background: rgba(150,150,150,0.1);margin: 6px;-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-ms-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;box-shadow:0 1px 1px rgba(255,255,255,0.4),inset 0 1px 1px rgba(0,0,0,0.1),0 0 0 2px rgba(255,255,255,0.5);}
+.nav-dots span.nav-dot-current,.nav-dots span:hover {box-shadow:0 1px 1px rgba(255,255,255,0.4),inset 0 1px 1px rgba(0,0,0,0.1),0 0 0 5px rgba(255,255,255,0.5);}
+.nav-dots span.nav-dot-current:after {content: "";position: absolute;width: 10px;height: 10px;top: 3px;left: 3px;border-radius: 50%;background: rgba(255,255,255,0.8);}
+
 /****/
 .headerbg {position: relative;margin: 0 0 10px;overflow: hidden;top: -188px;}
 .headerbg ul {height: 450px;}
@@ -136,8 +140,8 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 #footer .site-link-inner { width: 800px; float: left }
 #footer .footer-site-link .site-link-inner ul { float: left; margin-right: 55px; text-align: left; }
 #footer .footer-site-link .site-link-inner ul li h2 { margin-bottom: 15px; font-size: 16px; color: #ffffff;    padding-left: 14px; background: url(../img/site-link-arrows.png) left 5px no-repeat; }
-#footer .footer-site-link .site-link-inner ul li a { margin-bottom: 12px; display: block; padding-left: 10px;    background: url(../img/site-link-arrows.png) left -25px no-repeat; font-size: 16px; color: #f7f7f7;    transition: all 0.1s ease-in-out; /*dfgfdertert*/    -o-transition: all 0.1s ease-in-out;    -ms-transition: all 0.1s ease-in-out;    -moz-transition: all 0.1s ease-in-out;    -webkit-transition: all 0.1s ease-in-out;}
-#footer .footer-site-link .site-link-inner ul li a:hover { color: #eee; }
+#footer .footer-site-link .site-link-inner ul li a { margin-bottom: 12px; display: block; padding-left: 10px;    background: url(../img/site-link-arrows.png) left -25px no-repeat; font-size: 16px; color: #f7f7f7;   }
+#footer .footer-site-link .site-link-inner ul li a:hover { color: #1473b7; }
 #footer .contact-area { float: left; margin-left: 9px; width: 191px; }
 #footer .contact-area span.line { display: block; width: 100%; height: 7px; background: url(../img/social-top.png); margin-bottom: 12px; }
 #footer .contact-area p {color: white; text-align: center; font-size: 16px; position: relative; }
@@ -148,11 +152,25 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 #footer .contact-area .socials-btn a { display: block; float: left; width: 76px; margin-left: 13px; height: 57px; background: url(../img/social-buttons.png) }
 #footer .contact-area .socials-btn a.fb { background-position: left top; }
 #footer .contact-area .socials-btn a.tw { background-position: right top; }
+#footer .contact-area .socials-btn a:hover { display: block; float: left; width: 76px; margin-left: 13px; height: 57px; background: url(../img/social-buttonshover.png) }
+#footer .contact-area .socials-btn a.fb { background-position: left top; }
+#footer .contact-area .socials-btn a.tw { background-position: right top; }
 #footer .footer-bar { width: 100%; background: url(../img/footer-bar-bg.jpg); padding: 10px 0 9px 0;}
 #footer .footer-bar .inner { width: 1000px; margin: 0 auto; }
 #footer .footer-bar p { width: 50%; color: white; font-size: 15px; line-height: 35px; }
 #footer .footer-bar p b { color: white; font-size: 15px; }
 #footer .footer-bar span.icon { display: block; width: 44px; height: 35px; background: url(../img/bottom-icon.png); }
+.tipr_content{font: 13px/1.7 'Helvetica Neue', Helvetica, Arial, sans-serif;color: #333;background-color: #188cc7;color: #fff;padding: 9px 17px;}
+.tipr_container_bottom{display: none;position: absolute;margin-top: -77px;z-index: 1000;}
+.tipr_container_top{display: none;position: absolute;margin-top: -75px;z-index: 1000;}
+.tipr_point_top, .tipr_point_bottom{position: relative;background: #188cc7;border: 1px solid #188cc7;}
+.tipr_point_top:after, .tipr_point_top:before{position: absolute;pointer-events: none;border: solid transparent;top: 100%;content: "";height: 0;width: 0;}
+.tipr_point_top:after{border-top-color: #fff;border-width: 8px;left: 50%;margin-left: -8px;}
+.tipr_point_top:before{border-top-color: #dcdcdc;border-width: 9px;left: 50%;margin-left: -9px;}
+.tipr_point_bottom:after, .tipr_point_bottom:before{position: absolute;pointer-events: none;border: solid transparent;bottom: 100%;content: "";height: 0;width: 0;}
+.tipr_point_bottom:after{border-top-color: #188cc7;border-width: 8px;left: 50%;margin-left: -8px;margin-bottom: -58px;}
+.tipr_point_bottom:before{border-top-color: #188cc7;border-width: 9px;left: 50%;margin-left: -9px;margin-bottom: -59px;}
+
 /*
 =================================================================
 (#m05inx) İndex Element
@@ -194,7 +212,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .mainortasag .ortasagmid {background: url("../img/right-box-mid-bg.png");height: 159px;}
 .mainortasag .ortasagmid  img {display: block;margin: 0 auto;padding-top: 4px;}
 .mainortasag .ortasagmid  p {font-size: 18px;color: #fff;text-align: center;display: block;}
-.mainortasag .ortasagbottom {background: url("../img/right-box-bottom-bg.png");font-size: 16px;color: #fff;text-align: center;display: block;padding: 23px 0px;}
+.mainortasag .ortasagbottom {background: url("../img/right-box-bottom-bg.png");font-size: 16px;color: #fff;text-align: center;display: block;padding: 22px 0px;}
 .mainortasag .ortasagbottom  span {}
 .mainortasag .ortasagbottom  span  strong {}
 .titleseperator {padding: 40px 0px 0px 0px;text-align: center;}
@@ -220,11 +238,11 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 (#m06dmn) Domain Page
 =================================================================
 */
-.alanadlari .domainsorgulamabig {width: 986px;margin: 0 auto;display: block;background: url(../img/alanadibg.png);height: 55px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;padding: 7px;position: relative;z-index: 666;}
+.alanadlari .domainsorgulamabig {width: 984px;margin: 0 auto;display: block;background: url(../img/alanadibg.png);height: 69px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;padding: 7px 9PX;position: relative;z-index: 666;}
 .alanadlari .domainnamebig {float: left;width: 997px;}
-.alanadlari .domainnamebig span {-moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);color: #5a758b;font-size: 21px;display: block;float: left;padding: 0 48px 0px 11px;height: 54px;line-height: 54px;background-color: #e2e2e2;-webkit-border-top-left-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-bottomleft: 3px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
-.alanadlari .domainnamebig input.domaintext {width: 675px;padding: 24px 11px 12px 11px;background-color: #fff;margin: 0px;border-radius: 0px;height: 18px;border: none;float: left;font-size: 24px;}
-.alanadlari .domainnamebig input.domainbutton {width: 167px;height: 54px;margin: 0px;border-radius: 0px;font-size: 23px;float: left;-webkit-border-top-right-radius: 3px;-webkit-border-bottom-right-radius: 3px;-moz-border-radius-topright: 3px;-moz-border-radius-bottomright: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;background: url(../img/sorgula-bg.png);color: white;}
+.alanadlari .domainnamebig span.domainwww {-moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);box-shadow: inset 0 0 100px rgba(0, 0, 0, .16);color: #5a758b;font-size: 21px;display: block;float: left;padding: 7px 38px 0px 22px;height: 63px;line-height: 54px;background-color: #e2e2e2;-webkit-border-top-left-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-bottomleft: 3px;border-top-left-radius: 3px;border-bottom-left-radius: 3px;background: url(../img/alanadiwww.png);}
+.alanadlari .domainnamebig input.domaintext {width: 665px;padding: 30px 11px 22px 11px;background-color: #fff;margin: 0px;border-radius: 0px;height: 18px;border: none;float: left;font-size: 24px;}
+.alanadlari .domainnamebig .domainbutton {width: 130px;height: 22px;margin: 0px;border-radius: 0px;padding: 24px;font-size: 23px;float: left;-webkit-border-top-right-radius: 3px;-webkit-border-bottom-right-radius: 3px;-moz-border-radius-topright: 3px;-moz-border-radius-bottomright: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;background: url(../img/sorgula-bg.png);color: white;}
 .alanadlari .domainuzantilar {background: url(../img/headeruzanti.png);height: 127px;width: 996px;margin-top: 11px;margin-bottom: 70px;padding-top: 7px;padding-left: 5px;}
 .alanadlari .domainuzantilar ._rows{float:left;width: 559px;}
 .alanadlari .type-2.trs-tab-wrapper {  margin-top: -46px; }
@@ -287,6 +305,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .aboutpage .menumiddle > ul {padding-top: 27px;}
 .aboutpage .menumiddle > ul > li {background: url(../img/site-link-arrows.png) left -25px no-repeat;}
 .aboutpage .menumiddle > ul > li a{color:#fff;}
+.aboutpage .menumiddle > ul > li a:hover{color: #1473b7;}
 .aboutpage .who .menumiddle > ul > li,.transmenu .menumiddle > ul > li {background: url(../img/hakkimizda-check-icon.png) left 5px no-repeat;padding-left: 25px;color: #fff;}
 .aboutpage .pagedetailul {width: 60%; display: inline-table;}
 /*
@@ -406,6 +425,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .uglongright {float: right;width: 283px;}
 .uglongright  h2 {font-size: 17px;padding: 24px 14px 12px;color: #fff;}
 .uhbuying {width: 256px;  margin-left: 13px;  margin: 6px 0px;height: 59px;background: url(../img/u-h-buy-button.png);display: block;color: #fff;margin-left: 14px;}
+.uhbuying:hover {width: 256px;  margin-left: 13px;  margin: 6px 0px;height: 59px;background: url(../img/u-h-buy-button.png);display: block;color: #fff;margin-left: 14px;}
 .uhbuying  span {padding: 23px 0px 10px 80px;display: block;}
 .uhshortareaelement {width: 491px; height: 133px;background: url(../img/u-h-short-bg.png); float: left; margin: 8px 18px 8px 0px;}
 .uhshortareaelement  h1 { color: #fff;font-size: 23px;float: left; padding-top: 13px;  padding-left: 25px;}
@@ -454,11 +474,13 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .column-left p {padding: 20px 0px 0px 0; font-size: 13px;display: block;margin-bottom: 5px}
 .column-left ._number{font-size: 13px; display: block; padding-top:15px}
 .column-left a {padding: 0px 0px 0px 0; font-size: 13px;display: block;line-height: 17px;}
+.column-left a:hover {color: #1473b7; }
 .iletisim .error-input input ,.iletisim .error-input textarea { border: 1px solid red !important; }
 .iletisim ._row2 .column-right{width: 50%; float: right}
 .__row input{ width: 209px; height: 8px;padding: 15px 0px 15px 19px; float: left;border: 1px solid #e0e0e0; border-radius: 4px;background-color: #f5f5f5;margin:8px 8px 0px 0px }
 .__row textarea{ width: 448px; height: 100px;padding: 15px 0px 15px 19px; float: left;border: 1px solid #e0e0e0; border-radius: 4px;background-color: #f5f5f5;margin:8px 8px 0px 0px }
 .__row input#mesagesubmitBtn{ width:112px;height:36px;background: url("../img/iletisim-send-button.png"); border: 0; outline: none; float: right; margin-right: 19px;font-size: 13px;color: white;font-weight: bold; padding: 5px;}
+.__row input#mesagesubmitBtn:hover{ width:112px;height:36px;background: url("../img/iletisim-send-button.png"); border: 0; outline: none; float: right; margin-right: 19px;font-size: 13px;color: white;font-weight: bold; padding: 5px;}
 .__row { clear:both; float:left; width: 100%; margin-bottom: 10px }
 
 /*
@@ -480,6 +502,7 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .tablomid  ul  li {margin: 18px 0px 19px;  display: block;  padding-left: 0px;font-size: 13px;  color: #f7f7f7;}
 .tablobottom {}
 .tablobottom  a {color: #fff;font-size: 21px;width: 186px;background: url(../img/hosting-buy-button2.png) -24px 0px no-repeat;height: 122px;display: block;}
+.tablobottom  a:hover {color: #fff;font-size: 21px;width: 186px;background: url(../img/hosting-buy-button2.png) -24px 0px no-repeat;height: 122px;display: block;}
 .tablobottom  a  span {float: left;width: 186px;text-align: center;padding-top: 22px;font-size: 20px;}
 .mavi .tablotop > h1 {background: url(../img/hosting-name-m.png) 0px 0px no-repeat;font-size: 16px;color: #fff;padding: 29px 4px 9px 4px;  display: block;text-align: center;}
 .mavi .tablofiyat {width: 187px;background: url(../img/hosting-price-m.png) 0px 0px no-repeat;height: 86px;}
@@ -535,9 +558,8 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .vpshosting .vpsdetay .boxfive > span {    font-size: 14px;}
 .vpshosting .vpsdetay .boxsix {    padding: 16px 4px  24px 75px;}
 .vpshosting .vpsdetay .boxsix a {font-size: 18px; color: #fff;background: url(../img/vps-buy-button.png) no-repeat 0px 0px;  width: 176px;height: 59px;display: block;}
+.vpshosting .vpsdetay .boxsix a:hover {font-size: 18px; color: #fff;background: url(../img/vps-buy-button.png) no-repeat 0px 0px;  width: 176px;height: 59px;display: block;}
 .vpshosting .vpsdetay .boxsix span {padding: 19px 4px 0px 60px;display: block;}
-
-
 
 /*
 =================================================================

@@ -145,7 +145,7 @@ Cufon.replace('.rbtbl, ' +
     '.hostingpageelemnt h1 span ,' +
     '.tablobottom  a span,' +
     '.tablofiyat  h1,' +
-    '.vpsdetay .boxsix span ,', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+    '.vpsdetay .boxsix span ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"

@@ -19,8 +19,7 @@
     <link type="text/css" href="css/whmcs.css" rel="stylesheet">
     <link type="text/css" href="css/jquery.bxslider.css" rel="stylesheet">
     <link type="text/css" href="css/main.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery110.js"></script>
     <script type="text/javascript" src="js/whmcs.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufonelements.js"></script>
@@ -30,7 +29,14 @@
     <script type="text/javascript" src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/tresfed-tab.js"></script>
     <script type="text/javascript" src="js/form-validator.js"></script>
-    <script type="text/javascript" src="js/jquery.cbpFWSlider.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.selectmenu.js"></script>
+    <script type="text/javascript" src="js/tipr.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body class="alanadlari bodybg">
@@ -118,7 +124,7 @@
                 </li>
                 <li>
                     <a href="#" class="megamenu_drop">KURUMSAL</a>
-                    <div class="dropdown_fullwidth">
+                    <div class="dropdown_fullwidth" style="left:-126px;">
                         <div class="ustmenuparcag">
                             <ul class="ustmenuparca">
                                 <li><a href="#">Paylaşımlı Hosting</a></li>
@@ -133,20 +139,19 @@
     </div>
 </div>
             <div style="position:relative">
-                <div class="headerbg">
+                <div class="headerbg" style="background: url('img/1slider.png') no-repeat top center;">
                     <ul class="cf">
-                        <li><img src="img/1slider.png" alt="img01"/></li>
                     </ul>
                     <span class="line"></span>
                 </div>
             </div>
-            <div id="contanier" style="top: -244px;position: relative;">
+            <div id="contanier" style="top: -244px;position: relative;margin-bottom: -224px;">
                 <div class="domainsorgulamabig">
                     <div class="domainnamebig">
-                        <span>WWW.</span>
-                        <form action="" class="cf">
+                        <span class="domainwww">WWW.</span>
+                        <form action="" class="cf" name="domainsorgulama">
                             <input type="text" placeholder="fetihakdogan.com" class="domaintext">
-                            <input type="submit" value="SORGULA" class="domainbutton">
+                            <span class="sorgulama domainbutton"  onclick="document.domainsorgulama.submit();">SORGULA</span>
                         </form>
                     </div>
                 </div>
@@ -154,83 +159,83 @@
                     <div class="domainuzantilar">
                         <div class="uzantilar">
                             <div class="_rows">
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck1">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck1" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck2">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck2" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck3">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck3" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck4">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck4" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck5">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
-                                    <span class="text">.com</span>
-                                </label>
-                            </div>
-                            <div class="_rows">
-                                <label  class="custom-checkbox fl" for="passCheck">
-                                    <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
-                                    <span class="text">.com</span>
-                                </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
-                                    <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
-                                    <span class="text">.com</span>
-                                </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
-                                    <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
-                                    <span class="text">.com</span>
-                                </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
-                                    <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
-                                    <span class="text">.com</span>
-                                </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
-                                    <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck5" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
                             </div>
                             <div class="_rows">
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck6">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck6" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck7">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck7" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck8">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck8" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck9">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck9" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
-                                <label  class="custom-checkbox fl" for="passCheck">
+                                <label  class="custom-checkbox fl" for="passCheck10">
                                     <span class="ck"></span>
-                                    <input id="passCheck" class="req-checked" type="checkbox" name="" value="0" />
+                                    <input id="passCheck10" class="req-checked" type="checkbox" name="" value="0" />
+                                    <span class="text">.com</span>
+                                </label>
+                            </div>
+                            <div class="_rows">
+                                <label  class="custom-checkbox fl" for="passCheck11">
+                                    <span class="ck"></span>
+                                    <input id="passCheck11" class="req-checked" type="checkbox" name="" value="0" />
+                                    <span class="text">.com</span>
+                                </label>
+                                <label  class="custom-checkbox fl" for="passCheck12">
+                                    <span class="ck"></span>
+                                    <input id="passCheck12" class="req-checked" type="checkbox" name="" value="0" />
+                                    <span class="text">.com</span>
+                                </label>
+                                <label  class="custom-checkbox fl" for="passCheck13">
+                                    <span class="ck"></span>
+                                    <input id="passCheck13" class="req-checked" type="checkbox" name="" value="0" />
+                                    <span class="text">.com</span>
+                                </label>
+                                <label  class="custom-checkbox fl" for="passCheck14">
+                                    <span class="ck"></span>
+                                    <input id="passCheck14" class="req-checked" type="checkbox" name="" value="0" />
+                                    <span class="text">.com</span>
+                                </label>
+                                <label  class="custom-checkbox fl" for="passCheck15">
+                                    <span class="ck"></span>
+                                    <input id="passCheck15" class="req-checked" type="checkbox" name="" value="0" />
                                     <span class="text">.com</span>
                                 </label>
                             </div>
@@ -257,7 +262,7 @@
                     </div>
                 </div>
                 <div class="pagedetailelement  rounded cf"">
-                    <div class="trs-tab-wrapper type-2" data-mode="fade">
+                    <div class="trs-tab-wrapper type-2" data-mode="slide">
                         <div class="trs-tab-nav">
                             <a class="t left z1" data-index="1" href="#"><span>ALAN ADI FİYATLARI</span></a>
                             <a class="t left z2" data-index="2" href="#"><span>BİLİNMESİ GEREKENLER</span></a>
@@ -383,7 +388,7 @@
                 <div class="footer-bar cf">
                     <div class="inner cf">
                         <p class="fl">Copyright &#169; 2013 - <b>TeknikDATA</b></p>
-                        <span class="fr icon"></span>
+                          <span class="fr icon low tip"  data-tip="Design By WHMCSX"></span>
                     </div>
                 </div>
             </div>

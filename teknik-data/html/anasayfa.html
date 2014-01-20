@@ -7,7 +7,7 @@
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
 <html>
-<!--<![endif]-->asfasdf
+<!--<![endif]-->
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <title>TEKNİK DATA</title>
@@ -19,8 +19,7 @@
     <link type="text/css" href="css/whmcs.css" rel="stylesheet">
     <link type="text/css" href="css/jquery.bxslider.css" rel="stylesheet">
     <link type="text/css" href="css/main.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery110.js"></script>
     <script type="text/javascript" src="js/whmcs.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufonelements.js"></script>
@@ -30,7 +29,14 @@
     <script type="text/javascript" src="js/jquery.bxslider.js"></script>
     <script type="text/javascript" src="js/tresfed-tab.js"></script>
     <script type="text/javascript" src="js/form-validator.js"></script>
-    <script type="text/javascript" src="js/jquery.cbpFWSlider.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.selectmenu.js"></script>
+    <script type="text/javascript" src="js/tipr.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body class="iletisim bodybg">
@@ -118,7 +124,7 @@
                 </li>
                 <li>
                     <a href="#" class="megamenu_drop">KURUMSAL</a>
-                    <div class="dropdown_fullwidth">
+                    <div class="dropdown_fullwidth" style="left:-126px;">
                         <div class="ustmenuparcag">
                             <ul class="ustmenuparca">
                                 <li><a href="#">Paylaşımlı Hosting</a></li>
@@ -131,20 +137,41 @@
             </ul>
         </div>
     </div>
-</div>
-<div style="position:relative">
-    <div id="cbp-fwslider" class="cbp-fwslider">
-        <ul class="cf">
-            <li><a href="#"><img src="img/1slider.png" alt="img01"/></a></li>
-            <li><a href="#"><img src="img/1slider.png" alt="img02"/></a></li>
-            <li><a href="#"><img src="img/1slider.png" alt="img03"/></a></li>
-            <li><a href="#"><img src="img/1slider.png" alt="img04"/></a></li>
-            <li><a href="#"><img src="img/1slider.png" alt="img05"/></a></li>
-        </ul>
-        <span class="line"></span>
-    </div>
-</div>
-<div id="contanier" class="cf" style="top: -260px;position: relative;   ">
+</div>            <div id="slider" class="sl-slider-wrapper">
+
+    <div class="sl-slider">
+
+        <div class="sl-slide">
+            <img src="img/1slider.png" alt="img01">
+        </div>
+
+        <div class="sl-slide">
+            <img src="img/2slider.png" alt="img01">
+        </div>
+
+        <div class="sl-slide">
+            <img src="img/1slider.png" alt="img01">
+        </div>
+
+        <div class="sl-slide">
+            <img src="img/2slider.png" alt="img01">
+        </div>
+
+        <div class="sl-slide">
+            <img src="img/1slider.png" alt="img01">
+        </div>
+    </div><!-- /sl-slider -->
+
+    <nav id="nav-dots" class="nav-dots">
+        <span class="nav-dot-current"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </nav>
+    <span class="line"></span>
+</div><!-- /slider-wrapper -->
+<div id="contanier" class="cf" style="top: -188px;position: relative;margin-bottom: -140px;   ">
     <div class="domainsorgulama">
         <div class="domainname">
             <span>WWW.</span>
@@ -355,7 +382,7 @@
     <div class="footer-bar cf">
         <div class="inner cf">
             <p class="fl">Copyright &#169; 2013 - <b>TeknikDATA</b></p>
-            <span class="fr icon"></span>
+            <span class="fr icon low tip"  data-tip="Design By WHMCSX"></span>
         </div>
     </div>
 </div>
