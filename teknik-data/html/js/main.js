@@ -12,10 +12,7 @@ TD = {
         },
         GenelElement: {
             init: function(){
-                ///Full Width Slider
-
-
-
+                ///Full Width Slides
                 $('.mutlumusterilerslider').bxSlider({
                     minSlides: 5,
                     maxSlides: 5,
@@ -28,10 +25,8 @@ TD = {
                     slideWidth: 340,
                     slideMargin: 10
                 });
-
                 $('select#customSelect').selectmenu();
                 $(".trs-tab-wrapper").trsTab({ activeClass: 'active' });
-
                 $('.dmr-tab-container .dmr-tab-content').hide().eq(0).show();
                 $('.dmr-tab-nav .m').click(function(){
                     num = $('.dmr-tab-nav .m').index(this);
@@ -40,7 +35,6 @@ TD = {
                     $('.da-slider').stop( false, true ) ;
                     $(".dmr-tab-nav .m").eq(num).addClass("active" );
                 });
-
                 $('.vpshosting .trs-tab-nav .t').click(function(){
                     $('.vpshosting .trs-tab-nav .t span').removeClass('normalicon');
                     $('.vpshosting .trs-tab-nav .t').removeClass('thisokey');
@@ -49,7 +43,6 @@ TD = {
                     $(this).prevAll().addClass('thisokey');
                     item.addClass("aktificon")
                 });
-
                 $('.vpshosting.trs-tab-wrapper .trs-tab-nav a.bi').click(function(){
                     $('.vpshostingsep').animate({
                         width: "125"
@@ -75,8 +68,6 @@ TD = {
                         width: "1000"
                     })
                 });
-
-
                 $('.tip').tipr();
             }
         },

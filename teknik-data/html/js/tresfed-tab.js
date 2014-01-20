@@ -70,10 +70,8 @@
 
         if ( !mode ) {
             th.parent('.trs-tab-nav').siblings('.trs-tab-container').find('.trs-tab-content').hide();
-            th.parent('.trs-tab-nav').siblings('.trs-tab-container').find('.trs-tab-content[data-index='+indis+']').show();
-        } else if ( mode == 'fade' ) {
-            th.parent('.trs-tab-nav').siblings('.trs-tab-container').find('.trs-tab-content').hide();
             th.parent('.trs-tab-nav').siblings('.trs-tab-container').find('.trs-tab-content[data-index='+indis+']').fadeIn();
+        } else if ( mode == 'fade' ) {
         } else if ( mode == 'slide' ) {
             th.parent('.trs-tab-nav').siblings('.trs-tab-container').find('.trs-tab-content').slideUp();
             th.parent('.trs-tab-nav').siblings('.trs-tab-container').find('.trs-tab-content[data-index='+indis+']').slideDown();
