@@ -571,18 +571,72 @@ ul.ui-selectmenu-menu-popup { margin-top: -1px }
 (#m10byp) Buying Page
 =================================================================
 */
-.sipariselemet{width: 1000px;margin: 0 auto;}
-.siparisadimlari{margin-top: -85px;float: left;}
-.siparisadimlari .siparisbox{float: left;width: 195px;}
-.siparisadimlari .siparisbox .siparisadi{background: url("../img/siparis-box.png") no-repeat 0px 0px;display: block;width: 181px;height: 40px; display: none;padding: 19px 30px 5px;font-size: 18px;  color: #fff;margin-left: -25px;  margin-top: -25px;}
-.siparisadimlari .aktif .siparisadi{background: url("../img/siparis-box.png") no-repeat 0px 0px;display: block;width: 181px;height: 40px;display: block;padding: 19px 30px 5px;font-size: 18px;  color: #fff;margin: 0 auto;margin-left: -25px;margin-top: -25px;}
-.siparisadimlari .siparisbox .siparisadim{font-size: 18px;color: #fff;background: url("../img/siparisback.png") no-repeat 0px 0px;padding: 8px;height: 23px;display: block;  margin: 0 auto;  text-align: center;  width: 21px;z-index: 77777;position: relative;margin-top: 64px;}
-.siparisadimlari .aktif .siparisadim{font-size: 18px;color: #fff;background: url("../img/siparisaktifback.png") no-repeat 0px 0px;padding: 8px;height: 23px;display: block;margin: 0 auto;text-align: center;width: 21px;margin-top: 25px;}
-.siparisadimlari .siparisbox .siparisicon{background: url("../img/sepet-icon.png") no-repeat 0px 0px;width: 18px;height: 18px;display: none;float: left;margin: -5px 27px 21px -2px;}
-.siparisadimlari .aktif .siparisicon{background: url("../img/sepet-icon.png") no-repeat 0px 0px;width: 18px;height: 18px;display: block;float: left;margin: -5px 27px 21px -2px;}
-.sipariselemet .vpshostingsep {height: 3px;width: 100%;background: url(../img/vpsline.png) repeat top left;display: block;position: relative;margin-top: -21px;;float: left;z-index: 666;}
-.tamamlandi  .siparisicon, .tamamlandi  .siparisadi {display: none !important;}
-.siparisadimlari .tamamlandi .siparisadim{font-size: 18px;color: #fff;background: url("../img/siparisaktifback.png") no-repeat 0px 0px;padding: 8px;height: 23px;display: block;  margin: 0 auto;  text-align: center;  width: 21px;z-index: 77777;position: relative;margin-top: 64px;}
+.bankahesap{
+background: url('../img/bankabg.png') no-repeat 0px 0px;
+width: 466px;
+height: 211px;
+float: left;
+margin-bottom: 25px;
+margin-right: 25px;
+}
+.bankahesap .bankatop{
+padding: 10px;
+}
+.bankahesap .bankatop h1{
+color: #2d3a46;    font-size: 21px;
+float: left;
+}
+.bankahesap .bankatop span{}
+.bankahesap .bankamid{}
+.bankahesap .bankamid .bankarow{
+float: left;
+width: 100%;
+padding: 5px 0px 5px 16px;
+}
+.bankahesap .bankamid .bankarow span{
+color: #2d3a46;    font-size: 15px;
+float: left;
+width: 130px;
+}
+.bankahesap .bankamid .bankarow p{
+color: #2d3a46;    font-size: 15px;
+float: left;
+padding: 0px 0px 0px 10px;
+}
+.garanti .bankaicon {
+background: url('../img/fiberspr.png') no-repeat 0px -70px;
+width: 120px;
+height: 50px;
+display: block;
+float: right;
+}
+.vakifbank .bankaicon {
+background: url('../img/fiberspr.png') no-repeat 0px 1px;  width: 120px;  height: 50px;  display: block;  float: right;
+}
+.isbankasi .bankaicon {
+background: url('../img/fiberspr.png') no-repeat 0px -132px;  width: 120px;  height: 50px;  display: block;  float: right;
+}
+.denizbank .bankaicon {
+background: url('../img/fiberspr.png') no-repeat 0px -182px;  width: 120px;  height: 50px;  display: block;  float: right;
+}
+.garanti .cizgi {
+background: url('../img/bankacizgi.png') no-repeat 0px 0px;
+width: 465px;
+height: 4px;  display: block;  float: right;
+margin-top: 11px;
+}
+.vakifbank .cizgi {
+background: url('../img/bankacizgi.png') no-repeat 0px -40px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;
+}
+.isbankasi .cizgi {
+background: url('../img/bankacizgi.png') no-repeat 0px -80px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;
+}
+.denizbank .cizgi {
+background: url('../img/bankacizgi.png') no-repeat 0px -120px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;
+}
+
+
+
 /*
 =================================================================
 (#m11dtp) Detail Page
@@ -643,7 +697,7 @@ float: left;
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.z2 { z-index:4; }
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.z3 {  z-index:3; }
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.right { border-top-right-radius: 3px; }
-.type-3 .dmr-tab-wrappers .dmr-tab-container { float: left; clear: both; padding: 22px 10px; width: 978px; -webkit-border-top-left-radius: 3px;  -webkit-border-top-right-radius: 3px;  -moz-border-radius-topleft: 3px;  -moz-border-radius-topright: 3px;  border-top-left-radius: 3px;  border-top-right-radius: 3px; border: 1px solid #cecece; background: #fff; margin-bottom: -1px;}
+.type-3 .dmr-tab-wrappers .dmr-tab-container { float: left; clear: both; padding: 22px 10px; width: 978px; -webkit-border-top-left-radius: 3px;  -webkit-border-top-right-radius: 3px;  -moz-border-radius-topleft: 3px;  -moz-border-radius-topright: 3px;  border-top-left-radius: 3px;  border-top-right-radius: 3px; border: 1px solid #cecece; background: #fff; margin-bottom: -1px; margin-top: 40px;}
 
 
 
@@ -697,6 +751,41 @@ width: 60px;
 height: 53px;
 display: block;
 margin: 0 auto;float: none;padding-top: 15px;margin-left: 53px;}
+
+
+
+.tabelement {
+width: 47%;
+margin-bottom: 40px;
+}
+.tabelement img{
+float: left;
+margin-right: 15px;
+}
+.tabelement h1{
+color: #414141;
+font-size: 18px;
+}
+.tabelement p{
+padding-top: 15px;
+float: right;
+text-align: left;
+width: 77%;
+}
+.telefonalani{
+float: left;
+margin-top: -265px;
+padding: 10px 0px 10px 2px;
+}
+.telefonalani p{
+color: #303337;
+font-size: 14px;
+}
+.telefonalani span {
+font-size: 26px;
+}
+.telefonalani span .normal{}
+.telefonalani span .bold{}
 .tabloelement .tablotop > h1 {background: url(../img/hostingisim.png) 0px 0px no-repeat;font-size: 20px;color: #565656;padding: 29px 4px 20px 4px;  display: block;text-align: center;}
 .tabloelement .tablofiyat {width: 150px;background: url(../img/hostingfiyat.png) 0px 0px no-repeat;height: 42px;}
 .tabloelement .tablofiyat  h1 {color: #565656;  font-size: 20px;padding: 12px 10px 6px 10px;  display: block;  text-align: center;float: left;width: 130px;}

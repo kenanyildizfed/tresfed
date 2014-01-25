@@ -31,7 +31,7 @@ TD = {
                 $('.dmr-tab-nav .m').click(function(){
                     num = $('.dmr-tab-nav .m').index(this);
                     $(".dmr-tab-nav .m").removeClass("active");//tüm sekmelerdeki button-renk classını temizledik,
-                    $('.dmr-tab-container .dmr-tab-content').hide().eq(num).show();
+                    $('.dmr-tab-container .dmr-tab-content').hide().eq(num).fadeIn();
                     $('.da-slider').stop( false, true ) ;
                     $(".dmr-tab-nav .m").eq(num).addClass("active" );
                 });
