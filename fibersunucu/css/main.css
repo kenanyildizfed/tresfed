@@ -52,12 +52,11 @@ table {border-collapse: collapse;border-spacing: 0;}
 */
 .header {width: 100%;height: 131px;}
 .header .line{height: 2px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 555;}
-
-.sl-slider-wrapper .line {height: 2px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 555;top: -60px;}
+.sl-slider-wrapper .line {height: 2px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 555;}
 .headerbg .line {height: 3px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 2;margin-top: -6px;}
 .kayitbg .line {height: 3px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 2;margin-top: 79px;}
 .iletisimheader .line {height: 3px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 2;margin-top: -3px;}
-.header-inner {margin: 0 auto;z-index: 35;position: relative;background: url(../img/headerbg.png) repeat 0px -1px;height: 94px;}
+.header-inner {margin: 0 auto;z-index: 35;position: relative;background: url(../img/headerbg.png) repeat 50% 50%;height: 94px;}
 .header-top {width: 1000px;margin: 0 auto;}
 .header-top .logo {float: left;margin: 10px 0 0px 53px;}
 .header-top .headerbutton {width: auto;height: auto;float: right;margin: 21px 0px 0 0;}
@@ -66,44 +65,12 @@ table {border-collapse: collapse;border-spacing: 0;}
 .header-top .headerbuttontext {margin-top: 15px;display: block;}
 .header-top .sepet-icon {width: 18px;height: 16px;background: url(../img/sepet-icon.png);display: block;float: left;margin: 17px 22px;}
 .header-top .motto {float: left;margin: 28px 0 26px 14px;color: #42667c;}
-
-
-
-
-
-
-.headerust {
-background: url(../img/headergenisbg.png) repeat center center;
-height: 33px;
-position: relative;
-z-index: 666;
-}
-.headerleft {
-float: left;
-}
-
-.headerleft span{
-color: #fff;  font-size: 14px;
-background: url(../img/arrowbeyaz.png) no-repeat 0px 15px;
-padding-left: 9px !important;
-padding: 11px 0px 0px 0px;
-display: block;
-}
-.headerright {
-float: right;
-}
-.musterigirisi {
-float: left;  color: #fff;  font-size: 14px;
-background: url(../img/fiberspr.png) no-repeat -1px -231px;  padding-left: 28px !important;  padding: 13px;
-}
-.yenimusteri {
-float: right;
-color: #fff;  font-size: 14px;
-background: url(../img/fiberspr.png) no-repeat -1px -273px;
-padding-left: 28px !important;
-padding: 13px;
-}
-
+.headerust {background: url(../img/headergenisbg.png) repeat center center;height: 33px;position: relative;z-index: 666;}
+.headerleft {float: left;}
+.headerleft span{color: #fff;  font-size: 14px;background: url(../img/arrowbeyaz.png) no-repeat 0px 15px;padding-left: 9px !important;padding: 11px 0px 0px 0px;display: block;}
+.headerright {float: right;}
+.musterigirisi {float: left;  color: #fff;  font-size: 14px;background: url(../img/fiberspr.png) no-repeat -1px -231px;  padding-left: 28px !important;  padding: 13px;}
+.yenimusteri {float: right;color: #fff;  font-size: 14px;background: url(../img/fiberspr.png) no-repeat -1px -273px;padding-left: 28px !important;padding: 13px;}
 .menuson {left: -131px !important;}
 .home-icon {margin: 18px 1px 18px 24px;}
 .megamenu_container {width: 724px;height: 57px;margin: 0;position: relative;float: right;z-index: 30;border: 0;}
@@ -112,7 +79,6 @@ padding: 13px;
 .megamenu >li:hover {background: url("../img/headermenu.png") repeat 0px 0px;border: 1px solid #202020;border-bottom: 0;padding: 0;padding-bottom: 7px;}
 .megamenu >li.active {background: #ffffff;}
 .megamenu >li >a {font-size: 15px;height: 19px;outline: 0;text-decoration: none;display: block;padding: 19px 10px 18px 10px;color: #fff;margin: 0 13px 0 0;background: url("../img/dropdown.png") no-repeat right 24px;}
-
 .megamenu >li .megamenu_drop {padding-right: 24px;}
 .megamenu > li.first {border: 0;background: none;margin: 0;padding: 0;}
 .megamenu > li.first:hover {background: none;}
@@ -124,9 +90,10 @@ padding: 13px;
 .megamenu > li > a.last:hover {background: none;}
 .megamenu > li img {border: 0;}
 .megamenu >li:hover > a {color: #fff;background: url("../img/dropdown.png") no-repeat right 24px;}
-
 .megamenu li .dropdown_fullwidth {position: absolute;margin: 0 0 0 0;padding: 15px 0;left: -9999em;top: -9999em;display: block;zoom: 1;z-index: 9999999;width: 263px;border: 0;border-top: 0;color: #45515e;height: auto;}
 .megamenu li:hover .dropdown_fullwidth {top: 63px;left: -1px;background: url("../img/headermenu.png") repeat 0px 0px;color: #fff;}
+.ustmenuparcag {width: 184px;height: auto;float: left;margin: 0 0 0 0;padding: 0 0 0 0;}
+.ustmenuparcag.mar {margin: 0 0 0 15px;}
 .ustmenuparcag {width: 184px;height: auto;float: left;margin: 0 0 0 0;padding: 0 0 0 0;}
 .ustmenuparcag.mar {margin: 0 0 0 15px;}
 .ustmenuparcag5 {width: auto;float: left;margin: 0 0 0 25px;}
@@ -142,17 +109,10 @@ ul.ustmenuparca  li a {background: url(../img/arrowbeyaz.png) left 11px no-repea
 ul.ustmenuparca a:hover li {background: url(../img/siyaharrow.png) left 11px no-repeat;color: #1a2427;}
 .ustmenuparcag4 {width: 232px;height: 125px;float: left;margin: 0 0 0 45px;background: url(../img/akampanya.png) no-repeat;}
 .ustmenuparcag4 h1 {width: 232px;height: 14px;float: left;background: #343434;text-align: center;color: #ffffff;font-size: 14px;font-weight: normal;padding: 11px 0;margin: 0;}
-ul#akampanya {list-style-type: none;margin: 0 0 0 2px;padding: 3px 0 0 0;background: url(../img/kam.png) repeat;float: left;width: 75px;height: 84px;}
-ul#akampanya li {display: block;margin: 3px 10px;padding: 0;}
-ul#akampanya li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;padding: 0;text-align: center;}
-ul#akampanya1 {list-style-type: none;margin: 0;padding: 3px 0 0 0;background: none;float: left;width: 77px;height: 84px;}
-ul#akampanya1 li {display: block;margin: 3px 10px;padding: 0;}
-ul#akampanya1 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;padding: 0;text-align: center;background: url(../img/efiyat.png) no-repeat;}
-ul#akampanya2 {list-style-type: none;margin: 0 0 0 2px;padding: 3px 0 0 0;background: url(../img/kam.png) repeat;float: left;width: 75px;height: 84px;}
-ul#akampanya2 li {display: block;margin: 3px 10px;padding: 0;}
-ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;padding: 0;text-align: center;}
 .sl-slider-wrapper {width: 100%;height: 427px;/* overflow: hidden; */position: relative;/* top: 0px; */}
-.sl-slider {height: 509px !important;position: relative;top: -32px;overflow: hidden;}
+.sl-slider {height: 515px !important;position: relative;top: -32px;overflow: hidden;}
+.sl-content-wrapper {height: 511px !important;}
+.sl-content-wrapper .sliderimg {height: 515px!important;width: 100%;  background-position: 50% 50%; background-repeat: no-repeat no-repeat;}
 .sl-slider h2,.sl-slider blockquote {padding: 100px 30px 10px 30px;width: 80%;max-width: 960px;color: #fff;margin: 0 auto;position: relative;z-index: 100;}
 .sl-slider h2 {font-size: 100px;text-shadow: 0 -1px 0 rgba(0,0,0,0.2);}
 .sl-slider blockquote {font-size: 28px;padding-top: 10px;font-weight: 300;text-shadow: 0 -1px 0 rgba(0,0,0,0.2);}
@@ -163,17 +123,11 @@ ul#akampanya2 li p {color: #ffffff;font-size: 15px;font-weight: bold;margin: 0;p
 .nav-arrows span.nav-arrow-prev {left: 5%;border-right: none;border-top: none;}
 .nav-arrows span.nav-arrow-next {right: 5%;border-left: none;border-bottom: none;}
 .nav-dots {text-align: center;position: relative;bottom: 2%;height: 30px;width: 100%;left: 0;z-index: 1000;top: -60px;}
-.nav-dots span {display: inline-block;position: relative;width: 16px;height: 16px;border-radius: 50%;margin: 3px;background: #ddd;background: rgba(150,150,150,0.4);cursor: pointer;box-shadow:0 1px 1px rgba(255,255,255,0.4),inset 0 1px 1px rgba(0,0,0,0.1);}
-.nav-dots span {background: rgba(150,150,150,0.1);margin: 6px;-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-ms-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;box-shadow:0 1px 1px rgba(255,255,255,0.4),inset 0 1px 1px rgba(0,0,0,0.1),0 0 0 2px rgba(255,255,255,0.5);}
-.nav-dots span.nav-dot-current,.nav-dots span:hover {box-shadow:0 1px 1px rgba(255,255,255,0.4),inset 0 1px 1px rgba(0,0,0,0.1),0 0 0 5px rgba(255,255,255,0.5);}
-.nav-dots span.nav-dot-current:after {content: "";position: absolute;width: 10px;height: 10px;top: 3px;left: 3px;border-radius: 50%;background: rgba(255,255,255,0.8);}
-.twiterslider {
-background: url(../img/twitterbg.png) no-repeat center center;
-height: 54px;  position: relative;  z-index: 666;
-width: 1000px;
-margin: 0px auto 0px;
-top: -2px;
-}
+.nav-dots span {display: inline-block;position: relative;width: 20px;height: 20px;cursor: pointer;}
+.nav-dots span {background: url(../img/sliderdots.png) no-repeat 0px 0px;}
+.nav-dots span.nav-dot-current,.nav-dots span:hover {background: url(../img/sliderdots.png) no-repeat -30px 0px;}
+.nav-dots span.nav-dot-current:after {}
+.twiterslider {background: url(../img/twitterbg.png) no-repeat center center;height: 54px;  position: relative;  z-index: 666;width: 1000px;margin: 0px auto 0px;top: -2px;}
 /****/
 .headerbg {position: relative;margin: 0 0 10px;overflow: hidden;top: -38px;background: url('../img/mottobg.png') no-repeat 0px 0px;height: 227px;}
 .kayitbg {position: relative;margin: 0 0 10px;overflow: hidden;top: -38px;background: url('../img/bigbg.png') no-repeat 0px 0px;height: 309px;}
@@ -269,26 +223,15 @@ top: -2px;
 .mainortasag .ortasagmid  p {font-size: 13px;color: #fff;text-align: center;display: block;padding: 10px 10px;position: absolute;bottom: 0px;line-height: 22px;}
 .mainortasag .ortasagbottom {background: url("../img/fiberspr.png") no-repeat 0px -809px;font-size: 16px;color: #fff;text-align: center;display: block;height: 36px;padding: 21px 0px 10px 0px;}
 .mainortasag .ortasagbottom:hover {background: url("../img/fiberspr.png") no-repeat 0px -729px;font-size: 16px;color: #fff;text-align: center;display: block;padding: 24px 0px 10px 0px;height: 33px;}
-.mainortasag .ortasagbottom  span {
-font-size: 18px;
-}
+.mainortasag .ortasagbottom  span {font-size: 18px;}
 .mainortasag .ortasagbottom  span  strong {}
 .titleseperator {padding: 40px 0px 0px 0px;text-align: center;}
-.titleseperator h2 {padding: 12px;color: #2f3c46;font-size: 21px;margin: -36px auto;text-align: center;background: url(../img/bodybg.png) repeat;padding: 20px;display: inline-table;}
+.titleseperator h2 {padding: 12px;background: #fff;color: #2f3c46;font-size: 21px;margin: -36px auto;text-align: center;padding: 20px;display: inline-table;}
 .titleseperator div {border-top: 1px solid #bec2c6;}
-.genelorta {
-background: url(../img/indexorta.png) repeat;
-height: 358px;
-margin-top: -69px;
-position: relative;
-z-index: 5;
-}
+.genelorta {background: url(../img/indexorta.png) repeat;height: 358px;margin-top: -69px;position: relative;z-index: 5;}
 .nedenbox {width: 219px;float: left;padding: 13px;margin-right: 5px;position: relative;z-index: 4;}
 .genelorta .line{height: 2px;width: 100%;background: url(../img/mavicizgi.png) repeat top left;display: block;position: relative;z-index: 555;}
-
-.nedenbox h1{color: #efefef;
-font-size: 20px;
-text-align: center;}
+.nedenbox h1{color: #efefef;font-size: 20px;text-align: center;}
 .nedenbox:hover {background: url(../img/anasayfaBoxSpt.png) no-repeat -196px 0px;cursor: pointer;}
 .yediyirmidort-icon {background: url(../img/724.png) no-repeat 0px 0px;width: 89PX;height: 82PX;display: block;margin: 0 auto;margin-bottom: 22px;}
 .communication-icon {background: url(../img/hizmetkalitesi.png) no-repeat 0px 0px;width: 95px;height: 69px;display: block;margin: 0 auto;margin-bottom: 36px;}
@@ -303,8 +246,6 @@ text-align: center;}
 .mutlumusterilerslider li img {bottom: 0px;position: absolute;}
 .nedenbg { width: 100%; height: 12px;background: url(../img/nedenbg.png) repeat center right;margin-top: -67px;margin-bottom: 67px;}
 .nedenbgs { width: 100%; height: 12px;background: url(../img/nedenbg.png) repeat center right; -webkit-box-shadow: -67px;; /* margin-bottom: 67px; */}
-
-
 .custom-checkbox { display: block; padding-left: 18px; position: relative; margin-top: 9px; cursor: pointer; font: 14px/19px Arial; color: #41454b; background: url(../img/domaincheckbg.png) no-repeat 0px 0px; padding: 6px 0px 10px 32px; height: 15px; display: block; width: 152px; margin: 3px;}
 .custom-checkbox span.text {  font-size: 13px; color: #fff; }
 .custom-checkbox .ck { display: block; width: 21px; height: 20px; background: url(../img/checkbox.png); position: absolute; top: 6px; left: 6px; }
@@ -323,9 +264,7 @@ text-align: center;}
 .alanadlari .domainnamebig .domainbutton {width: 130px;height: 22px;margin: 0px;border-radius: 0px;padding: 24px;font-size: 23px;float: left;-webkit-border-top-right-radius: 3px;-webkit-border-bottom-right-radius: 3px;-moz-border-radius-topright: 3px;-moz-border-radius-bottomright: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;background: url(../img/sorgula-bg.png);color: white;}
 .alanadlari .domainuzantilar {background: url(../img/headeruzanti.png);height: 127px;width: 996px;margin-top: 11px;margin-bottom: 70px;padding-top: 7px;padding-left: 5px;}
 .alanadlari .domainuzantilar ._rows{float:left;width: 559px;}
-.type-2.trs-tab-wrapper {
-margin-top: 25px;
-}
+.type-2.trs-tab-wrapper {margin-top: 25px;}
 .type-2.trs-tab-wrapper .trs-tab-nav  { float: left; clear: both;  }
 .type-2.trs-tab-wrapper .trs-tab-nav a { width: 322px; height: 30px; padding: 10px 0px; float: left; display: block; background: url(../img/iceriktabpas.png) 0px 0px; position: relative; margin-left: 10px;}
 .type-2.trs-tab-wrapper .trs-tab-nav a span {color: #fff; margin: 11px 0px 0px 25px; font-size: 19px;display: block;}
@@ -344,90 +283,21 @@ margin-top: 25px;
 .type-2.trs-tab-wrapper .first .form-wrap ._row span.password-icon { background-position: right top; }
 .ssl li{color: #35393f;font-size: 15px;padding: 6px 0px 6px 10px;background: url(../img/siyaharrow.png) 0px 11px no-repeat;}
 .type-2.trs-tab-wrapper .trs-tab-container p {font-size: 14px; color: #3a3f47;margin-bottom: 25px;}
-.sslbox{
-background: url(../img/sslfiyat.png) no-repeat 0px 0px;
-padding: 10px 0px;
-height: 45px;
-margin-bottom: 8px;
-}
-.sslbox .ssllogo{
-width: 67px;
-height: 40px;
-display: block;
-float: left;
-}
-.sslbox .sllname {
-color: #151719; font-family: "Roboto"; font-size: 22px;
-padding-left: 21px;
-padding-top: 9px;
-display: block;
-float: left;
-width: 620px;
-}
-.sslbox .sslfiyat{
-font-size: 22px;
-padding-top: 15px;
-display: block;
-float: left;
-padding-left: 20px;
-width: 116px;
-}
-.sslbox .sslfiyat .nekadar{
-margin-top: -2px;
-display: block;
-float: left;}
-.sslbox .sslfiyat .sslyil{
-font-size: 16px;
-margin-top: -5px;
-display: block;
-text-align: left;
-}
-.sslbox .sslsatinal:hover {
-background: url(../img/sslbg.png) no-repeat 0px 0px;
-display: block;
-float: left;
-width: 126px;
-height: 65px;
-margin-top: -10px;
-}
+.sslbox{background: url(../img/sslfiyat.png) no-repeat 0px 0px;padding: 10px 0px;height: 45px;margin-bottom: 8px;}
+.sslbox .ssllogo{width: 67px;height: 40px;display: block;float: left;}
+.sslbox .sllname {color: #151719; font-size: 22px;padding-left: 21px;padding-top: 9px;display: block;float: left;width: 620px;}
+.sslbox .sslfiyat{font-size: 22px;padding-top: 15px;display: block;float: left;padding-left: 20px;width: 116px;}
+.sslbox .sslfiyat .nekadar{margin-top: -2px;display: block;float: left;}
+.sslbox .sslfiyat .sslyil{font-size: 16px;margin-top: -5px;display: block;text-align: left;}
+.sslbox .sslsatinal:hover {background: url(../img/sslbg.png) no-repeat 0px 0px;display: block;float: left;width: 126px;height: 65px;margin-top: -10px;}
 
-.sslbox .sslsatinal:hover a{
-
-padding-top: 25px;
-}
-.sslbox .sslsatinal a{
-color: #fff;
-font-size: 18px;
-padding-top: 15px;
-display: block;
-padding-left: 20px;
-float: left;
-}
-
-
-.alanadlari .table-striped tbody tr:nth-child(odd) td,.alanadlari .table-striped tbody tr:nth-child(odd) th {background-color: transparent;}
-.alanadlari .table-striped thead  tr  td,.alanadlari .table-striped thead  tr th {background: url("../img/tablebg.png") repeat-x;border-right: 1px solid #a6a3a3;}
-.alanadlari .table-striped thead tr th {color: #fff;font-size: 14px;}
-.alanadlari .table-striped tbody tr td {color: #50555d; font-size: 14px;border-right: 1px solid #a6a3a3;border-top: 0px !important;}
-.alanadlari .minik{font-size: 11px !important;color: #606773;}
-.alanadlari .uzantilar{float:left;width: 556px;}
-.alanadlari .alanadslider {width: 390px;float: right;}
-.alanadlari .alanadslider .domainsliderelement {color: #fff;margin-top: 19px;}
-.alanadlari .alanadslider .domainsliderelement img{float: left;margin-right: 16px;}
-.alanadlari .alanadslider .domainsliderelement h1{font-size: 17px;float: left;width: 70%;}
-.alanadlari .alanadslider .domainsliderelement p{font-size: 13px;float: left;width: 60%;padding-top: 5px;}
-.alanadlari .bx-wrapper .bx-viewport  {height:115px !important;}
-.alanadlari .bx-wrapper .bx-prev {left: -35px;background: url(../img/domainsliderspt.png)  no-repeat 0 0px;}
-.alanadlari .bx-wrapper .bx-next {right: -20px;background: url(../img/domainsliderspt.png)  no-repeat -39px 0px;}
-.alanadlari .bx-wrapper .bx-prev:hover {background-position: 0px 0px;}
-.alanadlari .bx-wrapper .bx-next:hover {background-position: -39px 0px;}
-.alanadlari .bx-wrapper .bx-controls-direction a {position: absolute;top: 50%;margin-top: -16px;outline: 0;width: 26px;height: 56px;text-indent: -9999px;z-index: 9999;}
-.alanadlari .bx-wrapper .bx-controls-direction a.disabled {display: none;}
+.sslbox .sslsatinal:hover a{padding-top: 25px;}
+.sslbox .sslsatinal a{color: #fff;font-size: 18px;padding-top: 15px;display: block;padding-left: 20px;float: left;}
 .pagedetailtext h1{font-size: 25px; color: #232323; padding: 10px 0px 15px;font-weight: bold;}
 .pagedetailtext p{font-size: 17px; color: #232323; padding: 10px 0px;}
 .aboutpage {}
 .aboutpage ul {float: left;padding-left: 20px;}
-.aboutpage ul li {margin-bottom: 12px;  display: block;  padding-left: 10px;  background: url(../img/arrow.png) left 3px no-repeat;  font-size: 16px;  color: #232323;  transition: all 0.1s ease-in-out;  -o-transition: all 0.1s ease-in-out;  -ms-transition: all 0.1s ease-in-out;  -moz-transition: all 0.1s ease-in-out;  -webkit-transition: all 0.1s ease-in-out;}
+.aboutpage ul li {margin-bottom: 12px;  display: block;  padding-left: 10px;  background: url(../img/siyaharrow.png) left 10px no-repeat;  font-size: 16px;  color: #232323;  transition: all 0.1s ease-in-out;  -o-transition: all 0.1s ease-in-out;  -ms-transition: all 0.1s ease-in-out;  -moz-transition: all 0.1s ease-in-out;  -webkit-transition: all 0.1s ease-in-out;}
 .aboutpage .detailpageright {float: right;width: 309px;display: block;  float: right;  position: relative;right: -18px;}
 .aboutpage .detailmenu {float: left;width: 289px;}
 .aboutpage .detailmenu .menutop {background: url(../img/hakkimizda-box-ust-bg.png) left 3px no-repeat;}
@@ -571,71 +441,22 @@ ul.ui-selectmenu-menu-popup { margin-top: -1px }
 (#m10byp) Buying Page
 =================================================================
 */
-.bankahesap{
-background: url('../img/bankabg.png') no-repeat 0px 0px;
-width: 466px;
-height: 211px;
-float: left;
-margin-bottom: 25px;
-margin-right: 25px;
-}
-.bankahesap .bankatop{
-padding: 10px;
-}
-.bankahesap .bankatop h1{
-color: #2d3a46;    font-size: 21px;
-float: left;
-}
+.bankahesap{background: url('../img/bankabg.png') no-repeat 0px 0px;width: 466px;height: 211px;float: left;margin-bottom: 25px;margin-right: 25px;}
+.bankahesap .bankatop{padding: 10px;}
+.bankahesap .bankatop h1{color: #2d3a46;    font-size: 21px;float: left;}
 .bankahesap .bankatop span{}
 .bankahesap .bankamid{}
-.bankahesap .bankamid .bankarow{
-float: left;
-width: 100%;
-padding: 5px 0px 5px 16px;
-}
-.bankahesap .bankamid .bankarow span{
-color: #2d3a46;    font-size: 15px;
-float: left;
-width: 130px;
-}
-.bankahesap .bankamid .bankarow p{
-color: #2d3a46;    font-size: 15px;
-float: left;
-padding: 0px 0px 0px 10px;
-}
-.garanti .bankaicon {
-background: url('../img/fiberspr.png') no-repeat 0px -70px;
-width: 120px;
-height: 50px;
-display: block;
-float: right;
-}
-.vakifbank .bankaicon {
-background: url('../img/fiberspr.png') no-repeat 0px 1px;  width: 120px;  height: 50px;  display: block;  float: right;
-}
-.isbankasi .bankaicon {
-background: url('../img/fiberspr.png') no-repeat 0px -132px;  width: 120px;  height: 50px;  display: block;  float: right;
-}
-.denizbank .bankaicon {
-background: url('../img/fiberspr.png') no-repeat 0px -182px;  width: 120px;  height: 50px;  display: block;  float: right;
-}
-.garanti .cizgi {
-background: url('../img/bankacizgi.png') no-repeat 0px 0px;
-width: 465px;
-height: 4px;  display: block;  float: right;
-margin-top: 11px;
-}
-.vakifbank .cizgi {
-background: url('../img/bankacizgi.png') no-repeat 0px -40px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;
-}
-.isbankasi .cizgi {
-background: url('../img/bankacizgi.png') no-repeat 0px -80px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;
-}
-.denizbank .cizgi {
-background: url('../img/bankacizgi.png') no-repeat 0px -120px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;
-}
-
-
+.bankahesap .bankamid .bankarow{float: left;width: 100%;padding: 5px 0px 5px 16px;}
+.bankahesap .bankamid .bankarow span{color: #2d3a46;    font-size: 15px;float: left;width: 130px;}
+.bankahesap .bankamid .bankarow p{color: #2d3a46;    font-size: 15px;float: left;padding: 0px 0px 0px 10px;}
+.garanti .bankaicon {background: url('../img/fiberspr.png') no-repeat 0px -70px;width: 120px;height: 50px;display: block;float: right;}
+.vakifbank .bankaicon {background: url('../img/fiberspr.png') no-repeat 0px 1px;  width: 120px;  height: 50px;  display: block;  float: right;}
+.isbankasi .bankaicon {background: url('../img/fiberspr.png') no-repeat 0px -132px;  width: 120px;  height: 50px;  display: block;  float: right;}
+.denizbank .bankaicon {background: url('../img/fiberspr.png') no-repeat 0px -182px;  width: 120px;  height: 50px;  display: block;  float: right;}
+.garanti .cizgi {background: url('../img/bankacizgi.png') no-repeat 0px 0px;width: 465px;height: 4px;  display: block;  float: right;margin-top: 11px;}
+.vakifbank .cizgi {background: url('../img/bankacizgi.png') no-repeat 0px -40px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;}
+.isbankasi .cizgi {background: url('../img/bankacizgi.png') no-repeat 0px -80px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;}
+.denizbank .cizgi {background: url('../img/bankacizgi.png') no-repeat 0px -120px;  width: 465px;  height: 4px;  display: block;  float: right;  margin-top: 11px;}
 
 /*
 =================================================================
@@ -647,10 +468,7 @@ background: url('../img/bankacizgi.png') no-repeat 0px -120px;  width: 465px;  h
 .pageheader .pagetitle .bold {}
 .pageheader .pagetitle .normal {}
 .pageheader .pageicon {float: right;}
-.contactpageicon {width: 114px;height: 93px;background: url("../img/contactpageicon.png");display: block;}
-.cdnpageicon {width: 114px;height: 114px;background: url("../img/cdnpageicon.png");display: block;margin-top: -19px;}
-.aboutpageicon {width: 124px;height: 114px;background: url("../img/aboutpageicon.png");display: block;margin-top: 1px;}
-.uhpageicon {width: 214px;height: 104px;background: url("../img/uhpageicon.png");display: block;margin-top: 5px;}
+.dedicatedicon {width: 209px;height: 119px;background: url("../img/dedicatedicon.png");display: block;margin-top: -45px;}
 .pagedetailelement {-webkit-border-bottom-right-radius: 3px;-webkit-border-bottom-left-radius: 3px;-moz-border-radius-bottomright: 3px;-moz-border-radius-bottomleft: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;padding: 12px;background-color: #fff;-moz-box-shadow: inset 0 0 2px #000;-webkit-box-shadow: inset 0 0 2px #000;box-shadow: inset 0 0 2px #000;width: 976px;margin: 0 auto;}
 
 
@@ -672,25 +490,111 @@ background: url('../img/bankacizgi.png') no-repeat 0px -120px;  width: 465px;  h
 .__row input#mesagesubmitBtn:hover{ width: 115px;  height: 38px; background: url("../img/fiberspr.png") no-repeat 0px -639px; border: 0; outline: none; float: right; margin-right: 19px;font-size: 13px;color: white;font-weight: bold; padding: 8px 5px 5px 5px;}
 .__row { clear:both; float:left; width: 100%; margin-bottom: 10px }
 
+/*Dedicated Page***/
+
+
+
+.dedicatedserver {
+background: url("../img/dedicatedg.png") no-repeat 0px 0px;
+float: left;
+width: 493px;
+height: 193px;
+margin-right: 12px;
+margin-bottom: 12px;
+}
+
+.serversol {
+float: left;
+width: 139px;
+}
+
+.servername {
+color: #efefef; font-family: "Roboto"; font-size: 20px;
+padding-left: 8px;
+}
+
+.servername > br {
+}
+
+.servername > strong {
+}
+
+.severicon {
+padding-top: 40px;
+display: block;
+}
+
+.servercenter {
+float: left;
+padding: 15px;
+width: 174px;
+}
+
+.servercenter > ul {
+}
+
+.servercenter > ul > li {
+color: #fff;  font-size: 15px;
+margin-bottom: 19px;  display: block;  padding-left: 10px;  background: url(../img/site-link-arrows.png) left -25px no-repeat;
+}
+
+.serversag {
+float: left;
+}
+
+.serverstock {
+color: #efefef;  font-size: 12px;
+padding-top: 15px;
+padding-left: 10px;
+}
+
+.serverstock > strong {
+}
+
+.serverfiyat {
+color: #fff;  font-size: 28px;
+margin-top: 38px;  display: block;
+}
+
+.serverfiyat .yukarda {
+color: #fff;  font-size: 16px;
+font-size: 16px;  margin-top: -5px;  display: block;  text-align: left;
+}
+.serverfiyat .normal{ margin-top: -2px;
+display: block;
+float: left;}
+
+.serverbuying {
+margin-top: 50px;
+}
+
+.serverbuying > a {
+color: #fff;  font-size: 16px;
+background: url("../img/fiberspr.png") no-repeat 0px -495px;  float: left;
+width: 113px;
+padding: 15px;
+height: 15px;
+text-align: center;
+}
+.serverbuying > a:hover {
+color: #fff;  font-size: 16px;
+background: url("../img/fiberspr.png") no-repeat 0px -1457px;  float: left;
+width: 113px;
+padding: 15px;
+height: 15px;
+text-align: center;
+}
 /*
 =================================================================
 (#m12hst) Hosting Page
 =================================================================
 */
-
-
-
 .type-3 .dmr-tab-wrappers {  margin-top: -46px; }
 .type-3 .dmr-tab-wrappers .dmr-tab-nav  { clear: both;  background: url(../img/tabsbg.png) repeat left 0px; display: block; height: 76px;}
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a { width: 236px; height: 50px; float: left; display: block; background: url(../img/tabpasif.png) repeat-y left 0px; position: relative; padding: 25px 0px 0px 14px; font-size: 20px;}
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a span {color: #fff;  font-size: 20px;display: block;}
-.type-3 .dmr-tab-wrappers .dmr-tab-nav a span.bold{
-float: left;
-padding: 0px 6px;
-}
-.type-3 .dmr-tab-wrappers .dmr-tab-nav a span.normal{
-float: left;
-}
+.type-3 .dmr-tab-wrappers .dmr-tab-nav a span.bold{float: left;padding: 0px 6px;}
+.type-3 .dmr-tab-wrappers .dmr-tab-nav a span.normal{float: left;}
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.active {  background: url(../img/tabaktif.png) no-repeat left 0px;  height: 50px;  margin-top: -10px;  padding: 35px 0px 0px 14px;}
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.left { margin-right: -36px; }
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.z1 { z-index:5; }
@@ -698,92 +602,37 @@ float: left;
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.z3 {  z-index:3; }
 .type-3 .dmr-tab-wrappers .dmr-tab-nav a.right { border-top-right-radius: 3px; }
 .type-3 .dmr-tab-wrappers .dmr-tab-container { float: left; clear: both; padding: 22px 10px; width: 978px; -webkit-border-top-left-radius: 3px;  -webkit-border-top-right-radius: 3px;  -moz-border-radius-topleft: 3px;  -moz-border-radius-topright: 3px;  border-top-left-radius: 3px;  border-top-right-radius: 3px; border: 1px solid #cecece; background: #fff; margin-bottom: -1px; margin-top: 40px;}
-
-
-
-
 .hostingpageelemnt { width: 1000px; color: #1793c9; margin: 60px auto;}
 .hostingpageelemnt h1{font-size: 26px;}
 .hostingpageelemnt p{ font-size: 16px;}
-.yenimusterikaydi h1{color: #1688c4;
-font-size: 37px !important;
-padding-bottom: 15px;}
-.yenimusterikaydi p{
-padding-bottom: 15px;
-color: #374e59;
-}
+.yenimusterikaydi h1{color: #1688c4;font-size: 37px !important;padding-bottom: 15px;}
+.yenimusterikaydi p{padding-bottom: 15px;color: #374e59;}
 .yenimusterikaydi a{color: #6b8c00;}
 .yenimusterikaydi img{ margin-top: -130px !important; margin-bottom: -60px;}
 .hostingpageelemnt img{ margin-top: -60px; margin-bottom: -60px;}
 .hostingpageelemnt h1.left,.hostingpageelemnt p.left,.hostingpageelemnt h1.right,.hostingpageelemnt p.right{ width: 660px;}
 .hostinfiyattablo {float: left;width: 151px; margin: -113px 5px 170px 0px;position: relative;}
-.hostingbg{background: url(../img/hostingbg.png) 0px 0px no-repeat;
-width: 975px;
-height: 550px;}
+.hostingbg{background: url(../img/hostingbg.png) 0px 0px no-repeat;width: 975px;height: 550px;}
 .tabloelement {}
 .tablotop {  width: 150px;}
 .tablotop  span {background: url(../img/hosting-motto.png) 0px 0px no-repeat;font-size: 17px;color: #fff;padding: 12px 10px 11px 10px;display: block;text-align: center;}
 .tablomid {background: url(../img/hostingozellikler.png) 0px 0px no-repeat;width: 127px;height: 537px;padding: 6px 12px;}
 .tablomid  ul {}
 .tablomid  ul  li {margin: 0px 0px 14px;  display: block;  padding-left: 0px;font-size: 17px;  color: #565656;text-align: center;line-height: 32px;}
-.tablobottom {
-background: url(../img/hostingsatinal.png) 0px -120px no-repeat;
-width: 150px;
-height: 106px;
-}
-.tablobottom:hover {
-background: url(../img/hostingsatinal.png) 0px 0px no-repeat;
-width: 150px;
-height: 106px;
-}
-.okeyicons {
-background: url(../img/fiberspr.png) 0px -314px no-repeat;
-width: 20px;
-height: 33px;
-display: block;
-margin: 0 auto;
-}
+.tablobottom {background: url(../img/hostingsatinal.png) 0px -120px no-repeat;width: 150px;height: 106px;}
+.tablobottom:hover {background: url(../img/hostingsatinal.png) 0px 0px no-repeat;width: 150px;height: 106px;}
+.okeyicons {background: url(../img/fiberspr.png) 0px -314px no-repeat;width: 20px;height: 33px;display: block;margin: 0 auto;}
 .tablobottom  a {color: #fff;font-size: 21px;width: 150px;height: 105px;display: block;}
 .tablobottom  a:hover {}
 .tablobottom  a  span {float: left;width: 150px;text-align: center;padding-top: 1px;font-size: 20px;}
-.tablobottom  a  span.satinalicons {background: url(../img/fiberspr.png) 0px -1373px no-repeat;
-width: 60px;
-height: 53px;
-display: block;
-margin: 0 auto;float: none;padding-top: 15px;margin-left: 53px;}
-
-
-
-.tabelement {
-width: 47%;
-margin-bottom: 40px;
-}
-.tabelement img{
-float: left;
-margin-right: 15px;
-}
-.tabelement h1{
-color: #414141;
-font-size: 18px;
-}
-.tabelement p{
-padding-top: 15px;
-float: right;
-text-align: left;
-width: 77%;
-}
-.telefonalani{
-float: left;
-margin-top: -265px;
-padding: 10px 0px 10px 2px;
-}
-.telefonalani p{
-color: #303337;
-font-size: 14px;
-}
-.telefonalani span {
-font-size: 26px;
-}
+.tablobottom  a  span.satinalicons {background: url(../img/fiberspr.png) 0px -1373px no-repeat;width: 60px;height: 53px;display: block;margin: 0 auto;float: none;padding-top: 15px;margin-left: 53px;}
+.tabelement {width: 47%;margin-bottom: 40px;}
+.tabelement img{float: left;margin-right: 15px;}
+.tabelement h1{color: #414141;font-size: 18px;}
+.tabelement p{padding-top: 15px;float: right;text-align: left;width: 77%;}
+.telefonalani{float: left;margin-top: -265px;padding: 10px 0px 10px 2px;}
+.telefonalani p{color: #303337;font-size: 14px;}
+.telefonalani span {font-size: 26px;}
 .telefonalani span .normal{}
 .telefonalani span .bold{}
 .tabloelement .tablotop > h1 {background: url(../img/hostingisim.png) 0px 0px no-repeat;font-size: 20px;color: #565656;padding: 29px 4px 20px 4px;  display: block;text-align: center;}
@@ -827,8 +676,6 @@ font-size: 26px;
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.ye .aktificon {  margin-top: 3px !important;   margin-left: 54px !important; }
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificon { float: left; background: url(../img/vpssunucuaktif.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 3px; margin-left: 25px; position: relative; z-index: 5555;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.thisokey  .normalicon { display: none;}
-
-
 .vpshosting .vpsdetay div.boxone {    float: left;    padding: 34px 56px 35px 20px;    width: 120px;}
 .vpshosting .vpsdetay div.boxtwo {    float: left;    padding: 34px 54px 35px 20px;    width: 100px;}
 .vpshosting .vpsdetay div.boxthree {    float: left;    padding: 34px 44px 35px 20px;    width: 100px;}
@@ -851,16 +698,13 @@ font-size: 26px;
 */
 .rounded { border-radius: 3px !important; }
 .-mt53 { margin-top: -53px !important; }
-.-mt32 {
-margin: -42px 0px 0px 22px !important;
-position: absolute;
-}
+.-mt32 {margin: -42px 0px 0px 22px !important;
+position: absolute;}
 .-mt78{margin-top: -78px}
 .-mt48{margin-top: -48px}
 .-mt120{margin-top: -120px;}
 .-mt138{margin-top: -190px !important;}
-.ml77{
-margin-left: 77px;}
+.ml77{margin-left: 77px;}
 .-mt198{margin-top: -198px;position: relative;z-index: 66;}
 .disnone {display: :none;}
 .fl { float: left !important}
@@ -873,3 +717,4 @@ margin-left: 77px;}
 .cf:before, .cf:after {content: " "; /* 1 */display: table; /* 2 */}.cf:after {clear: both;}.cf {*zoom: 1;}
 .right {float: right !important;}
 .left {float: left !important;}
+.p20 { padding: 20px;}

@@ -53,9 +53,9 @@ Cufon.replace('' +
     '.hostingpageelemnt p,' +
     '.tablotop span,' +
     '.iletisim ._row h2,' +
-    '.column-right a,' +
-    '.column-right ._number,' +
-    '.column-right p,' +
+    '.column-left a,' +
+    '.column-left ._number,' +
+    '.column-left p,' +
     '.vpshosting.trs-tab-wrapper .trs-tab-nav a h1,' +
     '.siparisadimlari .siparisbox .siparisadi,' +
     '.vpsdetay div h1,' +
@@ -65,8 +65,7 @@ Cufon.replace('' +
     '.zatenmusteri ,' +
     '.pkuyelikform ._rows .pkformtext,' +
     '.musteripanel .first .right-column p,' +
-    '.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text,' +
-    '.costumerlogin .right-column p,' +
+    '.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text,' + '.costumerlogin .right-column p,' +
     '.nedenbox h1,' +
     '.tablofiyat  h1,' +
     '.tablotop h1,' +
@@ -79,7 +78,12 @@ Cufon.replace('' +
     '.tabelement p,' +
     '.telefonalani p,' +
     '.telefonalani span .normal,' +
-    '.bankahesap .bankamid .bankarow p', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.bankahesap .bankamid .bankarow p,' +
+    '.musteripanel .first .right-column p,' +
+    '.serverfiyat span.normal,' +
+    '.serverfiyat span.yukarda,' +
+    '.serverstock ,' +
+    '.servername', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
@@ -101,14 +105,17 @@ Cufon.replace('' +
     '.alanadlari .custom-checkbox span.text,' +
     '.uglongright  h2,' +
     '.tablofiyat  p ,' +
+    '.tablotop h1,' +
+    '.tablomid  ul  li,' +
     '.hostingozellikleri ul li,' +
-    '.column-right h3,' +
+    '.column-left h3,' +
     '.siparisadimlari .siparisbox .siparisadim,' +
     '.musteripanel .type-2.trs-tab-wrapper .trs-tab-nav a span ,' +
     '.dmr-tab-nav .m span.bold,' +
     '.mainortasag .ortasagbottom span,' +
     '.headerleft span,' +
-    '.bankahesap .bankamid .bankarow span', { fontFamily: 'Roboto', hover: 'true', fontWeight: 400  });
+    '.bankahesap .bankamid .bankarow span,' +
+    '.servercenter > ul > li', { fontFamily: 'Roboto', hover: 'true', fontWeight: 400  });
 
 Cufon.refresh( '.megamenu_drop a');
 /*
@@ -133,8 +140,9 @@ Cufon.replace('' +
     '.domainnamebig span,' +
     '.zatenmusteri span,' +
     '.musterigirisi,' +
-    '.yenimusteri' +
-    ',.telefonalani span .bold', { fontFamily: 'Roboto Medium', hover: 'true', fontWeight: 500,
+    '.yenimusteri,' +
+    '.telefonalani span .bold,'+
+    '.servername > strong', { fontFamily: 'Roboto Medium', hover: 'true', fontWeight: 500,
     hoverables: { strong: true, em: true , li: true, a: true,li: true, ul:true, a: true, p: true  }  });
 /*
 =======================================================================================
@@ -163,9 +171,12 @@ Cufon.replace('.rbtbl, ' +
     '.uglongright h2 span,' +
     '.hostingpageelemnt h1 span ,' +
     '.tablobottom  a span,' +
+    '.tablofiyat  h1,' +
     '.vpsdetay .boxsix span ,' +
     '.custom-checkbox span.text,' +
-    '.sslbox .sslsatinal a', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+    '.serverbuying > a,' +
+    '.sslbox .sslsatinal a,'+
+    '.serverstock > strong ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"
