@@ -26,6 +26,7 @@ TD = {
                     slideMargin: 10
                 });
                 $('select#customSelect').selectmenu();
+                $('.fancybox').fancybox();
                 $(".trs-tab-wrapper").trsTab({ activeClass: 'active' });
                 $('.dmr-tab-container .dmr-tab-content').hide().eq(0).show();
                 $('.dmr-tab-nav .m').click(function(){
@@ -150,5 +151,7 @@ $(document).ready(function(){
         Page.init();
 
     });
+
+
 });
 

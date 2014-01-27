@@ -26,7 +26,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="785" column="31" selection-start="65780" selection-end="65780" vertical-scroll-proportion="0.0" vertical-offset="12452" max-vertical-offset="13447">
+            <state line="724" column="22" selection-start="64663" selection-end="64663" vertical-scroll-proportion="-20.538462" vertical-offset="11774" max-vertical-offset="12410">
               <folding />
             </state>
           </provider>
@@ -62,25 +62,25 @@
       <file leaf-file-name="anasayfa.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anasayfa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="10" selection-start="12769" selection-end="12868" vertical-scroll-proportion="0.0" vertical-offset="4645" max-vertical-offset="6290">
+            <state line="288" column="10" selection-start="12769" selection-end="12868" vertical-scroll-proportion="0.0" vertical-offset="4896" max-vertical-offset="6307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hakkimizda.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hakkimizda.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hakkimizda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="42" selection-start="7396" selection-end="7396" vertical-scroll-proportion="0.0" vertical-offset="2144" max-vertical-offset="5933">
+            <state line="199" column="25" selection-start="12056" selection-end="12056" vertical-scroll-proportion="0.94014084" vertical-offset="2849" max-vertical-offset="5814">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hosting.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hosting.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hosting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="343" column="34" selection-start="14263" selection-end="14263" vertical-scroll-proportion="0.8282276" vertical-offset="5074" max-vertical-offset="7395">
+            <state line="343" column="34" selection-start="14935" selection-end="14935" vertical-scroll-proportion="-21.576923" vertical-offset="5270" max-vertical-offset="7769">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -91,7 +91,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="46" selection-start="10128" selection-end="10128" vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="4760">
+            <state line="182" column="46" selection-start="10128" selection-end="10128" vertical-scroll-proportion="0.0" vertical-offset="3094" max-vertical-offset="4675">
               <folding />
             </state>
           </provider>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="musteripanel.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musteripanel.html">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="67" selection-start="7893" selection-end="8789" vertical-scroll-proportion="0.0" vertical-offset="2537" max-vertical-offset="4896">
+            <state line="27" column="54" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2737">
               <folding />
             </state>
           </provider>
@@ -129,9 +129,7 @@
         <option value="$PROJECT_DIR$/js/jquery.slitslider.js" />
         <option value="$PROJECT_DIR$/alan-adi.html" />
         <option value="//172.24.43.19/projects/thyinvestorrelations/documents/ThyInvestorRelations/js/jquery-1.9.1.min.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/vps.html" />
-        <option value="$PROJECT_DIR$/hakkimizda.html" />
         <option value="$PROJECT_DIR$/ssl.html" />
         <option value="$PROJECT_DIR$/iletisim.html" />
         <option value="$PROJECT_DIR$/js/cufonreplace.js" />
@@ -139,8 +137,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/kayit.html" />
         <option value="$PROJECT_DIR$/musteripanel.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/hosting.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/hakkimizda.html" />
       </list>
     </option>
   </component>
@@ -148,8 +148,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="y" value="-5" />
-    <option name="width" value="1930" />
-    <option name="height" value="1064" />
+    <option name="width" value="1370" />
+    <option name="height" value="752" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -229,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -259,15 +259,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1930" height="1064" extended-state="0" />
-    <editor active="false" />
+    <frame x="-5" y="-5" width="1370" height="752" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -299,6 +299,71 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="719" column="22" selection-start="64070" selection-end="64070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="69" selection-start="9126" selection-end="9126" vertical-scroll-proportion="0.0" vertical-offset="3077" max-vertical-offset="4692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iletisim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="52" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="4794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="43" selection-start="7398" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="2129" max-vertical-offset="5151">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anasayfa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="10" selection-start="12769" selection-end="12868" vertical-scroll-proportion="0.0" vertical-offset="4896" max-vertical-offset="6307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hakkimizda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="42" selection-start="7396" selection-end="7396" vertical-scroll-proportion="0.0" vertical-offset="2618" max-vertical-offset="5270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hosting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="343" column="34" selection-start="14935" selection-end="14935" vertical-scroll-proportion="0.0" vertical-offset="5831" max-vertical-offset="7769">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="46" selection-start="10128" selection-end="10128" vertical-scroll-proportion="0.0" vertical-offset="3094" max-vertical-offset="4675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kayit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="41" selection-start="7411" selection-end="7411" vertical-scroll-proportion="0.0" vertical-offset="2061" max-vertical-offset="5763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="785" column="31" selection-start="65780" selection-end="65780" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13447">
@@ -360,13 +425,6 @@
     <entry file="file://$PROJECT_DIR$/kayit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="154" column="41" selection-start="7411" selection-end="7411" vertical-scroll-proportion="0.0" vertical-offset="2061" max-vertical-offset="5763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musteripanel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="67" selection-start="7893" selection-end="8789" vertical-scroll-proportion="0.0" vertical-offset="2537" max-vertical-offset="4896">
           <folding />
         </state>
       </provider>
@@ -488,11 +546,6 @@
         <state line="264" column="60" selection-start="15289" selection-end="19576" vertical-scroll-proportion="-9.423077" vertical-offset="4243" max-vertical-offset="5848" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="35" selection-start="3189" selection-end="3189" vertical-scroll-proportion="0.77022654" vertical-offset="510" max-vertical-offset="2720" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="154" column="43" selection-start="7398" selection-end="7402" vertical-scroll-proportion="0.0" vertical-offset="2129" max-vertical-offset="5151">
@@ -517,23 +570,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hakkimizda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="42" selection-start="7396" selection-end="7396" vertical-scroll-proportion="0.0" vertical-offset="2144" max-vertical-offset="5933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iletisim.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="147" column="52" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="4794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musteripanel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="67" selection-start="7893" selection-end="8789" vertical-scroll-proportion="0.0" vertical-offset="2537" max-vertical-offset="4896">
           <folding />
         </state>
       </provider>
@@ -552,19 +591,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/hosting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="785" column="31" selection-start="65780" selection-end="65780" vertical-scroll-proportion="0.0" vertical-offset="12452" max-vertical-offset="13447">
+        <state line="343" column="34" selection-start="14935" selection-end="14935" vertical-scroll-proportion="-21.576923" vertical-offset="5270" max-vertical-offset="7769">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="54" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2737">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hosting.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="34" selection-start="14263" selection-end="14263" vertical-scroll-proportion="0.8282276" vertical-offset="5074" max-vertical-offset="7395">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="724" column="22" selection-start="64663" selection-end="64663" vertical-scroll-proportion="-20.538462" vertical-offset="11774" max-vertical-offset="12410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hakkimizda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="25" selection-start="12056" selection-end="12056" vertical-scroll-proportion="0.94014084" vertical-offset="2849" max-vertical-offset="5814">
+          <folding />
         </state>
       </provider>
     </entry>
