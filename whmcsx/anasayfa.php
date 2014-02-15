@@ -9,7 +9,7 @@
 <html>
 <!--<![endif]-->
     <?php include('header1.php'); ?>
-        <div id="slider" class="sl-slider-wrapper" style="background-image: url('img/mottobg.png');" >
+        <div id="slider" class="sl-slider-wrapper">
             <ul class="sl-slider">
                 <li class="sl-slide">
                     <img src="img/2slider.png" title="Happy trees" />
@@ -113,27 +113,54 @@
                     <div class="modulboxtop moduller">
                         <span></span><h1>modüller</h1>
                     </div>
-                    <div class="modulboxmid">
-                        <div class="modulboxmidleft">
-                            <h1>İxirhost<span class="h1kose"></span></h1>
-                            <div class="ozellikler">PSD,XHMTL,CSS3 <br/> Javascript,WHMCS</div>
-                            <div class="modulbutton">
-                                <a href="#" class="hemenincele">
-                                    <span class="hemeninceleicon"></span>
-                                    <span>HEMEN İNCELE</span>
-                                </a>
-                                <a href="#" class="detaybuton">
-                                    <span class="detayicon"></span>
-                                    <span>DETAYLAR</span>
-                                </a>
+                    <ul class="modulslider">
+                        <li>
+                            <div class="modulboxmid">
+                                <div class="modulboxmidleft">
+                                    <h1>İxirhost <span class="h1kose"></span></h1>
+                                    <div class="ozellikler">PSD,XHMTL,CSS3 <br/> Javascript,WHMCS</div>
+                                    <div class="modulbutton">
+                                        <a href="#" class="hemenincele">
+                                            <span class="hemeninceleicon"></span>
+                                            <span>HEMEN İNCELE</span>
+                                        </a>
+                                        <a href="#" class="detaybuton">
+                                            <span class="detayicon"></span>
+                                            <span>DETAYLAR</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modulboxmidright">
+                                    <div class="imgkaps">
+                                        <img src="images/ixirhosting.png" alt=""/>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="modulboxmidright">
-                            <div class="imgkaps">
-                                <img src="images/ixirhosting.png" alt=""/>
+                        </li>
+                        <li>
+                            <div class="modulboxmid">
+                                <div class="modulboxmidleft">
+                                    <h1>İxirhost <span class="h1kose"></span></h1>
+                                    <div class="ozellikler">PSD,XHMTL,CSS3 <br/> Javascript,WHMCS</div>
+                                    <div class="modulbutton">
+                                        <a href="#" class="hemenincele">
+                                            <span class="hemeninceleicon"></span>
+                                            <span>HEMEN İNCELE</span>
+                                        </a>
+                                        <a href="#" class="detaybuton">
+                                            <span class="detayicon"></span>
+                                            <span>DETAYLAR</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modulboxmidright">
+                                    <div class="imgkaps">
+                                        <img src="images/ixirhosting.png" alt=""/>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

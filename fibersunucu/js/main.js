@@ -101,6 +101,110 @@ TD = {
 
 $(document).ready(function(){
     TD.init();
+    (function (a) {
+        a.fn.intOzellikSlider = function () {
+            this.each(function () {
+                var f = a(this);
+                var d = (f.data("slug") ? cloudSlider[f.data("slug")] : cloudSlider);
+
+                var e = {
+                    container: a(".bars", f),
+                    max: (f.data("max") ? f.data("max") : 7),
+                    width: 140,
+                    activate: function (j) {
+                        var n = a("li", this.container);
+                        for (i = 0; i < e.max; i++) {
+                            var g = (i * e.width * -1);
+                            var l = (this.height * -1);
+                            if (i >= j) {
+                                l = 0
+                            }
+
+                            a(n[i]).css("background-position", g + "px " + l + "px")
+                        }
+
+                        var m = d.products[j - 1];
+                        var ds = d.products;
+                        $('.vpsdetay .boxone h1').html(m.islemci);    Cufon.replace('h1',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxone span').html(m.islemci_);Cufon.replace('span',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxtwo h1').html(m.bellek);Cufon.replace('h1',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxtwo span').html(m.bellek_);Cufon.replace('span',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxthree h1').html(m.hdd);Cufon.replace('h1',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxthree span').html(m.hdd_);Cufon.replace('span',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxfour h1').html(m.trafik);Cufon.replace('h1',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxfour span').html(m.trafik_);Cufon.replace('span',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+                        $('.vpsdetay .boxfive h1').text(m.fiyat);Cufon.replace('h1',{fontFamily: 'Roboto Light'},{hover:'True'},{textDecoration:'True'});
+
+                        $(".vpsdetay .boxsix a").attr("href", "http://www.fibersunucu.com.tr/cart.php?a=add&pid="+m.uid);
+
+
+                        a(".month .price-box", f).text(m.fiyat);
+
+
+                        if (j==8)
+                        {
+                            $('.ssd').show('slow', function() {});
+                        } else
+                        {
+                            $('.ssd').hide('slow', function() {});
+                        }
+
+                        c.slider({
+                            value: j
+                        })
+                    }
+                };
+
+
+                for (i = 0; i < e.max; i++) {
+                    var b = a("<li />");
+
+                    b.css({
+                        display: "none",
+                        "background-position": (i * e.width * -1) + "px 0px"
+                    });
+                    b.data("value", i + 1).delay(i * 40).fadeIn(500).appendTo(e.container).click(function () {
+                        e.activate(a(this).data("value"))
+                    }).html('')
+
+
+
+
+
+
+                }
+
+
+                a("li:last", e.container).addClass("last");
+
+
+                var c = a("<div />").slider({
+                    range: "min",
+                    value: 1,
+                    max: e.max,
+                    slide: function (g, h) {
+                        if (h.value == 0) {
+                            return false
+                        }
+                        e.activate(h.value)
+                    }
+                });
+                c.prependTo(a(".slider", f));
+                e.activate(1)
+            })
+
+
+        }
+    })(jQuery);
+
+
+    jQuery(document).ready(function (a) {
+
+        if ($.fn.intOzellikSlider) {
+            a(".cloud-slider").intOzellikSlider();
+        }
+
+    });
     $(function() {
 
         var Page = (function() {
@@ -151,7 +255,6 @@ $(document).ready(function(){
         Page.init();
 
     });
-
 
 });
 

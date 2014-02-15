@@ -502,22 +502,22 @@ ul.ui-selectmenu-menu-popup { margin-top: -1px }
 
 
 .dedicatedserver {
-background: url("../img/dedicatedg.png") no-repeat 0px 0px;
-float: left;
-width: 493px;
-height: 193px;
-margin-right: 12px;
-margin-bottom: 12px;
+    background: url("../img/dedicatedg.png") no-repeat 0px 0px;
+    float: left;
+    width: 493px;
+    height: 193px;
+    margin-right: 12px;
+    margin-bottom: 12px;
 }
 
 .serversol {
-float: left;
-width: 139px;
+    float: left;
+    width: 139px;
 }
 
 .servername {
-color: #efefef; font-family: "Roboto"; font-size: 20px;
-padding-left: 8px;
+    color: #efefef; font-family: "Roboto"; font-size: 20px;
+    padding-left: 8px;
 }
 
 .servername > br {
@@ -527,69 +527,69 @@ padding-left: 8px;
 }
 
 .severicon {
-padding-top: 40px;
-display: block;
+    padding-top: 40px;
+    display: block;
 }
 
 .servercenter {
-float: left;
-padding: 15px;
-width: 174px;
+    float: left;
+    padding: 15px;
+    width: 174px;
 }
 
 .servercenter > ul {
 }
 
 .servercenter > ul > li {
-color: #fff;  font-size: 15px;
-margin-bottom: 19px;  display: block;  padding-left: 10px;  background: url(../img/site-link-arrows.png) left -25px no-repeat;
+    color: #fff;  font-size: 15px;
+    margin-bottom: 19px;  display: block;  padding-left: 10px;  background: url(../img/site-link-arrows.png) left -25px no-repeat;
 }
 
 .serversag {
-float: left;
+    float: left;
 }
 
 .serverstock {
-color: #efefef;  font-size: 12px;
-padding-top: 15px;
-padding-left: 10px;
+    color: #efefef;  font-size: 12px;
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 .serverstock > strong {
 }
 
 .serverfiyat {
-color: #fff;  font-size: 28px;
-margin-top: 38px;  display: block;
+    color: #fff;  font-size: 28px;
+    margin-top: 38px;  display: block;
 }
 
 .serverfiyat .yukarda {
-color: #fff;  font-size: 16px;
-font-size: 16px;  margin-top: -5px;  display: block;  text-align: left;
+    color: #fff;  font-size: 16px;
+    font-size: 16px;  margin-top: -5px;  display: block;  text-align: left;
 }
 .serverfiyat .normal{ margin-top: -2px;
-display: block;
-float: left;}
+    display: block;
+    float: left;}
 
 .serverbuying {
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .serverbuying > a {
-color: #fff;  font-size: 16px;
-background: url("../img/fiberspr.png") no-repeat 0px -495px;  float: left;
-width: 113px;
-padding: 15px;
-height: 15px;
-text-align: center;
+    color: #fff;  font-size: 16px;
+    background: url("../img/fiberspr.png") no-repeat 0px -495px;  float: left;
+    width: 113px;
+    padding: 15px;
+    height: 15px;
+    text-align: center;
 }
 .serverbuying > a:hover {
-color: #fff;  font-size: 16px;
-background: url("../img/fiberspr.png") no-repeat 0px -1457px;  float: left;
-width: 113px;
-padding: 15px;
-height: 15px;
-text-align: center;
+    color: #fff;  font-size: 16px;
+    background: url("../img/fiberspr.png") no-repeat 0px -1457px;  float: left;
+    width: 113px;
+    padding: 15px;
+    height: 15px;
+    text-align: center;
 }
 /*
 =================================================================
@@ -673,7 +673,6 @@ text-align: center;
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.al h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 128px;width: 140px;text-align: center;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.ye h1 {font-size: 17px;float: left;vertical-align: bottom;margin-top: 138px;width: 140px;text-align: center;}
 .vpshosting .vpshostingsep {height: 12px;width: 100%;background: url(../img/vpsaktif.png) repeat top left;display: block;position: relative;margin-top: -95px;;float: left;z-index: 666;margin-left: 9px;}
-.vpshosting .vpshostingbg {height: 12px;display: block;position: relative;margin-top: -95px;float: left;background: url(../img/vpspasif.png) repeat top left;width: 980px;margin-left: 9px;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.bi .aktificon { float: left; background: url(../img/vps-sunucu-round-img.png) no-repeat  0px 0px;  width: 15px; height: 15px; margin-top: 125px; }
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.ii .aktificon {  margin-top: 119px !important;  margin-left: -73px !important;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.uc .aktificon {  margin-top: 127px !important; margin-left: -90px !important; }
@@ -683,21 +682,6 @@ text-align: center;
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.ye .aktificon {  margin-top: 3px !important;   margin-left: 54px !important; }
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.active  .aktificon { float: left; background: url(../img/vpssunucuaktif.png) no-repeat  0px 0px;  width: 25px; height: 35px; margin-top: 3px; margin-left: 25px; position: relative; z-index: 5555;}
 .vpshosting.trs-tab-wrapper .trs-tab-nav a.thisokey  .normalicon { display: none;}
-.vpshosting .vpsdetay div.boxone {    float: left;    padding: 34px 56px 35px 20px;    width: 120px;}
-.vpshosting .vpsdetay div.boxtwo {    float: left;    padding: 34px 54px 35px 20px;    width: 100px;}
-.vpshosting .vpsdetay div.boxthree {    float: left;    padding: 34px 44px 35px 20px;    width: 100px;}
-.vpshosting .vpsdetay div.boxfour {    float: left;    padding: 33px 54px 28px 20px;    width: 100px;}
-.vpshosting .vpsdetay div.boxfive {    float: left;    padding: 27px 28px 22px 20px;    width: 100px;}
-.vpshosting .vpsdetay div.boxsix {    float: left;    padding: 0px;    width: 143px;}
-.vpshosting .vpsdetay div h1{ font-size: 15px; color: #fff;}
-.vpshosting .vpsdetay div span{ font-size: 20px; color: #fff;}
-.vpshosting .vpsdetay .boxfive > h1 {    font-size: 30px;}
-.vpshosting .vpsdetay .boxfive > span {    font-size: 14px;}
-.vpshosting .vpsdetay .boxsix {    padding: 16px 4px  24px 75px;}
-.vpshosting .vpsdetay .boxsix a {font-size: 18px; color: #fff;background: url(../img/fiberspr.png) no-repeat 0px -1159px;  width: 142px;height: 100px;display: block;-webkit-border-bottom-right-radius: 3px;  -moz-border-radius-bottomright: 3px;  border-bottom-right-radius: 3px;margin-left: 1px;}
-.vpshosting .vpsdetay .boxsix a:hover {font-size: 18px; color: #fff;background: url(../img/vps-buy-buttonhover.png) no-repeat 0px 0px;  width: 176px;height: 59px;display: block;}
-.vpshosting .vpsdetay .boxsix span {padding: 1px 4px 0px 31px;display: block;}
-.vpshosting .vpsdetay .boxsix span.satinalicon {background: url(../img/fiberspr.png) 0px -1373px no-repeat;  width: 60px;  height: 53px;  display: block;  margin: 0 auto;  float: none;  padding-top: 15px;  margin-left: 53px;}
 /*
 =================================================================
 (#m13hlp) Helper
@@ -716,101 +700,101 @@ text-align: center;
 .fancybox-nav span,
 .fancybox-tmp
 {
-padding: 0;
-margin: 0;
-border: 0;
-outline: none;
-vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    vertical-align: top;
 }
 
 .fancybox-wrap {
-position: absolute;
-top: 0;
-left: 0;
-z-index: 8020;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8020;
 }
 
 .fancybox-skin {
-position: relative;
-background: #f9f9f9;
-color: #444;
-text-shadow: none;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
+    position: relative;
+    background: #f9f9f9;
+    color: #444;
+    text-shadow: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .fancybox-opened {
-z-index: 8030;
+    z-index: 8030;
 }
 
 .fancybox-opened .fancybox-skin {
--webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
--moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .fancybox-outer, .fancybox-inner {
-position: relative;
+    position: relative;
 }
 
 .fancybox-inner {
-overflow: hidden;
+    overflow: hidden;
 }
 
 .fancybox-type-iframe .fancybox-inner {
--webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 .fancybox-error {
-color: #444;
-font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
-margin: 0;
-padding: 15px;
-white-space: nowrap;
+    color: #444;
+    font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 15px;
+    white-space: nowrap;
 }
 
 .fancybox-image, .fancybox-iframe {
-display: block;
-width: 100%;
-height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .fancybox-image {
-max-width: 100%;
-max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-background-image: url('../img/fancybox_sprite.png');
+    background-image: url('../img/fancybox_sprite.png');
 }
 
 #fancybox-loading {
-position: fixed;
-top: 50%;
-left: 50%;
-margin-top: -22px;
-margin-left: -22px;
-background-position: 0 -108px;
-opacity: 0.8;
-cursor: pointer;
-z-index: 8060;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+    background-position: 0 -108px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 8060;
 }
 
 #fancybox-loading div {
-width: 44px;
-height: 44px;
-background: url('../img/fancybox_loading.gif') center center no-repeat;
+    width: 44px;
+    height: 44px;
+    background: url('../img/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
-position: absolute;
-top: -18px;
-right: -18px;
-width: 36px;
-height: 36px;
-cursor: pointer;
-z-index: 8040;
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
 }
 
 .fancybox-nav {position: absolute;top: 0;width: 40%;height: 100%;cursor: pointer;text-decoration: none;background: transparent url('../img/blank.gif'); /* helps IE */-webkit-tap-highlight-color: rgba(0,0,0,0);z-index: 8040;}
@@ -838,8 +822,8 @@ z-index: 8040;
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5){
-#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {background-image: url('../img/fancybox_sprite@2x.png');background-size: 44px 152px; }
-#fancybox-loading div {background-image: url('../img/fancybox_loading@2x.gif');background-size: 24px 24px;}
+    #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {background-image: url('../img/fancybox_sprite@2x.png');background-size: 44px 152px; }
+    #fancybox-loading div {background-image: url('../img/fancybox_loading@2x.gif');background-size: 24px 24px;}
 }
 
 
@@ -855,7 +839,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 .rounded { border-radius: 3px !important; }
 .-mt53 { margin-top: -53px !important; }
 .-mt32 {margin: -42px 0px 0px 22px !important;
-position: absolute;}
+    position: absolute;}
 .-mt78{margin-top: -78px}
 .-mt48{margin-top: -48px}
 .-mt120{margin-top: -120px;}
@@ -874,3 +858,171 @@ position: absolute;}
 .right {float: right !important;}
 .left {float: left !important;}
 .p20 { padding: 20px;}
+
+
+
+
+
+/**Sonradan Eklenenler******/
+
+.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{zoom:1}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:0.1px;display:block}.ui-resizable-disabled .ui-resizable-handle,.ui-resizable-autohide .ui-resizable-handle{display:none}.ui-resizable-n{cursor:n-resize;height:7px;width:100%;top:-5px;left:0}.ui-resizable-s{cursor:s-resize;height:7px;width:100%;bottom:-5px;left:0}.ui-resizable-e{cursor:e-resize;width:7px;right:-5px;top:0;height:100%}.ui-resizable-w{cursor:w-resize;width:7px;left:-5px;top:0;height:100%}.ui-resizable-se{cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px}.ui-resizable-sw{cursor:sw-resize;width:9px;height:9px;left:-5px;bottom:-5px}.ui-resizable-nw{cursor:nw-resize;width:9px;height:9px;left:-5px;top:-5px}.ui-resizable-ne{cursor:ne-resize;width:9px;height:9px;right:-5px;top:-5px}.ui-selectable-helper{position:absolute;z-index:100;border:1px dotted black}.ui-slider{position:relative;text-align:left}.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default}.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;background-position:0 0}.ui-slider-horizontal{height:.8em}.ui-slider-horizontal .ui-slider-handle{top:-.3em;margin-left:-.6em}.ui-slider-horizontal .ui-slider-range{top:0;height:100%}.ui-slider-horizontal .ui-slider-range-min{left:0}.ui-slider-horizontal .ui-slider-range-max{right:0}.ui-slider-vertical{width:.8em;height:100px}.ui-slider-vertical .ui-slider-handle{left:-.3em;margin-left:0;margin-bottom:-.6em}.ui-slider-vertical .ui-slider-range{left:0;width:100%}.ui-slider-vertical .ui-slider-range-min{bottom:0}.ui-slider-vertical .ui-slider-range-max{top:0}
+.cloud-slider .left {    width: 700px}
+.cloud-slider .slider {    width: 1000px;
+    height: 80px;
+    padding: 11px 0 0 0px;
+    margin: 5px 0 0 0;
+}
+.cloud-slider .slider .ui-slider {
+    width: 980px;
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 60px; */
+    /* left: -81px; */
+    margin-top: 55px;
+    background: transparent;
+    border: none;
+    z-index: 9999;
+}
+.cloud-slider .ui-slider-range {
+    background: url(../img/slider-bar.png) no-repeat 0px 0px;
+    height: 15px;
+}
+.cloud-slider .ui-slider-handle {
+    background: url(../img/slider-dugme.png);
+    width: 32px;
+    height: 31px;
+    margin: -2px 0 0 -24px;
+    cursor: pointer;
+    z-index: 20;
+    padding: 0;
+}
+.cloud-slider .bars {
+    float: left;
+    width: 980px;
+    height: 96px;
+    margin: -91px 0 0 0px;
+    padding: 0;
+}
+.cloud-slider .bars li {
+    float: left;
+    width: 139px;
+    margin-left: 1px;
+    height: 142px;
+    background: url(../img/bg-bars.png) no-repeat;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    z-index:100;
+}
+.cloud-slider .bars li h1
+{
+    font-size: 17px;
+    vertical-align: bottom;
+    margin-top: 117px;
+    text-align: center;
+    color: #fff;
+}
+.cloud-slider .bars li.last {}
+.cloud-slider .ozellikler {
+    float: left;
+    margin: 18px 0 0 0
+}
+.cloud-slider .ozellikler li {
+    float: left;
+    width: 166px;
+    height: 40px;
+    font-size: 18px;
+    color: #6A6D87;
+    font-family: pf_beausans_probold;
+    list-style: none;
+    position: absolute;
+    top: 100px;
+}
+.cloud-slider .ozellikler span {
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 3px 0 0 0;
+}
+.cloud-slider .ozellikler .islemci, .cloud-slider .ozellikler .islemci_ {
+    left: 78px;
+}
+.cloud-slider .ozellikler .islemci_, .cloud-slider .ozellikler .bellek_, .cloud-slider .ozellikler .hdd_, .cloud-slider .ozellikler .trafik_ {
+    top: 125px;
+    color: #252B54;
+    font-size: 30px;
+    font-family: pf_beausans_proregular;
+}
+.cloud-slider .ozellikler .bellek, .cloud-slider .ozellikler .bellek_ {
+    left: 210px;
+}
+.cloud-slider .ozellikler .hdd, .cloud-slider .ozellikler .hdd_ {
+    left: 337px;
+}
+.cloud-slider .ozellikler .trafik, .cloud-slider .ozellikler .trafik_ {
+    left: 457px;
+}
+.cloud-slider .ozellikler li strong {
+    font-family: pf_beausans_probold;
+}
+.cloud-slider .right {
+    float: right;
+    width: 150px;
+    margin: 10px 85px 0 0
+}
+.cloud-slider .customRadio a.radio {
+    margin: 5px 2px 0 0
+}
+.cloud-slider .button.blue-light {
+    margin: 5px
+}
+.cloud-slider .price-box {
+    font-family: pf_beausans_probold;
+    font-size: 45px;
+    position: absolute;
+    right: 32px;
+    top: 80px;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+}
+
+.sunucu-yapilandir {
+    width: 1000px;
+    height: 195px;
+    background: url(../img/bg-slider.png) no-repeat 0px 13px;
+    position: relative;
+    margin-top: 62px;
+    position: relative;
+    z-index: 10;
+    border-radius: 6px;
+}
+
+.vpshosting .vpshostingbg {height: 11px;display: block;position: relative;margin-top: -14px;float: left;background: url(../img/vpspasif.png) repeat top left;width: 980px;/* margin-left: -16px; */}
+.vpshosting .vpsdetay div.boxone {    float: left;    padding: 34px 56px 35px 20px;    width: 120px;}
+.vpshosting .vpsdetay div.boxtwo {    float: left;    padding: 34px 54px 35px 20px;    width: 100px;}
+.vpshosting .vpsdetay div.boxthree {    float: left;    padding: 34px 44px 35px 20px;    width: 100px;}
+.vpshosting .vpsdetay div.boxfour {    float: left;    padding: 33px 47px 28px 20px;    width: 100px;}
+.vpshosting .vpsdetay div.boxfive {    float: left;    padding: 27px 36px 22px 20px;    width: 100px;}
+.vpshosting .vpsdetay div.boxsix {    float: left;    padding: 0px;    width: 143px;    margin-top: 2px;}
+.vpshosting .vpsdetay div h1{ font-size: 15px; color: #fff;}
+.vpshosting .vpsdetay div span{ font-size: 20px; color: #fff;}
+.vpshosting .vpsdetay .boxfive > h1 {    font-size: 30px;}
+.vpshosting .vpsdetay .boxfive > span {    font-size: 14px;}
+.vpshosting .vpsdetay .boxsix {    padding: 16px 4px  24px 75px;}
+.vpshosting .vpsdetay .boxsix a {font-size: 18px; color: #fff;background: url(../img/fiberspr.png) no-repeat -1px -1269px;  width: 147px;height: 103px;display: block;-webkit-border-bottom-right-radius: 3px;  -moz-border-radius-bottomright: 3px;  border-bottom-right-radius: 3px;margin-left: 1px;}
+.vpshosting .vpsdetay .boxsix a:hover {font-size: 18px; color: #fff;background: url(../img/fiberspr.png) no-repeat -1px -1159px;  width: 147px;height: 103px;display: block;-webkit-border-bottom-right-radius: 3px;  -moz-border-radius-bottomright: 3px;  border-bottom-right-radius: 3px;margin-left: 1px;}
+.vpshosting .vpsdetay .boxsix span {padding: 1px 4px 0px 31px;display: block;}
+.vpshosting .vpsdetay .boxsix span.satinalicon {background: url(../img/fiberspr.png) 0px -1373px no-repeat;  width: 60px;  height: 53px;  display: block;  margin: 0 auto;  float: none;  padding-top: 15px;  margin-left: 53px;}
+.serverlist {
+    width: 980px;
+    float: left;
+    margin-top: -80px;
+}
+.serverlist h1 {
+    font-size: 17px;  vertical-align: bottom;  margin-top: 117px;
+    text-align: right;  color: #fff;
+    float: left;
+    width: 140px;
+}

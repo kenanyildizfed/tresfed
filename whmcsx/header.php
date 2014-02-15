@@ -140,14 +140,14 @@
                 </div>
             </div>
         </div>
-        <div id="contanier cf">
+        <div id="contanier" class="contanier cf">
             <div style="position:relative">
                 <div class="headerbg">
                     <div class="pageheader cf">
                         <div class="pagetitle">
                             <span class="normal">SAYFA LİSTESİ</span>
                         </div>
-                        <span class="pageicon dedicatedicon"></span>
+                        <span class="pageicon dedicatedicon "></span>
                     </div>
                 </div>
             </div>

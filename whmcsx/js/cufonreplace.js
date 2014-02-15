@@ -31,6 +31,7 @@ Cufon.replace('' +
     '.modulboxmidleft > div.ozellikler,' +
     '.modulbutton a span,' +
     '.pageheader .pagetitle .normal,' +
+    '.costumelogintext .pagetitle .normal,' +
     '.modulboxtop > h1,' +
     '.nedenbox .going,' +
     '.alanadlari .table-striped thead tr th,' +
@@ -39,47 +40,20 @@ Cufon.replace('' +
     '.alanadlari .alanadslider .domainsliderelement h1,' +
     '.pagedetailtext h1,' +
     '.pagedetailtext p,' +
-    '.aboutpage ul li ,' +
-    '.uhlongleft  h1,' +
-    '.uhlongleft  p,' +
-    '.uglongright  h2,' +
-    '.uhshortareaelement  h1,' +
-    '.uhshortareaelement  p,' +
-    '.hostingpageelemnt h1,' +
-    '.hostingpageelemnt p,' +
-    '.tablotop span,' +
-    '.iletisim ._row h2,' +
     '.column-left a,' +
     '.column-left ._number,' +
     '.column-left p,' +
-    '.vpshosting.trs-tab-wrapper .trs-tab-nav a h1,' +
-    '.siparisadimlari .siparisbox .siparisadi,' +
-    '.vpsdetay div h1,' +
-    '.vpsdetay div span,' +
     'ul.ustmenuparca li a,' +
-    '.dmr-tab-nav .m span.normal,' +
-    '.zatenmusteri ,' +
-    '.pkuyelikform ._rows .pkformtext,' +
-    '.musteripanel .first .right-column p,' +
-    '.musteripanel .type-2.trs-tab-wrapper .custom-checkbox span.text,' + '.costumerlogin .right-column p,' +
-    '.nedenbox h1,' +
-    '.tablofiyat  h1,' +
-    '.tablotop h1,' +
-    '.tablomid  ul  li,' +
-    '.type-2.trs-tab-wrapper .trs-tab-nav a span,' +
-    '.ssl li,' +
-    '.sslbox .sllname,' +
-    '.sslbox .sslfiyat,' +
-    '.tabelement h1,' +
-    '.tabelement p,' +
-    '.telefonalani p,' +
-    '.telefonalani span .normal,' +
-    '.bankahesap .bankamid .bankarow p,' +
-    '.musteripanel .first .right-column p,' +
-    '.serverfiyat span.normal,' +
-    '.serverfiyat span.yukarda,' +
-    '.serverstock ,' +
-    '.servername', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
+    '.servername,' +
+    '.faturatext,' +
+    '.faturatop,' +
+    ' ul.duyualanislider > li,' +
+    '.temaalani .temafiyat > span,' +
+    '.temaalani .temamidright > ul > li,' +
+    '.temaalani .tematop,' +
+    '.galeriboxmid .temafiyat,' +
+    '.galeritopright > ul > li,' +
+    '.galeritopright > h1', { fontFamily: 'Roboto Light', hover: true, fontWeight: 300  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto Light","font-weight":300,"fontStyle":"italic"
@@ -111,7 +85,9 @@ Cufon.replace('' +
     '.mainortasag .ortasagbottom span,' +
     '.headerleft span,' +
     '.bankahesap .bankamid .bankarow span,' +
-    '.servercenter > ul > li', { fontFamily: 'Roboto', hover: 'true', fontWeight: 400  });
+    '.servercenter > ul > li,' +
+    '.temaalani .canlidemo,' +
+    '.temaalani .satinal', { fontFamily: 'Roboto', hover: 'true', fontWeight: 400  });
 
 Cufon.refresh( '.megamenu_drop a');
 /*
@@ -155,17 +131,14 @@ Cufon.replace('.rbtbl, ' +
     '#footer .contact-area b,' +
     '.paketbuton a,.mainortasag ' +
     ',.pageheader .pagetitle .bold,' +
-    '.nedenbox .going .bold,' +
-    '.uhbuying  span,' +
-    '.uglongright h2 span,' +
-    '.hostingpageelemnt h1 span ,' +
-    '.tablobottom  a span,' +
-    '.tablofiyat  h1,' +
-    '.vpsdetay .boxsix span ,' +
+    '.costumelogintext .pagetitle .bold,' +
     '.custom-checkbox span.text,' +
-    '.serverbuying > a,' +
-    '.sslbox .sslsatinal a,'+
-    '.serverstock > strong ', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
+    '.tumunugoruntule > a,' +
+    '.tumunugoruntule > h1 ,' +
+    '.faturatext .bolds ,' +
+    '.ticketh1 > h1,' +
+    '.temabuttonlar .canlidemo,' +
+    '.temabuttonlar .satinal', { fontFamily: 'Roboto', hover: true, fontWeight: 700  });
 /*
 =======================================================================================
 TEKNIKDATA "font-family":"Roboto","font-weight":700,"fontStyle":"italic"
