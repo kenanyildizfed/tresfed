@@ -1,0 +1,182 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie ie7">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html>
+<!--<![endif]-->
+  	<head>
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	    <title>FİBER SUNUCU</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	    <!--[if lt IE 9]>
+	        <script type="text/javascript" src="js/html5.js"></script>
+	    <![endif]-->
+	    <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
+	    <link type="text/css" href="css/whmcs.css" rel="stylesheet">
+	    <link type="text/css" href="css/main.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery.js"></script>
+	    <script type="text/javascript" src="js/whmcs.js"></script>
+	    <script type="text/javascript" src="js/cufon-yui.js"></script>	
+	    <script type="text/javascript" src="js/cufonelements.js"></script>	
+	    <script type="text/javascript" src="js/cufonreplace.js"></script>	    
+	    <script type="text/javascript" src="js/modernizr.js"></script>
+	    <script type="text/javascript" src="js/main.js"></script>
+  	</head>
+  	<body>
+		<div class="whmcscontainer">
+    		<div class="contentpadded">
+				<div class="page-header">
+				    <div class="styled_title"><h1>ÖRNEK TABLO TASARIMI</h1></div>
+				</div>
+				<table class="table table-striped table-framed table-centered">
+				    <thead>
+				        <tr>
+				            <th><a href=".php?orderby=date">Tarih</a></th>
+				            <th><a href=".php?orderby=dept">Departman</a></th>
+				            <th><a href=".php?orderby=subject">Başlık</a></th>
+				            <th><a href=".php?orderby=status">Durum</a></th>
+				            <th class="headerSortdesc"><a href=".php?orderby=lastreply">Son Güncelleme</a></th>
+				            <th>&nbsp;</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				    <tr>
+				        <td>05/12/2013 11:22</td>
+				        <td>Teknik</td>
+				        <td><div align="left"><img src="images/article.gif" alt="Ticket" border="0">&nbsp;<a href="">#898871 - asdas</a></div></td>
+				        <td><span style="color:#ff6600">Müşteri Yanıtı</span></td>
+				        <td>05/01/2014 14:54</td>
+				            <td class="textcenter"><a href="" class="btn btn-inverse">Bildirimi görüntüle</a></td>
+				    </tr>
+				    <tr>
+				        <td>30/10/2013 14:09</td>
+				        <td>Teknik</td>
+				        <td><div align="left"><img src="images/article.gif" alt="Ticket" border="0">&nbsp;<a href="">#354953 - asdsa</a></div></td>
+				        <td><span style="color:#ff6600">Müşteri Yanıtı</span></td>
+				        <td>03/11/2013 18:16</td>
+				            <td class="textcenter"><a href="" class="btn btn-inverse">Bildirimi görüntüle</a></td>
+				    </tr>
+				    </tbody>
+				</table>
+
+
+
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+
+
+				<div class="page-header">
+				    <div class="styled_title"><h1>ÖRNEK TABLO TASARIMI</h1></div>
+				</div>
+
+				<form name="submitticket" method="post" action="" enctype="multipart/form-data" class="center95 form-stacked">
+				<input type="hidden" name="token" value="">
+
+				    <fieldset class="control-group">
+
+					    <div class="row">
+				            <div class="multicol">
+				                <div class="control-group">
+				        		    <label class="control-label bold" for="name">İsim</label>
+				        			<div class="controls">
+				        			    <input class="input-xlarge disabled" type="text" id="name" value="demo " disabled="disabled">        			</div>
+				        		</div>
+				        	</div>
+				            <div class="multicol">
+				                <div class="control-group">
+				        		    <label class="control-label bold" for="email">E-posta Adresi</label>
+				        			<div class="controls">
+				        			    <input class="input-xlarge disabled" type="text" id="email" value="demo@demo.com" disabled="disabled">        			</div>
+				        		</div>
+				        	</div>
+				        </div>
+				        <div class="row">
+				    	    <div class="control-group">
+				    		    <label class="control-label bold" for="subject">Başlık</label>
+				    			<div class="controls">
+				    			    <input class="input-xlarge" type="text" name="subject" id="subject" value="" style="width:80%;">
+				    			</div>
+				    		</div>
+						</div>
+				        <div class="row">
+				            <div class="multicol">
+				                <div class="control-group">
+				        		    <label class="control-label bold" for="name">Departman</label>
+				        			<div class="controls">
+				        			    <select name="deptid">
+				                                                    <option value="1">Teknik</option>
+				                                                    <option value="2" selected="selected">Muhasebe</option>
+				                                                    <option value="3">Şikayet</option>
+				                                                    <option value="4">Temalar</option>
+				                                                    <option value="5">Modüller</option>
+				                                                </select>
+				        			</div>
+				        		</div>
+				    		</div>
+				    	     <div class="multicol">
+				                 <div class="control-group">
+				        		    <label class="control-label bold" for="relatedservice">İlişkili Hizmet</label>
+				        			<div class="controls">
+				        			    <select name="relatedservice" id="relatedservice">
+				                            <option value="">Yok</option>
+				                                                        <option value="D1">Alan Adı - dsasdasdasds.com (Beklemede)</option>
+				                                                        <option value="D2">Alan Adı - sadsadas.com (Beklemede)</option>
+				                                                    </select>
+				        			</div>
+				        		</div>
+				    		</div>
+				            <div class="multicol">
+				        	    <div class="control-group">
+				        		    <label class="control-label bold" for="priority">Öncelik</label>
+				        			<div class="controls">
+				        			    <select name="urgency" id="priority">
+				                            <option value="High">Yüksek</option>
+				                            <option value="Medium" selected="selected">Orta</option>
+				                            <option value="Low">Düşük</option>
+				                        </select>
+				        			</div>
+				        		</div>
+				    		</div>
+				        </div>
+
+					    <div class="control-group">
+						    <label class="control-label bold" for="message">Mesaj</label>
+							<div class="controls">
+							    <textarea name="message" id="message" rows="12" class="fullwidth"></textarea>
+							</div>
+						</div>
+					    <div class="control-group">
+						    <label class="control-label bold" for="attachments">Eklentiler:</label>
+							<div class="controls">
+							    <input type="file" name="attachments[]" style="width:70%;"><br>
+				                <div id="fileuploads"></div>
+				                <a href="#" onclick=""><img src="images/add.gif" align="absmiddle" border="0"> Daha Fazla Ekle</a><br>
+				                (İzin verilen dosya türleri: .jpg,.gif,.jpeg,.png)
+							</div>
+						</div>
+
+				    </fieldset>
+
+				<div id="searchresults" class="contentbox" style="display:none;"></div>
+
+
+				<div class="form-actions" style="padding-left:160px;">
+				    <input class="btn btn-primary" type="submit" name="save" value="Gönder">
+				    <input class="btn" type="reset" value="İptal Et">
+				</div>
+
+				</form>
+
+
+			</div>
+		</div>
+	</body>
+</html>
